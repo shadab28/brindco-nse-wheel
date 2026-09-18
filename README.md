@@ -30,6 +30,90 @@ The window starts October 2019 because that is when NSE single-stock options
 became **physically settled** — before that date the delivery mechanics the
 wheel depends on did not exist.
 
+## Reproducing the results
+
+There are three levels, and they cost very different amounts. **Level 1 needs nothing but a clone and
+pandas** — it rebuilds every number in the report from committed run outputs.
+
+| Level | What it rebuilds | Needs | Time |
+|---|---|---|---|
+| **1. Report from run outputs** | `final_results/` — every table, chart and number in the report | clone + `pandas`, `pyyaml` | seconds |
+| **2. Backtest from the parquet cache** | `data/backtest/runs/` and `report/` from market data | Level 1 + the parquet cache (~1 GB, rebuilt from the warehouse) | ~minutes per run |
+| **3. Everything from raw NSE files** | the warehouse, the cache, then 2 and 1 | Postgres + ~1.9 GB downloaded from the NSE public archives | hours, mostly download |
+
+### Level 1 — from a fresh clone
+
+```bash
+git clone <repo> && cd brindco-nse-wheel
+pip install pandas pyyaml
+python scripts/final_results.py
+```
+
+`data/backtest/runs/` (all nine runs: five leverages plus the four `rank_threshold` variants) and
+`data/backtest/report/` are **committed**, so this regenerates `final_results/` — including
+`results_pack/` and every figure quoted in the report — with no database and no downloads. This is the
+level a reviewer should use to check that the reported numbers follow from the trade logs.
+
+### Level 2 — re-run the backtest
+
+```bash
+python scripts/wheel/backtest.py cache    # Postgres -> data/backtest/cache/*.parquet
+python scripts/wheel/backtest.py run      # all pre-declared runs + benchmarks + report
+python scripts/wheel/required_analysis.py
+python scripts/final_results.py
+```
+
+The parquet cache is ~1 GB and is **not** committed, so `cache` needs a loaded warehouse (Level 3).
+Everything downstream of the cache is deterministic: the same cache and the same `params.yaml` reproduce
+the committed runs exactly.
+
+### Level 3 — raw NSE files to results
+
+```bash
+scripts/pg.sh start
+python scripts/ingest/ingest.py --summary     # downloads ~1.9 GB of bhavcopy zips
+python scripts/wheel/build_cycles.py calendar && ... lots && ... universe && ... chain
+# then Level 2
+```
+
+Every bhavcopy source is a public NSE archive with no login and no paid feed (see **Schema** below for
+the exact URLs). The ingest is incremental and idempotent, so an interrupted run resumes.
+
+#### One exception: the ranking signal
+
+`scripts/wheel/expiry_rankings.py` is the **only** step that is not reproducible from public data. It
+scores each NIFTY 50 member on how far its close sits above a 15-minute EMA50 and a daily EMA20, and NSE
+does not publish 15-minute bars — they come from the **Zerodha Kite Connect historical API**, which needs
+an account. The bar store is 962 MB and is not committed, so:
+
+- its **output is committed** (`data/signals/expiry_rankings.csv`, one row per stock per expiry, with
+  `rank_final` and both component gaps), and every downstream step reads that file;
+- Levels 1 and 2 are therefore fully reproducible, and Level 3 reproduces everything **except** this file;
+- the scoring rule is fully specified in the module docstring, so the signal can be re-derived by anyone
+  with any 15-minute source.
+
+This is a documented dependency, not a hidden one, but it is a real limitation of the submission and it
+is restated in the report's limitations section.
+
+### What is deliberately not in the repo
+
+Large regenerable artefacts are excluded (`.gitignore`) to keep the clone at ~200 MB rather than 17 GB.
+Nothing here is an input you cannot rebuild or re-download:
+
+| Excluded | Size | Rebuilt by |
+|---|---|---|
+| `data/pgdata/` | 11 GB | `scripts/pg.sh start` + ingest — a live Postgres cluster, not data |
+| `data/raw/` | 1.9 GB | `scripts/ingest/ingest.py` (public NSE archives) |
+| `data/backtest/cache/` | 988 MB | `backtest.py cache` |
+| `data/backtest/sensitivity_u11/` | 987 MB | `scripts/wheel/u11_sensitivity.py` |
+| `data/market/*.db` | 962 MB | 15-minute bars behind the ranking signal — **cannot be rebuilt from public files**, see below |
+| `data_validation/output/raw_fo/` | 327 MB | `data_validation/raw_fo.py` from `data/raw/fo/` |
+| `data/backtest/_archive_pre_step9a/` | 24 MB | superseded runs, kept locally only; not comparable with current results |
+
+Everything the results actually depend on — the cost and slippage schedules, the lot-size history, the
+expiry calendar, the validated NIFTY 50 membership, the rankings, the dividend and corporate-action
+tables, and all nine run outputs — **is committed**.
+
 ## Why this is cheap to extend
 
 The bhavcopy is a **whole-market** file: one download per day contains every
@@ -338,7 +422,7 @@ nse/                 shared library imported by the scripts
     benchmarks.py        NIFTY 50 buy-and-hold, equal-weight top-N
 tests/               pytest suite (synthetic + real-data stages)
 data_validation/     gated data checks: phase code, reports/, sources/ (NSE press releases), output/
-data/                gitignored; see data/README.md
+data/                inputs and outputs; the large regenerable parts are gitignored (see Reproducing the results)
   raw/               cached bhavcopy zips (cm, fo)
   market/            15m bars DB, daily EOD exports
   universe/          NIFTY 50 membership, changes, master list
