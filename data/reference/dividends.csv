@@ -1,0 +1,642 @@
+symbol,ex_date,dividend_per_share,status,traded_on_ex_date,isin,subject,raw_file
+TCS,2019-10-17,45.0,OK,True,INE467B01029,Interim Dividend - Rs 5 Per Share And Special Dividend - Rs 40 Per Share,data/raw/corporate_actions/nse_api/TCS/2019-10-01_2020-09-29.json
+HINDUNILVR,2019-10-23,11.0,OK,True,INE030A01027,Interim Dividend - Rs 11 Per Sh,data/raw/corporate_actions/nse_api/HINDUNILVR/2019-10-01_2020-09-29.json
+INFY,2019-10-23,8.0,OK,True,INE009A01021,Interim Dividend - Rs 8 Per Share,data/raw/corporate_actions/nse_api/INFY/2019-10-01_2020-09-29.json
+LTIM,2019-10-24,12.5,OK,False,INE214T01019,Interim Dividend - Rs 12.50 Per Share,data/raw/corporate_actions/nse_api/LTM/2019-10-01_2020-09-29.json
+ASIANPAINT,2019-10-30,3.35,OK,True,INE021A01018,Interim Dividend - Rs 3.35 Per Sh,data/raw/corporate_actions/nse_api/ASIANPAINT/2019-10-01_2020-09-29.json
+HCLTECH,2019-10-31,2.0,OK,True,INE860A01027,Interim Dividend - Rs 2 Per Sh,data/raw/corporate_actions/nse_api/HCLTECH/2019-10-01_2020-09-29.json
+SHRIRAMFIN,2019-11-07,5.0,OK,False,INE721A01013,Interim Dividend-Rs 5 Per Sh,data/raw/corporate_actions/nse_api/SHRIRAMFIN/2019-10-01_2020-09-29.json
+IBULHSGFIN,2019-11-18,7.0,OK,True,INE148I01020,Interim Dividend - Rs 7 Per Share,data/raw/corporate_actions/nse_api/SAMMAANCAP/2019-10-01_2020-09-29.json
+NESTLEIND,2019-12-10,55.0,OK,True,INE239A01016,Interim Dividend - Rs 55 Per Share,data/raw/corporate_actions/nse_api/NESTLEIND/2019-10-01_2020-09-29.json
+INFRATEL,2019-12-19,2.75,OK,False,INE121J01017,Interim Dividend - Rs 2.75 Per Share,data/raw/corporate_actions/nse_api/INDUSTOWER/2019-10-01_2020-09-29.json
+TCS,2020-01-23,5.0,OK,True,INE467B01029,Interim Dividend - Rs 5 Per Share,data/raw/corporate_actions/nse_api/TCS/2019-10-01_2020-09-29.json
+HCLTECH,2020-01-24,2.0,OK,True,INE860A01027,Interim Dividend - Rs 2 Per Share,data/raw/corporate_actions/nse_api/HCLTECH/2019-10-01_2020-09-29.json
+WIPRO,2020-01-24,1.0,OK,True,INE075A01022,Interim Dividend - Re 1 Per Share,data/raw/corporate_actions/nse_api/WIPRO/2019-10-01_2020-09-29.json
+BEL,2020-02-11,1.4,OK,True,INE263A01016,Interim Dividend - Rs 1.40 Per Share,data/raw/corporate_actions/nse_api/BEL/2019-10-01_2020-09-29.json
+IBULHSGFIN,2020-02-13,6.0,OK,True,INE148I01020,Interim Dividend - Rs 6 Per Share,data/raw/corporate_actions/nse_api/SAMMAANCAP/2019-10-01_2020-09-29.json
+GAIL,2020-02-17,6.4,OK,True,INE129A01019,Interim Dividend - Rs 6.4 Per Share,data/raw/corporate_actions/nse_api/GAIL/2019-10-01_2020-09-29.json
+HEROMOTOCO,2020-02-17,65.0,OK,True,INE158A01026,Interim Dividend - Rs 65 Per Sh,data/raw/corporate_actions/nse_api/HEROMOTOCO/2019-10-01_2020-09-29.json
+SUNPHARMA,2020-02-17,3.0,OK,True,INE044A01028,Interim Dividend - Rs 3 Per Share,data/raw/corporate_actions/nse_api/SUNPHARMA/2019-10-01_2020-09-29.json
+SHREECEM,2020-02-24,110.0,OK,True,INE070A01015,Interim Dividend - Rs 110 Per Share,data/raw/corporate_actions/nse_api/SHREECEM/2019-10-01_2020-09-29.json
+APOLLOHOSP,2020-02-25,3.25,OK,True,INE437A01016,Interim Dividend - Rs 3.25 Per Share,data/raw/corporate_actions/nse_api/APOLLOHOSP/2019-10-01_2020-09-29.json
+DIVISLAB,2020-02-25,16.0,OK,True,INE361B01024,Interim Dividend - Rs 16 Per Share,data/raw/corporate_actions/nse_api/DIVISLAB/2019-10-01_2020-09-29.json
+TECHM,2020-03-02,10.0,OK,True,INE669C01028,Interim Dividend - Rs 10 Per Share,data/raw/corporate_actions/nse_api/TECHM/2019-10-01_2020-09-29.json
+ASIANPAINT,2020-03-03,7.15,OK,True,INE021A01018,Interim Dividend - Rs 7.15 Per Share,data/raw/corporate_actions/nse_api/ASIANPAINT/2019-10-01_2020-09-29.json
+BAJAJ-AUTO,2020-03-03,120.0,OK,True,INE917I01010,Interim Dividend - Rs 120 Per Share,data/raw/corporate_actions/nse_api/BAJAJ-AUTO/2019-10-01_2020-09-29.json
+BAJAJFINSV,2020-03-03,5.0,OK,True,INE918I01018,Interim Dividend - Rs 5 Per Share,data/raw/corporate_actions/nse_api/BAJAJFINSV/2019-10-01_2020-09-29.json
+BAJFINANCE,2020-03-03,10.0,OK,True,INE296A01016,Interim Dividend - Rs 10 Per Share,data/raw/corporate_actions/nse_api/BAJFINANCE/2019-10-01_2020-09-29.json
+VEDL,2020-03-05,3.9,OK,True,INE205A01025,Interim Dividend - Rs 3.9 Per Share,data/raw/corporate_actions/nse_api/VEDL/2019-10-01_2020-09-29.json
+ADANIPORTS,2020-03-16,3.2,OK,True,INE742F01042,Interim Dividend - Rs 3.20 Per Share,data/raw/corporate_actions/nse_api/ADANIPORTS/2019-10-01_2020-09-29.json
+POWERGRID,2020-03-16,5.96,OK,True,INE752E01010,Interim Dividend - Rs 5.96 Per Share,data/raw/corporate_actions/nse_api/POWERGRID/2019-10-01_2020-09-29.json
+CIPLA,2020-03-19,4.0,OK,True,INE059A01026,Interim Dividend - Rs 3 Per Share Special Dividend - Re 1 Per Share,data/raw/corporate_actions/nse_api/CIPLA/2019-10-01_2020-09-29.json
+COALINDIA,2020-03-19,12.0,OK,True,INE522F01014,Interim Dividend - Rs 12 Per Share,data/raw/corporate_actions/nse_api/COALINDIA/2019-10-01_2020-09-29.json
+EICHERMOT,2020-03-19,125.0,OK,True,INE066A01013,Interim Dividend - Rs 125 Per Share,data/raw/corporate_actions/nse_api/EICHERMOT/2019-10-01_2020-09-29.json
+TCS,2020-03-19,12.0,OK,True,INE467B01029,Interim Dividend - Rs 12 Per Share,data/raw/corporate_actions/nse_api/TCS/2019-10-01_2020-09-29.json
+ADANIENT,2020-03-23,1.0,OK,True,INE423A01024,Interim Dividend - Re 1 Per Share,data/raw/corporate_actions/nse_api/ADANIENT/2019-10-01_2020-09-29.json
+BPCL,2020-03-23,16.5,OK,True,INE029A01011,Interim Dividend - Rs 16.50 Per Share,data/raw/corporate_actions/nse_api/BPCL/2019-10-01_2020-09-29.json
+IOC,2020-03-23,4.25,OK,True,INE242A01010,Interim Dividend - Rs 4.25 Per Share,data/raw/corporate_actions/nse_api/IOC/2019-10-01_2020-09-29.json
+ONGC,2020-03-23,5.0,OK,True,INE213A01011,Interim Dividend - Rs 5 Per Share,data/raw/corporate_actions/nse_api/ONGC/2019-10-01_2020-09-29.json
+LT,2020-03-24,10.0,OK,True,INE018A01030,Interim Dividend - Rs 10 Per Share,data/raw/corporate_actions/nse_api/LT/2019-10-01_2020-09-29.json
+NTPC,2020-03-26,0.5,OK,True,INE733E01010,Interim Dividend - Rs 0.50 Per Hsare,data/raw/corporate_actions/nse_api/NTPC/2019-10-01_2020-09-29.json
+BRITANNIA,2020-04-29,35.0,OK,True,INE216A01014,Interim Dividend-Rs 35 Per Share,data/raw/corporate_actions/nse_api/BRITANNIA/2019-10-01_2020-09-29.json
+INFRATEL,2020-05-05,4.1,OK,False,INE121J01017,Interim Dividend - Rs 4.10 Per Share,data/raw/corporate_actions/nse_api/INDUSTOWER/2019-10-01_2020-09-29.json
+INFY,2020-05-29,9.5,OK,True,INE009A01021,Dividend - Rs 9.50 Per Share,data/raw/corporate_actions/nse_api/INFY/2019-10-01_2020-09-29.json
+TCS,2020-06-03,6.0,OK,True,INE467B01029,Dividend - Rs 6 Per Share,data/raw/corporate_actions/nse_api/TCS/2019-10-01_2020-09-29.json
+NESTLEIND,2020-06-11,61.0,OK,True,INE239A01016,Annual General Meeting/Dividend - Rs 61 Per Share,data/raw/corporate_actions/nse_api/NESTLEIND/2019-10-01_2020-09-29.json
+TATACONSUM,2020-06-18,2.7,OK,True,INE192A01025,Annual General Meeting/Dividend -Rs 2.70 Per Share,data/raw/corporate_actions/nse_api/TATACONSUM/2019-10-01_2020-09-29.json
+HINDUNILVR,2020-06-19,14.0,OK,True,INE030A01027,Annual General Meeting/Dividend - Rs 14 Per Share,data/raw/corporate_actions/nse_api/HINDUNILVR/2019-10-01_2020-09-29.json
+RELIANCE,2020-07-02,6.5,OK,True,INE002A01018,Dividend - Rs 6.50 Per Share,data/raw/corporate_actions/nse_api/RELIANCE/2019-10-01_2020-09-29.json
+ITC,2020-07-06,10.15,OK,True,INE154A01025,Dividend - Rs 10.15 Per Share,data/raw/corporate_actions/nse_api/ITC/2019-10-01_2020-09-29.json
+JSWSTEEL,2020-07-06,2.0,OK,True,INE019A01020,Dividend - Rs 2 Per Share,data/raw/corporate_actions/nse_api/JSWSTEEL/2019-10-01_2020-09-29.json
+HDFC,2020-07-09,21.0,OK,True,INE001A01028,Annual General Meeting/Dividend - Rs 21 Per Share,data/raw/corporate_actions/nse_api/HDFC/2019-10-01_2020-09-29.json
+LTIM,2020-07-09,15.5,OK,False,INE214T01019,Annual General Meeting/Dividend - Rs 15.50 Per Share,data/raw/corporate_actions/nse_api/LTM/2019-10-01_2020-09-29.json
+DRREDDY,2020-07-13,25.0,OK,True,INE089A01023,Annual General Meeting/Dividend - Rs 25 Per Share,data/raw/corporate_actions/nse_api/DRREDDY/2019-10-01_2020-09-29.json
+M&M,2020-07-16,2.35,OK,True,INE101A01026,Annual General Meeting/Dividend - Rs 2.35 Per Share,data/raw/corporate_actions/nse_api/M&M/2019-10-01_2020-09-29.json
+TCS,2020-07-16,5.0,OK,True,INE467B01029,Interim Dividend - Rs 5 Per Share,data/raw/corporate_actions/nse_api/TCS/2019-10-01_2020-09-29.json
+ASIANPAINT,2020-07-23,1.5,OK,True,INE021A01018,Annual General Meeting/Dividend - Rs 1.50 Per Share,data/raw/corporate_actions/nse_api/ASIANPAINT/2019-10-01_2020-09-29.json
+HCLTECH,2020-07-23,2.0,OK,True,INE860A01027,Interim Dividend - Rs 2 Per Share,data/raw/corporate_actions/nse_api/HCLTECH/2019-10-01_2020-09-29.json
+TECHM,2020-07-23,5.0,OK,True,INE669C01028,Annual General Meeting/Dividend - Rs 5 Per Share,data/raw/corporate_actions/nse_api/TECHM/2019-10-01_2020-09-29.json
+TRENT,2020-07-24,1.0,OK,True,INE849A01012,Annual General Meeting/Dividend - Re 1 Per Share,data/raw/corporate_actions/nse_api/TRENT/2019-10-01_2020-09-29.json
+ULTRACEMCO,2020-07-29,13.0,OK,True,INE481G01011,Annual General Meeting/Dividend - Rs 13 Per Share,data/raw/corporate_actions/nse_api/ULTRACEMCO/2019-10-01_2020-09-29.json
+HEROMOTOCO,2020-07-30,25.0,OK,True,INE158A01026,Annual General Meeting/Dividend - Rs 25 Per Share,data/raw/corporate_actions/nse_api/HEROMOTOCO/2019-10-01_2020-09-29.json
+HINDUNILVR,2020-07-30,9.5,OK,True,INE030A01027,Special Dividend - Rs 9.50 Per Share,data/raw/corporate_actions/nse_api/HINDUNILVR/2019-10-01_2020-09-29.json
+TITAN,2020-08-03,4.0,OK,True,INE280A01010,Annual General Meeting/Dividend - Rs 4 Per Share,data/raw/corporate_actions/nse_api/TITAN/2019-10-01_2020-09-29.json
+INFRATEL,2020-08-05,2.3,OK,False,INE121J01017,Interim Dividend - Rs 2.30 Per Share,data/raw/corporate_actions/nse_api/INDUSTOWER/2019-10-01_2020-09-29.json
+LT,2020-08-05,8.0,OK,True,INE018A01030,Annual General Meeting/Dividend - Rs 8 Per Share,data/raw/corporate_actions/nse_api/LT/2019-10-01_2020-09-29.json
+BHARTIARTL,2020-08-06,2.0,OK,True,INE397D01024,Dividend - Rs 2 Per Share,data/raw/corporate_actions/nse_api/BHARTIARTL/2019-10-01_2020-09-29.json
+TATASTEEL,2020-08-06,10.0,OK,True,INE081A01012,Dividend - Rs 10 Per Share,data/raw/corporate_actions/nse_api/TATASTEEL/2019-10-01_2020-09-29.json
+MARUTI,2020-08-13,60.0,OK,True,INE585B01010,Dividend - Rs 60 Per Share,data/raw/corporate_actions/nse_api/MARUTI/2019-10-01_2020-09-29.json
+NTPC,2020-08-13,2.65,OK,True,INE733E01010,Dividend - Rs 2.65 Per Share,data/raw/corporate_actions/nse_api/NTPC/2019-10-01_2020-09-29.json
+SUNPHARMA,2020-08-19,1.0,OK,True,INE044A01028,Annual General Meeting/Dividend - Re 1 Per Share,data/raw/corporate_actions/nse_api/SUNPHARMA/2019-10-01_2020-09-29.json
+UPL,2020-08-19,6.0,OK,True,INE628A01036,Dividend - Rs 6 Per Sh,data/raw/corporate_actions/nse_api/UPL/2019-10-01_2020-09-29.json
+BRITANNIA,2020-08-26,83.0,OK,True,INE216A01014,Interim Dividend - Rs 83 Per Share,data/raw/corporate_actions/nse_api/BRITANNIA/2019-10-01_2020-09-29.json
+GRASIM,2020-08-26,4.0,OK,True,INE047A01013,Dividend - Rs 4 Per Share,data/raw/corporate_actions/nse_api/GRASIM/2019-10-01_2020-09-29.json
+POWERGRID,2020-09-02,4.04,OK,True,INE752E01010,Annual General Meeting/Dividend - Rs 4.04 Per Share,data/raw/corporate_actions/nse_api/POWERGRID/2019-10-01_2020-09-29.json
+HINDALCO,2020-09-03,1.0,OK,True,INE038A01020,Annual General Meeting/Dividend - Re 1 Per Share,data/raw/corporate_actions/nse_api/HINDALCO/2019-10-01_2020-09-29.json
+ZEEL,2020-09-10,0.3,OK,True,INE256A01028,Annual General Meeting/Dividend - Rs 0.30 Per Share,data/raw/corporate_actions/nse_api/ZEEL/2019-10-01_2020-09-29.json
+HCLTECH,2020-09-14,2.0,OK,True,INE860A01027,Dividend - Rs 2 Per Share,data/raw/corporate_actions/nse_api/HCLTECH/2019-10-01_2020-09-29.json
+BEL,2020-09-15,1.4,OK,True,INE263A01016,Annual General Meeting/Dividend - Rs 1.40 Per Share,data/raw/corporate_actions/nse_api/BEL/2019-10-01_2020-09-29.json
+APOLLOHOSP,2020-09-17,2.75,OK,True,INE437A01016,Annual General Meeting/Dividend - Rs 2.75 Per Share,data/raw/corporate_actions/nse_api/APOLLOHOSP/2019-10-01_2020-09-29.json
+TCS,2020-10-14,12.0,OK,True,INE467B01029,Interim Dividend - Rs 12 Per Share,data/raw/corporate_actions/nse_api/TCS/2020-09-30_2021-09-29.json
+HCLTECH,2020-10-22,4.0,OK,True,INE860A01027,Interim Dividend - Rs 4 Per Share,data/raw/corporate_actions/nse_api/HCLTECH/2020-09-30_2021-09-29.json
+INFY,2020-10-23,12.0,OK,True,INE009A01021,Interim Dividend - Rs 12 Per Share,data/raw/corporate_actions/nse_api/INFY/2020-09-30_2021-09-29.json
+LTIM,2020-10-27,15.0,OK,False,INE214T01019,Interim Dividend -Rs 15 Per Share,data/raw/corporate_actions/nse_api/LTM/2020-09-30_2021-09-29.json
+ASIANPAINT,2020-10-28,3.35,OK,True,INE021A01018,Interim Dividend - Rs 3.35 Per Share,data/raw/corporate_actions/nse_api/ASIANPAINT/2020-09-30_2021-09-29.json
+HINDUNILVR,2020-10-28,14.0,OK,True,INE030A01027,Interim Dividend - Rs 14 Per Share,data/raw/corporate_actions/nse_api/HINDUNILVR/2020-09-30_2021-09-29.json
+VEDL,2020-10-28,9.5,OK,True,INE205A01025,Interim Dividend - Rs 9.50 Per Share,data/raw/corporate_actions/nse_api/VEDL/2020-09-30_2021-09-29.json
+NESTLEIND,2020-10-29,135.0,OK,True,INE239A01016,Interim Dividned - Rs 135 Per Share,data/raw/corporate_actions/nse_api/NESTLEIND/2020-09-30_2021-09-29.json
+TECHM,2020-10-29,15.0,OK,True,INE669C01028,Special Dividend - Rs 15 Per Share,data/raw/corporate_actions/nse_api/TECHM/2020-09-30_2021-09-29.json
+LT,2020-11-04,18.0,OK,True,INE018A01030,Special Dividend - Rs 18 Per Share,data/raw/corporate_actions/nse_api/LT/2020-09-30_2021-09-29.json
+SHRIRAMFIN,2020-11-09,6.0,OK,False,INE721A01013,Interim Dividend - Rs 6 Per Share,data/raw/corporate_actions/nse_api/SHRIRAMFIN/2020-09-30_2021-09-29.json
+COALINDIA,2020-11-19,7.5,OK,True,INE522F01014,Interim Dividend - Rs 7.50 Per Share,data/raw/corporate_actions/nse_api/COALINDIA/2020-09-30_2021-09-29.json
+POWERGRID,2020-12-17,5.0,OK,True,INE752E01010,Interim Dividend - Rs 5 Per Share,data/raw/corporate_actions/nse_api/POWERGRID/2020-09-30_2021-09-29.json
+TCS,2021-01-14,6.0,OK,True,INE467B01029,Interim Dividend - Rs 6 Per Share,data/raw/corporate_actions/nse_api/TCS/2020-09-30_2021-09-29.json
+HCLTECH,2021-01-21,4.0,OK,True,INE860A01027,Interim Dividend - Rs 4 Per Share,data/raw/corporate_actions/nse_api/HCLTECH/2020-09-30_2021-09-29.json
+WIPRO,2021-01-22,1.0,OK,True,INE075A01022,Interim Dividend - Re 1 Per Share,data/raw/corporate_actions/nse_api/WIPRO/2020-09-30_2021-09-29.json
+GAIL,2021-01-27,2.5,OK,True,INE129A01019,Interim Dividend - Rs 2.50 Per Share,data/raw/corporate_actions/nse_api/GAIL/2020-09-30_2021-09-29.json
+BEL,2021-02-08,1.4,OK,True,INE263A01016,Interim Dividend - Rs 1.40 Per Share,data/raw/corporate_actions/nse_api/BEL/2020-09-30_2021-09-29.json
+INDUSTOWER,2021-02-08,17.82,OK,False,INE121J01017,Interim Dividend - Rs 17.82 Per Share,data/raw/corporate_actions/nse_api/INDUSTOWER/2020-09-30_2021-09-29.json
+IOC,2021-02-09,7.5,OK,True,INE242A01010,Interim Dividend - Rs 7.50 Per Share,data/raw/corporate_actions/nse_api/IOC/2020-09-30_2021-09-29.json
+SUNPHARMA,2021-02-09,5.5,OK,True,INE044A01028,Interim Dividend - Rs 5.50 Per Share,data/raw/corporate_actions/nse_api/SUNPHARMA/2020-09-30_2021-09-29.json
+NTPC,2021-02-11,3.0,OK,True,INE733E01010,Interim Dividend - Rs 3 Per Share,data/raw/corporate_actions/nse_api/NTPC/2020-09-30_2021-09-29.json
+HEROMOTOCO,2021-02-15,70.0,OK,True,INE158A01026,Interim Dividend - Rs 65 Per Share Special Dividend - Rs 5 Per Share,data/raw/corporate_actions/nse_api/HEROMOTOCO/2020-09-30_2021-09-29.json
+BPCL,2021-02-17,16.0,OK,True,INE029A01011,Interim Dividend - Rs 16 Per Share,data/raw/corporate_actions/nse_api/BPCL/2020-09-30_2021-09-29.json
+ONGC,2021-02-17,1.75,OK,True,INE213A01011,Interim Dividend - Rs 1.75 Per Share,data/raw/corporate_actions/nse_api/ONGC/2020-09-30_2021-09-29.json
+ITC,2021-02-22,5.0,OK,True,INE154A01025,Interim Dividend - Rs 5 Per Share,data/raw/corporate_actions/nse_api/ITC/2020-09-30_2021-09-29.json
+POWERGRID,2021-03-08,4.0,OK,True,INE752E01010,Interim Dividend - Rs 4 Per Share,data/raw/corporate_actions/nse_api/POWERGRID/2020-09-30_2021-09-29.json
+COALINDIA,2021-03-15,5.0,OK,True,INE522F01014,Interim Dividend - Rs 5 Per Share,data/raw/corporate_actions/nse_api/COALINDIA/2020-09-30_2021-09-29.json
+GAIL,2021-03-22,2.5,OK,True,INE129A01019,Interim Dividend - Rs 2.5 Per Share,data/raw/corporate_actions/nse_api/GAIL/2020-09-30_2021-09-29.json
+BEL,2021-03-23,1.4,OK,True,INE263A01016,Interim Dividend - Rs 1.40 Per Share,data/raw/corporate_actions/nse_api/BEL/2020-09-30_2021-09-29.json
+IOC,2021-03-23,3.0,OK,True,INE242A01010,Interim Dividend - Rs 3 Per Share,data/raw/corporate_actions/nse_api/IOC/2020-09-30_2021-09-29.json
+BPCL,2021-03-25,5.0,OK,True,INE029A01011,Interim Dividend - Rs 5 Per Share,data/raw/corporate_actions/nse_api/BPCL/2020-09-30_2021-09-29.json
+SBILIFE,2021-04-05,2.5,OK,True,INE123W01016,Interim Dividend - Rs 2.5 Per Share,data/raw/corporate_actions/nse_api/SBILIFE/2020-09-30_2021-09-29.json
+SHRIRAMFIN,2021-04-05,6.0,OK,False,INE721A01013,Interim Dividend - Rs 6 Per Share,data/raw/corporate_actions/nse_api/SHRIRAMFIN/2020-09-30_2021-09-29.json
+BRITANNIA,2021-04-08,62.0,OK,True,INE216A01014,Interim Dividend - Rs 62 Per Share,data/raw/corporate_actions/nse_api/BRITANNIA/2020-09-30_2021-09-29.json
+HCLTECH,2021-04-29,16.0,OK,True,INE860A01027,Interim Dividend - Rs 6 Per Share Special Interim Dividend - Rs 10 Per Share,data/raw/corporate_actions/nse_api/HCLTECH/2020-09-30_2021-09-29.json
+NESTLEIND,2021-04-29,90.0,OK,True,INE239A01016,Annual General Meeting/Dividend - Rs 65 Per Share || Interim Dividend - Rs 25 Per Share,data/raw/corporate_actions/nse_api/NESTLEIND/2020-09-30_2021-09-29.json
+BRITANNIA,2021-05-25,12.5,OK,True,INE216A01014,Dividend - Rs 12.50 Per Share Pursuant To Scheme,data/raw/corporate_actions/nse_api/BRITANNIA/2020-09-30_2021-09-29.json
+TCS,2021-05-25,15.0,OK,True,INE467B01029,Dividend - Rs 15 Per Share,data/raw/corporate_actions/nse_api/TCS/2020-09-30_2021-09-29.json
+IBULHSGFIN,2021-05-28,9.0,OK,True,INE148I01020,Interim Dividend - Rs 9 Per Share,data/raw/corporate_actions/nse_api/SAMMAANCAP/2020-09-30_2021-09-29.json
+HDFC,2021-05-31,23.0,OK,True,INE001A01028,Dividend - Rs 23 Per Sh,data/raw/corporate_actions/nse_api/HDFC/2020-09-30_2021-09-29.json
+INFY,2021-05-31,15.0,OK,True,INE009A01021,Annual General Meeting/Dividend - Rs 15 Per Share,data/raw/corporate_actions/nse_api/INFY/2020-09-30_2021-09-29.json
+SBIN,2021-06-03,4.0,OK,True,INE062A01012,Dividend - Rs 4 Per Share,data/raw/corporate_actions/nse_api/SBIN/2020-09-30_2021-09-29.json
+ASIANPAINT,2021-06-10,14.5,OK,True,INE021A01018,Dividend - Rs 14.50 Per Sh,data/raw/corporate_actions/nse_api/ASIANPAINT/2020-09-30_2021-09-29.json
+ITC,2021-06-10,5.75,OK,True,INE154A01025,Dividend - Rs 5.75 Per Share,data/raw/corporate_actions/nse_api/ITC/2020-09-30_2021-09-29.json
+TATACONSUM,2021-06-10,4.05,OK,True,INE192A01025,Annual General Meeting/Dividend - Rs 4.05 Per Share,data/raw/corporate_actions/nse_api/TATACONSUM/2020-09-30_2021-09-29.json
+RELIANCE,2021-06-11,7.0,OK,True,INE002A01018,Dividend - Rs 7 Per Share,data/raw/corporate_actions/nse_api/RELIANCE/2020-09-30_2021-09-29.json
+HINDUNILVR,2021-06-14,17.0,OK,True,INE030A01027,Annual General Meeting/Dividend - Rs 17 Per Sh,data/raw/corporate_actions/nse_api/HINDUNILVR/2020-09-30_2021-09-29.json
+SHRIRAMFIN,2021-06-16,6.0,OK,False,INE721A01013,Annual General Meeting/Dividend - Rs 6 Per Share,data/raw/corporate_actions/nse_api/SHRIRAMFIN/2020-09-30_2021-09-29.json
+TATASTEEL,2021-06-17,25.0,OK,True,INE081A01012,Annual General Meeting/Dividend - Rs 25 Per Share,data/raw/corporate_actions/nse_api/TATASTEEL/2020-09-30_2021-09-29.json
+ADANIPORTS,2021-06-24,5.0,OK,True,INE742F01042,Dividend - Rs 5 Per Sh,data/raw/corporate_actions/nse_api/ADANIPORTS/2020-09-30_2021-09-29.json
+HDFCBANK,2021-06-29,6.5,OK,True,INE040A01018,Dividend - Rs 6.50 Per Share,data/raw/corporate_actions/nse_api/HDFCBANK/2020-09-30_2021-09-29.json
+HDFCLIFE,2021-06-30,2.02,OK,True,INE795G01014,Dividend - Rs 2.02 Per Sh,data/raw/corporate_actions/nse_api/HDFCLIFE/2020-09-30_2021-09-29.json
+ADANIENT,2021-07-01,1.0,OK,True,INE423A01024,Dividend - Re 1 Per Share,data/raw/corporate_actions/nse_api/ADANIENT/2020-09-30_2021-09-29.json
+LTIM,2021-07-01,25.0,OK,False,INE214T01019,Dividend - Rs 25 Per Share,data/raw/corporate_actions/nse_api/LTM/2020-09-30_2021-09-29.json
+JSWSTEEL,2021-07-05,6.5,OK,True,INE019A01020,Annual General Meeting/Dividend - Rs 6.50 Per Share,data/raw/corporate_actions/nse_api/JSWSTEEL/2020-09-30_2021-09-29.json
+BAJAJ-AUTO,2021-07-08,140.0,OK,True,INE917I01010,Annual General Meeting/Dividend - Rs 140 Per Share,data/raw/corporate_actions/nse_api/BAJAJ-AUTO/2020-09-30_2021-09-29.json
+BAJAJFINSV,2021-07-08,3.0,OK,True,INE918I01018,Annual General Meeting/Dividend - Rs 3 Per Share,data/raw/corporate_actions/nse_api/BAJAJFINSV/2020-09-30_2021-09-29.json
+BAJFINANCE,2021-07-08,10.0,OK,True,INE296A01016,Annual General Meeting/Dividend - Rs 10 Per Share,data/raw/corporate_actions/nse_api/BAJFINANCE/2020-09-30_2021-09-29.json
+DRREDDY,2021-07-09,25.0,OK,True,INE089A01023,Annual General Meeting/Dividend - Rs 25 Per Share,data/raw/corporate_actions/nse_api/DRREDDY/2020-09-30_2021-09-29.json
+TRENT,2021-07-09,0.6,OK,True,INE849A01012,Annual General Meeting/Dividend - Re 0.60 Per Share,data/raw/corporate_actions/nse_api/TRENT/2020-09-30_2021-09-29.json
+UPL,2021-07-14,10.0,OK,True,INE628A01036,Dividend - Rs 10 Per Share,data/raw/corporate_actions/nse_api/UPL/2020-09-30_2021-09-29.json
+M&M,2021-07-15,8.75,OK,True,INE101A01026,Annual General Meeting/Dividend - Rs 8.75 Per Share,data/raw/corporate_actions/nse_api/M&M/2020-09-30_2021-09-29.json
+TCS,2021-07-15,7.0,OK,True,INE467B01029,Interim Dividend - Rs 7 Per Share,data/raw/corporate_actions/nse_api/TCS/2020-09-30_2021-09-29.json
+HEROMOTOCO,2021-07-22,35.0,OK,True,INE158A01026,Annual General Meeting/Dividend - Rs 25 Per Share/ Special Dividend - Rs 10 Per Share,data/raw/corporate_actions/nse_api/HEROMOTOCO/2020-09-30_2021-09-29.json
+SHREECEM,2021-07-22,60.0,OK,True,INE070A01015,Dividend - Rs 60 Per Share,data/raw/corporate_actions/nse_api/SHREECEM/2020-09-30_2021-09-29.json
+TITAN,2021-07-22,4.0,OK,True,INE280A01010,Annual General Meeting/Dividend - Rs 4 Per Share,data/raw/corporate_actions/nse_api/TITAN/2020-09-30_2021-09-29.json
+TECHM,2021-07-23,30.0,OK,True,INE669C01028,Annual General Meeting/Dividend - Rs 15 Per Share Special Dividend 15 Per Share,data/raw/corporate_actions/nse_api/TECHM/2020-09-30_2021-09-29.json
+HCLTECH,2021-07-27,6.0,OK,True,INE860A01027,Interim Dividend - Rs 6 Per Share,data/raw/corporate_actions/nse_api/HCLTECH/2020-09-30_2021-09-29.json
+LT,2021-07-28,18.0,OK,True,INE018A01030,Annual General Meeting/Dividend - Rs 18 Per Share,data/raw/corporate_actions/nse_api/LT/2020-09-30_2021-09-29.json
+ICICIBANK,2021-07-29,2.0,OK,True,INE090A01013,Dividend - Rs 2 Per Share,data/raw/corporate_actions/nse_api/ICICIBANK/2020-09-30_2021-09-29.json
+LTIM,2021-07-30,10.0,OK,False,INE214T01019,Special Dividend - Rs 10 Per Share,data/raw/corporate_actions/nse_api/LTM/2020-09-30_2021-09-29.json
+ULTRACEMCO,2021-08-02,37.0,OK,True,INE481G01011,Annual General Meeting/Dividend - Rs 37 Per Share,data/raw/corporate_actions/nse_api/ULTRACEMCO/2020-09-30_2021-09-29.json
+IOC,2021-08-05,1.5,OK,True,INE242A01010,Dividend - Rs 1.50 Per Share,data/raw/corporate_actions/nse_api/IOC/2020-09-30_2021-09-29.json
+MARUTI,2021-08-05,45.0,OK,True,INE585B01010,Dividend - Rs 45 Per Share,data/raw/corporate_actions/nse_api/MARUTI/2020-09-30_2021-09-29.json
+CIPLA,2021-08-09,5.0,OK,True,INE059A01026,Annual General Meeting/Dividend - Rs 5 Per Share,data/raw/corporate_actions/nse_api/CIPLA/2020-09-30_2021-09-29.json
+EICHERMOT,2021-08-09,17.0,OK,True,INE066A01013,Annual General Meeting/Dividend - Rs 17 Per Share,data/raw/corporate_actions/nse_api/EICHERMOT/2020-09-30_2021-09-29.json
+KOTAKBANK,2021-08-11,0.9,OK,True,INE237A01010,Dividend - Rs 0.90 Per Share,data/raw/corporate_actions/nse_api/KOTAKBANK/2020-09-30_2021-09-29.json
+GRASIM,2021-08-12,9.0,OK,True,INE047A01013,Annual General Meeting/Dividend - Rs 5 Per Share/ Special Dividend - Rs 4 Per Share,data/raw/corporate_actions/nse_api/GRASIM/2020-09-30_2021-09-29.json
+HINDALCO,2021-08-12,3.0,OK,True,INE038A01020,Annual General Meeting/Dividend - Rs 3 Per Share,data/raw/corporate_actions/nse_api/HINDALCO/2020-09-30_2021-09-29.json
+DIVISLAB,2021-08-17,20.0,OK,True,INE361B01024,Dividend - Rs 20 Per Share,data/raw/corporate_actions/nse_api/DIVISLAB/2020-09-30_2021-09-29.json
+INDUSINDBK,2021-08-17,5.0,OK,True,INE095A01012,Dividend - Rs 5 Per Share,data/raw/corporate_actions/nse_api/INDUSINDBK/2020-09-30_2021-09-29.json
+APOLLOHOSP,2021-08-18,3.0,OK,True,INE437A01016,Annual General Meeting/Dividend - Rs 3 Per Share,data/raw/corporate_actions/nse_api/APOLLOHOSP/2020-09-30_2021-09-29.json
+SUNPHARMA,2021-08-23,2.0,OK,True,INE044A01028,Annual General Meeting/Dividend - Rs 2 Per Share,data/raw/corporate_actions/nse_api/SUNPHARMA/2020-09-30_2021-09-29.json
+COALINDIA,2021-09-02,3.5,OK,True,INE522F01014,Dividend - Rs 3.50 Per Share,data/raw/corporate_actions/nse_api/COALINDIA/2020-09-30_2021-09-29.json
+ZEEL,2021-09-02,2.5,OK,True,INE256A01028,Annual General Meeting/Dividend - Rs 2.50 Per Share,data/raw/corporate_actions/nse_api/ZEEL/2020-09-30_2021-09-29.json
+NTPC,2021-09-08,3.15,OK,True,INE733E01010,Dividend - Rs 3.15 Per Share,data/raw/corporate_actions/nse_api/NTPC/2020-09-30_2021-09-29.json
+ONGC,2021-09-08,1.85,OK,True,INE213A01011,Dividend - Rs 1.85 Per Share,data/raw/corporate_actions/nse_api/ONGC/2020-09-30_2021-09-29.json
+POWERGRID,2021-09-08,3.0,OK,True,INE752E01010,Annual General Meeting/Dividend - Rs 3 Per Share,data/raw/corporate_actions/nse_api/POWERGRID/2020-09-30_2021-09-29.json
+VEDL,2021-09-08,18.5,OK,True,INE205A01025,Interim Dividend - Rs 18.50 Per Share,data/raw/corporate_actions/nse_api/VEDL/2020-09-30_2021-09-29.json
+BEL,2021-09-14,1.2,OK,True,INE263A01016,Annual General Meeting/Dividend - Rs 1.20 Per Share,data/raw/corporate_actions/nse_api/BEL/2020-09-30_2021-09-29.json
+BPCL,2021-09-16,58.0,OK,True,INE029A01011,Annual General Meeting/Dividend - Rs 23 Per Share/Special Dividend - Rs 35 Per Share,data/raw/corporate_actions/nse_api/BPCL/2020-09-30_2021-09-29.json
+TCS,2021-10-14,7.0,OK,True,INE467B01029,Interim Dividend - Rs 7 Per Share,data/raw/corporate_actions/nse_api/TCS/2021-09-30_2022-09-29.json
+HCLTECH,2021-10-21,10.0,OK,True,INE860A01027,Interm Dividend - Rs 10 Per Share,data/raw/corporate_actions/nse_api/HCLTECH/2021-09-30_2022-09-29.json
+LTIM,2021-10-25,15.0,OK,False,INE214T01019,Interim Dividend - Rs 15 Per Share,data/raw/corporate_actions/nse_api/LTM/2021-09-30_2022-09-29.json
+HINDUNILVR,2021-10-26,15.0,OK,True,INE030A01027,Interim Dividend - Rs 15 Per Share,data/raw/corporate_actions/nse_api/HINDUNILVR/2021-09-30_2022-09-29.json
+INFY,2021-10-26,15.0,OK,True,INE009A01021,Interim Dividend - Rs 15 Per Sh,data/raw/corporate_actions/nse_api/INFY/2021-09-30_2022-09-29.json
+NESTLEIND,2021-10-26,110.0,OK,True,INE239A01016,Interim Dividend - Rs 110 Per Share,data/raw/corporate_actions/nse_api/NESTLEIND/2021-09-30_2022-09-29.json
+ASIANPAINT,2021-10-28,3.65,OK,True,INE021A01018,Interim Dividend - Rs 3.65 Per Share,data/raw/corporate_actions/nse_api/ASIANPAINT/2021-09-30_2022-09-29.json
+TECHM,2021-11-02,15.0,OK,True,INE669C01028,Special Dividend - Rs 15 Per Share,data/raw/corporate_actions/nse_api/TECHM/2021-09-30_2022-09-29.json
+SHRIRAMFIN,2021-11-09,8.0,OK,False,INE721A01013,Interim Dividend - Rs 8 Per Share,data/raw/corporate_actions/nse_api/SHRIRAMFIN/2021-09-30_2022-09-29.json
+BPCL,2021-11-11,5.0,OK,True,INE029A01011,Interim Dividend - Rs 5 Per Share,data/raw/corporate_actions/nse_api/BPCL/2021-09-30_2022-09-29.json
+IOC,2021-11-11,5.0,OK,True,INE242A01010,Interim Dividend - Rs 5 Per Share,data/raw/corporate_actions/nse_api/IOC/2021-09-30_2022-09-29.json
+ONGC,2021-11-22,5.5,OK,True,INE213A01011,Interim Dividend - Rs 5.50 Per Share,data/raw/corporate_actions/nse_api/ONGC/2021-09-30_2022-09-29.json
+COALINDIA,2021-12-06,9.0,OK,True,INE522F01014,Interim Dividend - Rs 9 Per Sh,data/raw/corporate_actions/nse_api/COALINDIA/2021-09-30_2022-09-29.json
+VEDL,2021-12-17,13.5,OK,True,INE205A01025,Interim Dividend - Rs 13.50 Per Share,data/raw/corporate_actions/nse_api/VEDL/2021-09-30_2022-09-29.json
+POWERGRID,2021-12-22,7.0,OK,True,INE752E01010,Interim Dividend - Rs 4 Per Share/ Special Dividend - Rs 3 Per Share,data/raw/corporate_actions/nse_api/POWERGRID/2021-09-30_2022-09-29.json
+GAIL,2021-12-30,4.0,OK,True,INE129A01019,Interim Dividend - Rs 4 Per Share,data/raw/corporate_actions/nse_api/GAIL/2021-09-30_2022-09-29.json
+TCS,2022-01-19,7.0,OK,True,INE467B01029,Interim Dividend - Rs 7 Per Share,data/raw/corporate_actions/nse_api/TCS/2021-09-30_2022-09-29.json
+HCLTECH,2022-01-20,10.0,OK,True,INE860A01027,Interim Dividend - Rs 10 Per Share,data/raw/corporate_actions/nse_api/HCLTECH/2021-09-30_2022-09-29.json
+WIPRO,2022-01-21,1.0,OK,True,INE075A01022,Interim Dividend - Re 1 Per Share,data/raw/corporate_actions/nse_api/WIPRO/2021-09-30_2022-09-29.json
+NTPC,2022-02-03,4.0,OK,True,INE733E01010,Interim Dividend - Rs 4 Per Share,data/raw/corporate_actions/nse_api/NTPC/2021-09-30_2022-09-29.json
+BEL,2022-02-09,1.5,OK,True,INE263A01016,Interim Dividend - Rs 1.50 Per Share,data/raw/corporate_actions/nse_api/BEL/2021-09-30_2022-09-29.json
+IOC,2022-02-09,4.0,OK,True,INE242A01010,Interim Dividend - Rs 4 Per Share,data/raw/corporate_actions/nse_api/IOC/2021-09-30_2022-09-29.json
+SUNPHARMA,2022-02-09,7.0,OK,True,INE044A01028,Interim Dividend - Rs 7 Per Share,data/raw/corporate_actions/nse_api/SUNPHARMA/2021-09-30_2022-09-29.json
+BPCL,2022-02-10,5.0,OK,True,INE029A01011,Interim Dividend - Rs 5 Per Share,data/raw/corporate_actions/nse_api/BPCL/2021-09-30_2022-09-29.json
+SHREECEM,2022-02-10,45.0,OK,True,INE070A01015,Interim Dividend - Rs 45 Per Share,data/raw/corporate_actions/nse_api/SHREECEM/2021-09-30_2022-09-29.json
+ITC,2022-02-14,5.25,OK,True,INE154A01025,Interim Dividend - Rs 5.25 Per Share,data/raw/corporate_actions/nse_api/ITC/2021-09-30_2022-09-29.json
+POWERGRID,2022-02-16,5.5,OK,True,INE752E01010,Interim Dividend - Rs 5.50 Per Share,data/raw/corporate_actions/nse_api/POWERGRID/2021-09-30_2022-09-29.json
+COALINDIA,2022-02-21,5.0,OK,True,INE522F01014,Interim Dividend - Rs 5 Per Share,data/raw/corporate_actions/nse_api/COALINDIA/2021-09-30_2022-09-29.json
+HEROMOTOCO,2022-02-21,60.0,OK,True,INE158A01026,Interim Dividend - Rs 60 Per Share,data/raw/corporate_actions/nse_api/HEROMOTOCO/2021-09-30_2022-09-29.json
+ONGC,2022-02-21,1.75,OK,True,INE213A01011,Interim Dividend - Rs 1.75 Per Share,data/raw/corporate_actions/nse_api/ONGC/2021-09-30_2022-09-29.json
+TRENT,2022-02-22,0.6,OK,True,INE849A01012,Interim Dividend - Rs 0.60 Per Share,data/raw/corporate_actions/nse_api/TRENT/2021-09-30_2022-09-29.json
+VEDL,2022-03-09,0.0,UNPARSED,True,INE205A01025,Interim Dividend,data/raw/corporate_actions/nse_api/VEDL/2021-09-30_2022-09-29.json
+SHRIRAMFIN,2022-03-11,12.0,OK,False,INE721A01013,Interim Dividend - Rs 12 Per Share,data/raw/corporate_actions/nse_api/SHRIRAMFIN/2021-09-30_2022-09-29.json
+GAIL,2022-03-21,5.0,OK,True,INE129A01019,Interim Dividend - Rs 5 Per Share,data/raw/corporate_actions/nse_api/GAIL/2021-09-30_2022-09-29.json
+BEL,2022-03-24,1.5,OK,True,INE263A01016,Interim Dividend - Rs 1.50 Per Share,data/raw/corporate_actions/nse_api/BEL/2021-09-30_2022-09-29.json
+SBILIFE,2022-03-29,2.0,OK,True,INE123W01016,Interim Dividend - Rs 2 Per Share,data/raw/corporate_actions/nse_api/SBILIFE/2021-09-30_2022-09-29.json
+WIPRO,2022-04-05,5.0,OK,True,INE075A01022,Interim Dividend - Rs 5 Per Share,data/raw/corporate_actions/nse_api/WIPRO/2021-09-30_2022-09-29.json
+NESTLEIND,2022-04-21,90.0,OK,True,INE239A01016,Interim Dividend - Rs 25 Per Sh/Dividend - Rs 65 Per Share,data/raw/corporate_actions/nse_api/NESTLEIND/2021-09-30_2022-09-29.json
+HCLTECH,2022-04-28,18.0,OK,True,INE860A01027,Interim Dividend Rs 18 Per Share,data/raw/corporate_actions/nse_api/HCLTECH/2021-09-30_2022-09-29.json
+VEDL,2022-05-06,31.5,OK,True,INE205A01025,Interim Dividend - Rs 31.5 Per Share,data/raw/corporate_actions/nse_api/VEDL/2021-09-30_2022-09-29.json
+HDFCBANK,2022-05-12,15.5,OK,True,INE040A01018,Dividend - Rs 15.50 Per Share,data/raw/corporate_actions/nse_api/HDFCBANK/2021-09-30_2022-09-29.json
+INDUSTOWER,2022-05-13,11.0,OK,False,INE121J01017,Interim Dividend - Rs 11 Per Share,data/raw/corporate_actions/nse_api/INDUSTOWER/2021-09-30_2022-09-29.json
+TRENT,2022-05-20,1.1,OK,True,INE849A01012,Dividend- Rs 1.1 Per Share,data/raw/corporate_actions/nse_api/TRENT/2021-09-30_2022-09-29.json
+SBIN,2022-05-25,7.1,OK,True,INE062A01012,Dividend - Rs 7.10 Per Share,data/raw/corporate_actions/nse_api/SBIN/2021-09-30_2022-09-29.json
+TCS,2022-05-25,22.0,OK,True,INE467B01029,Dividend - Rs 22 Per Share,data/raw/corporate_actions/nse_api/TCS/2021-09-30_2022-09-29.json
+ITC,2022-05-26,6.25,OK,True,INE154A01025,Dividend - Rs 6.25 Per Share,data/raw/corporate_actions/nse_api/ITC/2021-09-30_2022-09-29.json
+HDFC,2022-05-31,30.0,OK,True,INE001A01028,Dividend - Rs 30 Per Share,data/raw/corporate_actions/nse_api/HDFC/2021-09-30_2022-09-29.json
+HDFCLIFE,2022-05-31,1.7,OK,True,INE795G01014,Dividend - Rs 1.70 Per Share,data/raw/corporate_actions/nse_api/HDFCLIFE/2021-09-30_2022-09-29.json
+INFY,2022-05-31,16.0,OK,True,INE009A01021,Annual General Meeting/Dividend - Rs 16 Per Share,data/raw/corporate_actions/nse_api/INFY/2021-09-30_2022-09-29.json
+ASIANPAINT,2022-06-09,15.5,OK,True,INE021A01018,Dividend - Rs 15.50 Per Share,data/raw/corporate_actions/nse_api/ASIANPAINT/2021-09-30_2022-09-29.json
+TATACONSUM,2022-06-09,6.05,OK,True,INE192A01025,Annual General Meeting/Dividend - Rs 6.05 Per Share,data/raw/corporate_actions/nse_api/TATACONSUM/2021-09-30_2022-09-29.json
+HINDUNILVR,2022-06-15,19.0,OK,True,INE030A01027,Annual General Meeting/Dividend - Rs 19 Per Share,data/raw/corporate_actions/nse_api/HINDUNILVR/2021-09-30_2022-09-29.json
+TATASTEEL,2022-06-15,51.0,OK,True,INE081A01012,Annual General Meeting/Dividend - Rs 51 Per Share,data/raw/corporate_actions/nse_api/TATASTEEL/2021-09-30_2022-09-29.json
+BRITANNIA,2022-06-20,56.5,OK,True,INE216A01014,Annual General Meeting/Dividend - Rs 56.50 Per Share,data/raw/corporate_actions/nse_api/BRITANNIA/2021-09-30_2022-09-29.json
+BAJAJ-AUTO,2022-06-30,140.0,OK,True,INE917I01010,Dividend - Rs 140 Per Share,data/raw/corporate_actions/nse_api/BAJAJ-AUTO/2021-09-30_2022-09-29.json
+BAJAJFINSV,2022-06-30,4.0,OK,True,INE918I01018,Dividend - Rs 4 Per Share,data/raw/corporate_actions/nse_api/BAJAJFINSV/2021-09-30_2022-09-29.json
+BAJFINANCE,2022-06-30,20.0,OK,True,INE296A01016,Dividend - Rs 20 Per Share,data/raw/corporate_actions/nse_api/BAJFINANCE/2021-09-30_2022-09-29.json
+LTIM,2022-06-30,30.0,OK,False,INE214T01019,Dividend- Rs 30 Per Share,data/raw/corporate_actions/nse_api/LTM/2021-09-30_2022-09-29.json
+JSWSTEEL,2022-07-04,17.35,OK,True,INE019A01020,Annual General Meeting/Dividend - Rs 17.35 Per Share,data/raw/corporate_actions/nse_api/JSWSTEEL/2021-09-30_2022-09-29.json
+AXISBANK,2022-07-07,1.0,OK,True,INE238A01026,Dividend - Rs 1 Per Share,data/raw/corporate_actions/nse_api/AXISBANK/2021-09-30_2022-09-29.json
+TITAN,2022-07-08,7.5,OK,True,INE280A01010,Annual General Meeting/Dividend - Rs 7.50 Per Share,data/raw/corporate_actions/nse_api/TITAN/2021-09-30_2022-09-29.json
+DRREDDY,2022-07-11,30.0,OK,True,INE089A01023,Annual General Meeting/Dividend - Rs 30 Per Share,data/raw/corporate_actions/nse_api/DRREDDY/2021-09-30_2022-09-29.json
+SHREECEM,2022-07-13,45.0,OK,True,INE070A01015,Dividend - Rs 45 Per Share,data/raw/corporate_actions/nse_api/SHREECEM/2021-09-30_2022-09-29.json
+ADANIENT,2022-07-14,1.0,OK,True,INE423A01024,Dividend - Re 1 Per Share,data/raw/corporate_actions/nse_api/ADANIENT/2021-09-30_2022-09-29.json
+ADANIPORTS,2022-07-14,5.0,OK,True,INE742F01042,Dividend - Rs 5 Per Share,data/raw/corporate_actions/nse_api/ADANIPORTS/2021-09-30_2022-09-29.json
+M&M,2022-07-14,11.55,OK,True,INE101A01026,Annual General Meeting/Dividend - Rs 11.55 Per Share,data/raw/corporate_actions/nse_api/M&M/2021-09-30_2022-09-29.json
+TCS,2022-07-14,8.0,OK,True,INE467B01029,Interim Dividend- Rs 8 Per Share,data/raw/corporate_actions/nse_api/TCS/2021-09-30_2022-09-29.json
+HCLTECH,2022-07-19,10.0,OK,True,INE860A01027,Interim Dividend- Rs 10 Per Share,data/raw/corporate_actions/nse_api/HCLTECH/2021-09-30_2022-09-29.json
+LT,2022-07-21,22.0,OK,True,INE018A01030,Dividend - Rs 22 Per Share,data/raw/corporate_actions/nse_api/LT/2021-09-30_2022-09-29.json
+TECHM,2022-07-21,30.0,OK,True,INE669C01028,Annual General Meeting/Special Dividend - Rs 15 Per Share/Dividend - Rs 15 Per Share,data/raw/corporate_actions/nse_api/TECHM/2021-09-30_2022-09-29.json
+VEDL,2022-07-26,19.5,OK,True,INE205A01025,Interim Dividend- Rs 19.50 Per Share,data/raw/corporate_actions/nse_api/VEDL/2021-09-30_2022-09-29.json
+HEROMOTOCO,2022-07-27,35.0,OK,True,INE158A01026,Annual General Meeting/Dividend - Rs 35 Per Share,data/raw/corporate_actions/nse_api/HEROMOTOCO/2021-09-30_2022-09-29.json
+UPL,2022-07-27,10.0,OK,True,INE628A01036,Dividend - Rs 10 Per Share,data/raw/corporate_actions/nse_api/UPL/2021-09-30_2022-09-29.json
+BHARTIARTL,2022-08-01,3.0,OK,True,INE397D01024,Dividend - Rs 3 Per Share,data/raw/corporate_actions/nse_api/BHARTIARTL/2021-09-30_2022-09-29.json
+GAIL,2022-08-01,1.0,OK,True,INE129A01019,Dividend - Rs 1 Per Share,data/raw/corporate_actions/nse_api/GAIL/2021-09-30_2022-09-29.json
+ULTRACEMCO,2022-08-02,38.0,OK,True,INE481G01011,Annual General Meeting/Dividend - Rs 38 Per Share,data/raw/corporate_actions/nse_api/ULTRACEMCO/2021-09-30_2022-09-29.json
+MARUTI,2022-08-03,60.0,OK,True,INE585B01010,Dividend - Rs 60 Per Share,data/raw/corporate_actions/nse_api/MARUTI/2021-09-30_2022-09-29.json
+BEL,2022-08-08,1.5,OK,True,INE263A01016,Annual General Meeting/Dividend - Rs 1.50 Per Share,data/raw/corporate_actions/nse_api/BEL/2021-09-30_2022-09-29.json
+CIPLA,2022-08-08,5.0,OK,True,INE059A01026,Dividend - Rs 5 Per Share,data/raw/corporate_actions/nse_api/CIPLA/2021-09-30_2022-09-29.json
+ICICIBANK,2022-08-08,5.0,OK,True,INE090A01013,Dividend - Rs 5 Per Share,data/raw/corporate_actions/nse_api/ICICIBANK/2021-09-30_2022-09-29.json
+NTPC,2022-08-10,3.0,OK,True,INE733E01010,Dividend - Rs 3 Per Share,data/raw/corporate_actions/nse_api/NTPC/2021-09-30_2022-09-29.json
+COALINDIA,2022-08-11,3.0,OK,True,INE522F01014,Dividend - Rs 3 Per Share,data/raw/corporate_actions/nse_api/COALINDIA/2021-09-30_2022-09-29.json
+DIVISLAB,2022-08-11,30.0,OK,True,INE361B01024,Dividend - Rs 30 Per Share,data/raw/corporate_actions/nse_api/DIVISLAB/2021-09-30_2022-09-29.json
+GRASIM,2022-08-11,10.0,OK,True,INE047A01013,Annual General Meeting/Dividend - Rs 5 Per Share/Special Dividend - Rs 5 Per Share,data/raw/corporate_actions/nse_api/GRASIM/2021-09-30_2022-09-29.json
+HINDALCO,2022-08-11,4.0,OK,True,INE038A01020,Annual General Meeting/Dividend - Rs 4 Per Share,data/raw/corporate_actions/nse_api/HINDALCO/2021-09-30_2022-09-29.json
+INDUSINDBK,2022-08-11,8.5,OK,True,INE095A01012,Annual General Meeting/Dividend - Rs 8.50 Per Share,data/raw/corporate_actions/nse_api/INDUSINDBK/2021-09-30_2022-09-29.json
+IOC,2022-08-11,2.4,OK,True,INE242A01010,Dividend - Rs 2.40 Per Share,data/raw/corporate_actions/nse_api/IOC/2021-09-30_2022-09-29.json
+KOTAKBANK,2022-08-11,1.1,OK,True,INE237A01010,Dividend - Rs 1.10 Per Share,data/raw/corporate_actions/nse_api/KOTAKBANK/2021-09-30_2022-09-29.json
+EICHERMOT,2022-08-12,21.0,OK,True,INE066A01013,Annual General Meeting/Dividend - Rs 21 Per Share,data/raw/corporate_actions/nse_api/EICHERMOT/2021-09-30_2022-09-29.json
+APOLLOHOSP,2022-08-18,11.75,OK,True,INE437A01016,Annual General Meeting/Dividend - Rs 11.75 Per Share,data/raw/corporate_actions/nse_api/APOLLOHOSP/2021-09-30_2022-09-29.json
+ONGC,2022-08-18,3.25,OK,True,INE213A01011,Dividend - Rs 3.25 Per Share,data/raw/corporate_actions/nse_api/ONGC/2021-09-30_2022-09-29.json
+RELIANCE,2022-08-18,8.0,OK,True,INE002A01018,Dividend - Rs 8 Per Share,data/raw/corporate_actions/nse_api/RELIANCE/2021-09-30_2022-09-29.json
+BPCL,2022-08-19,6.0,OK,True,INE029A01011,Annual General Meeting/Dividend - Rs 6 Per Share,data/raw/corporate_actions/nse_api/BPCL/2021-09-30_2022-09-29.json
+POWERGRID,2022-08-19,2.25,OK,True,INE752E01010,Annual General Meeting/Dividend - Rs 2.25 Per Share,data/raw/corporate_actions/nse_api/POWERGRID/2021-09-30_2022-09-29.json
+SUNPHARMA,2022-08-19,3.0,OK,True,INE044A01028,Dividend - Rs 3 Per Share,data/raw/corporate_actions/nse_api/SUNPHARMA/2021-09-30_2022-09-29.json
+ZEEL,2022-09-15,3.0,OK,True,INE256A01028,Annual General Meeting/Dividend - Rs 3 Per Share,data/raw/corporate_actions/nse_api/ZEEL/2021-09-30_2022-09-29.json
+TCS,2022-10-17,8.0,OK,True,INE467B01029,Interim Dividend - Rs 8 Per Share,data/raw/corporate_actions/nse_api/TCS/2022-09-30_2023-09-29.json
+HCLTECH,2022-10-19,10.0,OK,True,INE860A01027,Interim Dividend - Rs 10 Per Share,data/raw/corporate_actions/nse_api/HCLTECH/2022-09-30_2023-09-29.json
+INFY,2022-10-27,16.5,OK,True,INE009A01021,Interim Dividend - Rs 16.50 Per Share,data/raw/corporate_actions/nse_api/INFY/2022-09-30_2023-09-29.json
+ASIANPAINT,2022-10-31,4.4,OK,True,INE021A01018,Interim Dividend - Rs 4.40 Per Share,data/raw/corporate_actions/nse_api/ASIANPAINT/2022-09-30_2023-09-29.json
+NESTLEIND,2022-10-31,120.0,OK,True,INE239A01016,Interim Dividend - Rs 120 Per Share,data/raw/corporate_actions/nse_api/NESTLEIND/2022-09-30_2023-09-29.json
+HINDUNILVR,2022-11-01,17.0,OK,True,INE030A01027,Interim Dividend - Rs 17 Per Share,data/raw/corporate_actions/nse_api/HINDUNILVR/2022-09-30_2023-09-29.json
+TECHM,2022-11-09,18.0,OK,True,INE669C01028,Special Dividend - Rs 18 Per Share,data/raw/corporate_actions/nse_api/TECHM/2022-09-30_2023-09-29.json
+POWERGRID,2022-11-14,5.0,OK,True,INE752E01010,Interim Dividend - Rs 5 Per Share,data/raw/corporate_actions/nse_api/POWERGRID/2022-09-30_2023-09-29.json
+COALINDIA,2022-11-15,15.0,OK,True,INE522F01014,Interim Dividend - Rs 15 Per Share,data/raw/corporate_actions/nse_api/COALINDIA/2022-09-30_2023-09-29.json
+ONGC,2022-11-21,6.75,OK,True,INE213A01011,Interim Dividend - Rs 6.75 Per Share,data/raw/corporate_actions/nse_api/ONGC/2022-09-30_2023-09-29.json
+VEDL,2022-11-29,17.5,OK,True,INE205A01025,Interim Dividend - Rs 17.50 Per Share,data/raw/corporate_actions/nse_api/VEDL/2022-09-30_2023-09-29.json
+SHRIRAMFIN,2023-01-03,15.0,OK,True,INE721A01013,Interim Dividend - Rs 15 Per Share,data/raw/corporate_actions/nse_api/SHRIRAMFIN/2022-09-30_2023-09-29.json
+TCS,2023-01-16,75.0,OK,True,INE467B01029,Interim Dividend - Rs 8 Per Share Special Dividend - Rs 67 Per Share,data/raw/corporate_actions/nse_api/TCS/2022-09-30_2023-09-29.json
+HCLTECH,2023-01-19,10.0,OK,True,INE860A01027,Interim Dividend - Rs 10 Per Share,data/raw/corporate_actions/nse_api/HCLTECH/2022-09-30_2023-09-29.json
+WIPRO,2023-01-24,1.0,OK,True,INE075A01022,Interim Dividend - Re 1 Per Share,data/raw/corporate_actions/nse_api/WIPRO/2022-09-30_2023-09-29.json
+LTIM,2023-01-31,20.0,OK,False,INE214T01019,Interim Dividend - Rs 20 Per Share,data/raw/corporate_actions/nse_api/LTM/2022-09-30_2023-09-29.json
+NTPC,2023-02-03,4.25,OK,True,INE733E01010,Interim Dividend - Rs 4.25 Per Share,data/raw/corporate_actions/nse_api/NTPC/2022-09-30_2023-09-29.json
+VEDL,2023-02-03,12.5,OK,True,INE205A01025,Interim Dividend - Rs 12.50 Per Share,data/raw/corporate_actions/nse_api/VEDL/2022-09-30_2023-09-29.json
+COALINDIA,2023-02-08,5.25,OK,True,INE522F01014,Interim Dividend - Rs 5.25 Per Share,data/raw/corporate_actions/nse_api/COALINDIA/2022-09-30_2023-09-29.json
+POWERGRID,2023-02-08,5.0,OK,True,INE752E01010,Interim Dividend - Rs 5 Per Share,data/raw/corporate_actions/nse_api/POWERGRID/2022-09-30_2023-09-29.json
+SUNPHARMA,2023-02-08,7.5,OK,True,INE044A01028,Interim Dividend - Rs 7.50 Per Share,data/raw/corporate_actions/nse_api/SUNPHARMA/2022-09-30_2023-09-29.json
+BEL,2023-02-10,0.6,OK,True,INE263A01016,Interim Dividend - Re 0.60 Per Share,data/raw/corporate_actions/nse_api/BEL/2022-09-30_2023-09-29.json
+ITC,2023-02-15,6.0,OK,True,INE154A01025,Interim Dividend - Rs 6 Per Share,data/raw/corporate_actions/nse_api/ITC/2022-09-30_2023-09-29.json
+SHREECEM,2023-02-16,45.0,OK,True,INE070A01015,Interim Dividend - Rs 45 Per Share,data/raw/corporate_actions/nse_api/SHREECEM/2022-09-30_2023-09-29.json
+HEROMOTOCO,2023-02-17,65.0,OK,True,INE158A01026,Interim Dividend - Rs 65 Per Share,data/raw/corporate_actions/nse_api/HEROMOTOCO/2022-09-30_2023-09-29.json
+APOLLOHOSP,2023-02-24,6.0,OK,True,INE437A01016,Interim Dividend - Rs 6 Per Share,data/raw/corporate_actions/nse_api/APOLLOHOSP/2022-09-30_2023-09-29.json
+ONGC,2023-02-24,4.0,OK,True,INE213A01011,Interim Dividend - Rs 4 Per Share,data/raw/corporate_actions/nse_api/ONGC/2022-09-30_2023-09-29.json
+SBILIFE,2023-03-16,2.5,OK,True,INE123W01016,Interim Dividend - Rs 2.50 Per Share,data/raw/corporate_actions/nse_api/SBILIFE/2022-09-30_2023-09-29.json
+GAIL,2023-03-21,4.0,OK,True,INE129A01019,Interim Dividend - Rs 4 Per Share,data/raw/corporate_actions/nse_api/GAIL/2022-09-30_2023-09-29.json
+BEL,2023-03-24,0.6,OK,True,INE263A01016,Interim Dividend - Rs 0.60 Per Share,data/raw/corporate_actions/nse_api/BEL/2022-09-30_2023-09-29.json
+VEDL,2023-04-06,20.5,OK,True,INE205A01025,Interim Dividend - Rs 20.50 Per Share,data/raw/corporate_actions/nse_api/VEDL/2022-09-30_2023-09-29.json
+BRITANNIA,2023-04-13,72.0,OK,True,INE216A01014,Interim Dividend - Rs 72 Per Share,data/raw/corporate_actions/nse_api/BRITANNIA/2022-09-30_2023-09-29.json
+NESTLEIND,2023-04-21,102.0,OK,True,INE239A01016,Final Dividend - Rs 75 Per Share || Interim Dividend - Rs 27 Per Share,data/raw/corporate_actions/nse_api/NESTLEIND/2022-09-30_2023-09-29.json
+HCLTECH,2023-04-28,18.0,OK,True,INE860A01027,Interim Dividend - Rs 18 Per Share,data/raw/corporate_actions/nse_api/HCLTECH/2022-09-30_2023-09-29.json
+HDFC,2023-05-16,44.0,OK,True,INE001A01028,Interim Dividend - Rs 44 Per Share,data/raw/corporate_actions/nse_api/HDFC/2022-09-30_2023-09-29.json
+HDFCBANK,2023-05-16,19.0,OK,True,INE040A01018,Dividend - Rs 19 Per Share,data/raw/corporate_actions/nse_api/HDFCBANK/2022-09-30_2023-09-29.json
+TATACONSUM,2023-05-19,8.45,OK,True,INE192A01025,Annual General Meeting/Dividend - Rs 8.45 Per Share,data/raw/corporate_actions/nse_api/TATACONSUM/2022-09-30_2023-09-29.json
+TRENT,2023-05-25,2.2,OK,True,INE849A01012,Dividend - Rs 2.20 Per Share,data/raw/corporate_actions/nse_api/TRENT/2022-09-30_2023-09-29.json
+ITC,2023-05-30,9.5,OK,True,INE154A01025,Dividend - Rs 6.75 Per Share /Special Dividend - Rs 2.75 Per Share,data/raw/corporate_actions/nse_api/ITC/2022-09-30_2023-09-29.json
+VEDL,2023-05-30,18.5,OK,True,INE205A01025,Interim Dividend - Rs 18.50 Per Share,data/raw/corporate_actions/nse_api/VEDL/2022-09-30_2023-09-29.json
+SBIN,2023-05-31,11.3,OK,True,INE062A01012,Dividend - Rs 11.30 Per Share,data/raw/corporate_actions/nse_api/SBIN/2022-09-30_2023-09-29.json
+SHREECEM,2023-06-01,55.0,OK,True,INE070A01015,Interim Dividend - Rs 55 Per Share,data/raw/corporate_actions/nse_api/SHREECEM/2022-09-30_2023-09-29.json
+INDUSINDBK,2023-06-02,14.0,OK,True,INE095A01012,Dividend - Rs 14 Per Share,data/raw/corporate_actions/nse_api/INDUSINDBK/2022-09-30_2023-09-29.json
+INFY,2023-06-02,17.5,OK,True,INE009A01021,Annual General Meeting/Dividend - Rs 17.50 Per Share,data/raw/corporate_actions/nse_api/INFY/2022-09-30_2023-09-29.json
+ASIANPAINT,2023-06-09,21.25,OK,True,INE021A01018,Dividend - Rs 21.25 Per Share,data/raw/corporate_actions/nse_api/ASIANPAINT/2022-09-30_2023-09-29.json
+TCS,2023-06-15,24.0,OK,True,INE467B01029,Dividend - Rs 24 Per Share,data/raw/corporate_actions/nse_api/TCS/2022-09-30_2023-09-29.json
+HDFCLIFE,2023-06-16,1.9,OK,True,INE795G01014,Dividend - Rs 1.90 Per Share,data/raw/corporate_actions/nse_api/HDFCLIFE/2022-09-30_2023-09-29.json
+SHRIRAMFIN,2023-06-16,20.0,OK,True,INE721A01013,Annual General Meeting/Dividend - Rs 20 Per Share,data/raw/corporate_actions/nse_api/SHRIRAMFIN/2022-09-30_2023-09-29.json
+HINDUNILVR,2023-06-19,22.0,OK,True,INE030A01027,Annual General Meeting/Dividend - Rs 22 Per Share,data/raw/corporate_actions/nse_api/HINDUNILVR/2022-09-30_2023-09-29.json
+TATASTEEL,2023-06-22,3.6,OK,True,INE081A01012,Annual General Meeting/Dividend - Rs 3.60 Per Share,data/raw/corporate_actions/nse_api/TATASTEEL/2022-09-30_2023-09-29.json
+BAJAJ-AUTO,2023-06-30,140.0,OK,True,INE917I01010,Dividend - Rs 140 Per Share,data/raw/corporate_actions/nse_api/BAJAJ-AUTO/2022-09-30_2023-09-29.json
+BAJAJFINSV,2023-06-30,0.8,OK,True,INE918I01018,Dividend - Rs 0.80 Per Share,data/raw/corporate_actions/nse_api/BAJAJFINSV/2022-09-30_2023-09-29.json
+BAJFINANCE,2023-06-30,30.0,OK,True,INE296A01016,Dividend - Rs 30 Per Share,data/raw/corporate_actions/nse_api/BAJFINANCE/2022-09-30_2023-09-29.json
+ADANIENT,2023-07-07,1.2,OK,True,INE423A01024,Dividend - Rs 1.20 Per Share,data/raw/corporate_actions/nse_api/ADANIENT/2022-09-30_2023-09-29.json
+AXISBANK,2023-07-07,1.0,OK,True,INE238A01026,Dividend - Re 1 Per Share,data/raw/corporate_actions/nse_api/AXISBANK/2022-09-30_2023-09-29.json
+LTIM,2023-07-10,40.0,OK,False,INE214T01019,Dividend - Rs 40 Per Share,data/raw/corporate_actions/nse_api/LTM/2022-09-30_2023-09-29.json
+DRREDDY,2023-07-11,40.0,OK,True,INE089A01023,Annual General Meeting/Dividend - Rs 40 Per Share,data/raw/corporate_actions/nse_api/DRREDDY/2022-09-30_2023-09-29.json
+JSWSTEEL,2023-07-11,3.4,OK,True,INE019A01020,Annual General Meeting/Dividend - Rs 3.40 Per Share,data/raw/corporate_actions/nse_api/JSWSTEEL/2022-09-30_2023-09-29.json
+TITAN,2023-07-13,10.0,OK,True,INE280A01010,Annual General Meeting/Dividend - Rs 10 Per Share,data/raw/corporate_actions/nse_api/TITAN/2022-09-30_2023-09-29.json
+M&M,2023-07-14,16.25,OK,True,INE101A01026,Annual General Meeting/Dividend - Rs 16.25 Per Share,data/raw/corporate_actions/nse_api/M&M/2022-09-30_2023-09-29.json
+HCLTECH,2023-07-20,10.0,OK,True,INE860A01027,Dividend - Rs 10 Per Share,data/raw/corporate_actions/nse_api/HCLTECH/2022-09-30_2023-09-29.json
+TCS,2023-07-20,9.0,OK,True,INE467B01029,Interim Dividend - Rs 9 Per Share,data/raw/corporate_actions/nse_api/TCS/2022-09-30_2023-09-29.json
+CIPLA,2023-07-21,8.5,OK,True,INE059A01026,Dividend - Rs 8.50 Per Share,data/raw/corporate_actions/nse_api/CIPLA/2022-09-30_2023-09-29.json
+TECHM,2023-07-21,32.0,OK,True,INE669C01028,Annual General Meeting/Dividend - Rs 32 Per Share,data/raw/corporate_actions/nse_api/TECHM/2022-09-30_2023-09-29.json
+HEROMOTOCO,2023-07-27,35.0,OK,True,INE158A01026,Annual General Meeting/Dividend - Rs 35 Per Share,data/raw/corporate_actions/nse_api/HEROMOTOCO/2022-09-30_2023-09-29.json
+ULTRACEMCO,2023-07-27,38.0,OK,True,INE481G01011,Annual General Meeting/Dividend - Rs 38 Per Share,data/raw/corporate_actions/nse_api/ULTRACEMCO/2022-09-30_2023-09-29.json
+ADANIPORTS,2023-07-28,5.0,OK,True,INE742F01042,Dividend - Rs 5 Per Share,data/raw/corporate_actions/nse_api/ADANIPORTS/2022-09-30_2023-09-29.json
+IOC,2023-07-28,3.0,OK,True,INE242A01010,Dividend - Rs 3 Per Share,data/raw/corporate_actions/nse_api/IOC/2022-09-30_2023-09-29.json
+SUNPHARMA,2023-07-28,4.0,OK,True,INE044A01028,Dividend - Rs 4 Per Share,data/raw/corporate_actions/nse_api/SUNPHARMA/2022-09-30_2023-09-29.json
+TATAMOTORS,2023-07-28,2.0,OK,True,INE155A01022,Dividend - Rs 2 Per Share,data/raw/corporate_actions/nse_api/TMPV/2022-09-30_2023-09-29.json
+LT,2023-08-02,30.0,OK,True,INE018A01030,Dividend - Rs 24 Per Share || Special Dividend - Rs 6 Per Share,data/raw/corporate_actions/nse_api/LT/2022-09-30_2023-09-29.json
+MARUTI,2023-08-03,90.0,OK,True,INE585B01010,Dividend - Rs 90 Per Share,data/raw/corporate_actions/nse_api/MARUTI/2022-09-30_2023-09-29.json
+UPL,2023-08-03,10.0,OK,True,INE628A01036,Annual General Meeting/Dividend - Rs 10 Per Share,data/raw/corporate_actions/nse_api/UPL/2022-09-30_2023-09-29.json
+KOTAKBANK,2023-08-04,1.5,OK,True,INE237A01010,Dividend - Rs 1.50 Per Sh,data/raw/corporate_actions/nse_api/KOTAKBANK/2022-09-30_2023-09-29.json
+POWERGRID,2023-08-08,4.75,OK,True,INE752E01010,Dividend - Rs 4.75 Per Share,data/raw/corporate_actions/nse_api/POWERGRID/2022-09-30_2023-09-29.json
+ICICIBANK,2023-08-09,8.0,OK,True,INE090A01013,Dividend - Rs 8 Per Share,data/raw/corporate_actions/nse_api/ICICIBANK/2022-09-30_2023-09-29.json
+BHARTIARTL,2023-08-11,4.0,OK,True,INE397D01024,Dividend - Rs 4 Per Share,data/raw/corporate_actions/nse_api/BHARTIARTL/2022-09-30_2023-09-29.json
+BPCL,2023-08-11,4.0,OK,True,INE029A01011,Dividend - Rs 4 Per Share,data/raw/corporate_actions/nse_api/BPCL/2022-09-30_2023-09-29.json
+DIVISLAB,2023-08-11,30.0,OK,True,INE361B01024,Dividend - Rs 30 Per Share,data/raw/corporate_actions/nse_api/DIVISLAB/2022-09-30_2023-09-29.json
+GRASIM,2023-08-11,10.0,OK,True,INE047A01013,Annual General Meeting/Dividend - Rs 10 Per Share,data/raw/corporate_actions/nse_api/GRASIM/2022-09-30_2023-09-29.json
+NTPC,2023-08-11,3.0,OK,True,INE733E01010,Dividend - Rs 3 Per Share,data/raw/corporate_actions/nse_api/NTPC/2022-09-30_2023-09-29.json
+EICHERMOT,2023-08-14,37.0,OK,True,INE066A01013,Annual General Meeting/Dividend - Rs 37 Per Share,data/raw/corporate_actions/nse_api/EICHERMOT/2022-09-30_2023-09-29.json
+HINDALCO,2023-08-14,3.0,OK,True,INE038A01020,Annual General Meeting/Dividend - Rs 3 Per Share,data/raw/corporate_actions/nse_api/HINDALCO/2022-09-30_2023-09-29.json
+BEL,2023-08-17,0.6,OK,True,INE263A01016,Annual General Meeting/Dividend - Re 0.60 Per Share,data/raw/corporate_actions/nse_api/BEL/2022-09-30_2023-09-29.json
+APOLLOHOSP,2023-08-18,9.0,OK,True,INE437A01016,Annual General Meeting/Dividend - Rs 9 Per Share,data/raw/corporate_actions/nse_api/APOLLOHOSP/2022-09-30_2023-09-29.json
+COALINDIA,2023-08-18,4.0,OK,True,INE522F01014,Dividend - Rs 4 Per Share,data/raw/corporate_actions/nse_api/COALINDIA/2022-09-30_2023-09-29.json
+ONGC,2023-08-18,0.5,OK,True,INE213A01011,Dividend - Re 0.50 Per Share,data/raw/corporate_actions/nse_api/ONGC/2022-09-30_2023-09-29.json
+RELIANCE,2023-08-21,9.0,OK,True,INE002A01018,Dividend - Rs 9 Per Share,data/raw/corporate_actions/nse_api/RELIANCE/2022-09-30_2023-09-29.json
+MAXHEALTH,2023-09-08,1.0,OK,True,INE027H01010,Dividend - Re 1 Per Share,data/raw/corporate_actions/nse_api/MAXHEALTH/2022-09-30_2023-09-29.json
+IBULHSGFIN,2023-09-18,1.25,OK,True,INE148I01020,Dividend - Rs 1.25 Per Share,data/raw/corporate_actions/nse_api/SAMMAANCAP/2022-09-30_2023-09-29.json
+TCS,2023-10-19,9.0,OK,True,INE467B01029,Interim Dividend - Rs 9 Per Share,data/raw/corporate_actions/nse_api/TCS/2023-09-30_2024-09-28.json
+HCLTECH,2023-10-20,12.0,OK,True,INE860A01027,Interim Dividend - Rs 12 Per Share,data/raw/corporate_actions/nse_api/HCLTECH/2023-09-30_2024-09-28.json
+INFY,2023-10-25,18.0,OK,True,INE009A01021,Interim Dividend - Rs 18 Per Share,data/raw/corporate_actions/nse_api/INFY/2023-09-30_2024-09-28.json
+LTIM,2023-10-27,20.0,OK,False,INE214T01019,Interim Dividend - Rs 20 Per Share,data/raw/corporate_actions/nse_api/LTM/2023-09-30_2024-09-28.json
+NESTLEIND,2023-11-01,140.0,OK,True,INE239A01016,Interim Dividend - Rs 140 Per Share,data/raw/corporate_actions/nse_api/NESTLEIND/2023-09-30_2024-09-28.json
+HINDUNILVR,2023-11-02,18.0,OK,True,INE030A01027,Interim Dividend - Rs 18 Per Share,data/raw/corporate_actions/nse_api/HINDUNILVR/2023-09-30_2024-09-28.json
+TECHM,2023-11-02,12.0,OK,True,INE669C01028,Interim Dividend - Rs 12 Per Share,data/raw/corporate_actions/nse_api/TECHM/2023-09-30_2024-09-28.json
+ASIANPAINT,2023-11-03,5.15,OK,True,INE021A01018,Interim Dividend - Rs 5.15 Per Share,data/raw/corporate_actions/nse_api/ASIANPAINT/2023-09-30_2024-09-28.json
+NTPC,2023-11-03,2.25,OK,True,INE733E01010,Interim Dividend - Rs 2.25 Per Share,data/raw/corporate_actions/nse_api/NTPC/2023-09-30_2024-09-28.json
+SHRIRAMFIN,2023-11-06,20.0,OK,True,INE721A01013,Interim Dividend - Rs 20 Per Share,data/raw/corporate_actions/nse_api/SHRIRAMFIN/2023-09-30_2024-09-28.json
+IOC,2023-11-10,5.0,OK,True,INE242A01010,Interim Dividend - Rs 5 Per Share,data/raw/corporate_actions/nse_api/IOC/2023-09-30_2024-09-28.json
+POWERGRID,2023-11-16,4.0,OK,True,INE752E01010,Interim Dividend - Rs 4 Per Share,data/raw/corporate_actions/nse_api/POWERGRID/2023-09-30_2024-09-28.json
+COALINDIA,2023-11-21,15.25,OK,True,INE522F01014,Interim Dividend - Rs 15.25 Per Share,data/raw/corporate_actions/nse_api/COALINDIA/2023-09-30_2024-09-28.json
+ONGC,2023-11-21,5.75,OK,True,INE213A01011,Interim Dividend - Rs 5.75 Per Share,data/raw/corporate_actions/nse_api/ONGC/2023-09-30_2024-09-28.json
+BPCL,2023-12-12,21.0,OK,True,INE029A01011,Interim Dividend - Rs 21 Per Share,data/raw/corporate_actions/nse_api/BPCL/2023-09-30_2024-09-28.json
+VEDL,2023-12-27,11.0,OK,True,INE205A01025,Interim Dividend - Rs 11 Per Share,data/raw/corporate_actions/nse_api/VEDL/2023-09-30_2024-09-28.json
+HCLTECH,2024-01-19,12.0,OK,True,INE860A01027,Interim Dividend - Rs 12 Per Share,data/raw/corporate_actions/nse_api/HCLTECH/2023-09-30_2024-09-28.json
+TCS,2024-01-19,27.0,OK,True,INE467B01029,Interim Dividend - Rs 9 Per Share Special Dividend - Rs 18 Per Share,data/raw/corporate_actions/nse_api/TCS/2023-09-30_2024-09-28.json
+WIPRO,2024-01-24,1.0,OK,True,INE075A01022,Interim Dividend - Re 1 Per Share,data/raw/corporate_actions/nse_api/WIPRO/2023-09-30_2024-09-28.json
+GAIL,2024-02-06,5.5,OK,True,INE129A01019,Interim Dividend - Rs 5.50 Per Share,data/raw/corporate_actions/nse_api/GAIL/2023-09-30_2024-09-28.json
+NTPC,2024-02-06,2.25,OK,True,INE733E01010,Interim Dividend - Rs 2.25 Per Share,data/raw/corporate_actions/nse_api/NTPC/2023-09-30_2024-09-28.json
+SHRIRAMFIN,2024-02-06,10.0,OK,True,INE721A01013,Interim Dividend - Rs 10 Per Share,data/raw/corporate_actions/nse_api/SHRIRAMFIN/2023-09-30_2024-09-28.json
+ITC,2024-02-08,6.25,OK,True,INE154A01025,Interim Dividend - Rs 6.25 Per Share,data/raw/corporate_actions/nse_api/ITC/2023-09-30_2024-09-28.json
+SHREECEM,2024-02-08,50.0,OK,True,INE070A01015,Interim Dividend - Rs 50 Per Share,data/raw/corporate_actions/nse_api/SHREECEM/2023-09-30_2024-09-28.json
+BEL,2024-02-09,0.7,OK,True,INE263A01016,Interim Dividend - Re 0.70 Per Share,data/raw/corporate_actions/nse_api/BEL/2023-09-30_2024-09-28.json
+SUNPHARMA,2024-02-09,8.5,OK,True,INE044A01028,Interim Dividend - Rs 8.50 Per Share,data/raw/corporate_actions/nse_api/SUNPHARMA/2023-09-30_2024-09-28.json
+NESTLEIND,2024-02-15,7.0,OK,True,INE239A01016,Interim Dividend - Rs 7 Per Share,data/raw/corporate_actions/nse_api/NESTLEIND/2023-09-30_2024-09-28.json
+POWERGRID,2024-02-15,4.5,OK,True,INE752E01010,Interim Dividend - Rs 4.50 Per Share,data/raw/corporate_actions/nse_api/POWERGRID/2023-09-30_2024-09-28.json
+ONGC,2024-02-16,4.0,OK,True,INE213A01011,Interim Dividend - Rs 4 Per Share,data/raw/corporate_actions/nse_api/ONGC/2023-09-30_2024-09-28.json
+APOLLOHOSP,2024-02-20,6.0,OK,True,INE437A01016,Interim Dividend - Rs 6 Per Share,data/raw/corporate_actions/nse_api/APOLLOHOSP/2023-09-30_2024-09-28.json
+COALINDIA,2024-02-20,5.25,OK,True,INE522F01014,Interim Dividend - Rs 5.25 Per Share,data/raw/corporate_actions/nse_api/COALINDIA/2023-09-30_2024-09-28.json
+HEROMOTOCO,2024-02-21,100.0,OK,True,INE158A01026,Interim Dividend - Rs 75 Per Share/ Special Dividend - Rs 25 Per Share,data/raw/corporate_actions/nse_api/HEROMOTOCO/2023-09-30_2024-09-28.json
+SBILIFE,2024-03-15,2.7,OK,True,INE123W01016,Interim Dividend - Rs 2.70 Per Share,data/raw/corporate_actions/nse_api/SBILIFE/2023-09-30_2024-09-28.json
+BEL,2024-03-22,0.7,OK,True,INE263A01016,Interim Dividend - Re 0.70 Per Share,data/raw/corporate_actions/nse_api/BEL/2023-09-30_2024-09-28.json
+HCLTECH,2024-05-07,18.0,OK,True,INE860A01027,Interim Dividend - Rs 18 Per Share,data/raw/corporate_actions/nse_api/HCLTECH/2023-09-30_2024-09-28.json
+HDFCBANK,2024-05-10,19.5,OK,True,INE040A01018,Dividend - Rs 19.50 Per Share,data/raw/corporate_actions/nse_api/HDFCBANK/2023-09-30_2024-09-28.json
+TCS,2024-05-16,28.0,OK,True,INE467B01029,Dividend - Rs 28 Per Share,data/raw/corporate_actions/nse_api/TCS/2023-09-30_2024-09-28.json
+SBIN,2024-05-22,13.7,OK,True,INE062A01012,Dividend - Rs 13.70 Per Share,data/raw/corporate_actions/nse_api/SBIN/2023-09-30_2024-09-28.json
+TRENT,2024-05-22,3.2,OK,True,INE849A01012,Dividend - Rs 3.20 Per Share,data/raw/corporate_actions/nse_api/TRENT/2023-09-30_2024-09-28.json
+TATACONSUM,2024-05-24,7.75,OK,True,INE192A01025,Dividend - Rs 7.75 Per Share,data/raw/corporate_actions/nse_api/TATACONSUM/2023-09-30_2024-09-28.json
+VEDL,2024-05-24,11.0,OK,True,INE205A01025,Interim Dividend - Rs 11 Per Share,data/raw/corporate_actions/nse_api/VEDL/2023-09-30_2024-09-28.json
+INFY,2024-05-31,28.0,OK,True,INE009A01021,Annual General Meeting/Special Dividend - Rs 8 Per Share /Dividend - Rs 20 Per Share,data/raw/corporate_actions/nse_api/INFY/2023-09-30_2024-09-28.json
+ITC,2024-06-04,7.5,OK,True,INE154A01025,Dividend - Rs 7.50 Per Share,data/raw/corporate_actions/nse_api/ITC/2023-09-30_2024-09-28.json
+ASIANPAINT,2024-06-11,28.15,OK,True,INE021A01018,Dividend - Rs 28.15 Per Share,data/raw/corporate_actions/nse_api/ASIANPAINT/2023-09-30_2024-09-28.json
+TATAMOTORS,2024-06-11,6.0,OK,True,INE155A01022,Dividend - Rs 3 Per Share & Special Dividend - Rs 3 Per Share,data/raw/corporate_actions/nse_api/TMPV/2023-09-30_2024-09-28.json
+ADANIENT,2024-06-14,1.3,OK,True,INE423A01024,Dividend - Rs 1.30 Per Share,data/raw/corporate_actions/nse_api/ADANIENT/2023-09-30_2024-09-28.json
+ADANIPORTS,2024-06-14,6.0,OK,True,INE742F01042,Dividend - Rs 6 Per Share,data/raw/corporate_actions/nse_api/ADANIPORTS/2023-09-30_2024-09-28.json
+BAJAJ-AUTO,2024-06-14,80.0,OK,True,INE917I01010,Dividend - Rs 80 Per Share,data/raw/corporate_actions/nse_api/BAJAJ-AUTO/2023-09-30_2024-09-28.json
+HINDUNILVR,2024-06-14,24.0,OK,True,INE030A01027,Annual General Meeting/Dividend - Rs 24 Per Share,data/raw/corporate_actions/nse_api/HINDUNILVR/2023-09-30_2024-09-28.json
+LTIM,2024-06-19,45.0,OK,False,INE214T01019,Dividend - Rs 45 Per Share,data/raw/corporate_actions/nse_api/LTM/2023-09-30_2024-09-28.json
+LT,2024-06-20,28.0,OK,True,INE018A01030,Dividend - Rs 28 Per Share,data/raw/corporate_actions/nse_api/LT/2023-09-30_2024-09-28.json
+BAJAJFINSV,2024-06-21,1.0,OK,True,INE918I01018,Dividend - Re 1 Per Share,data/raw/corporate_actions/nse_api/BAJAJFINSV/2023-09-30_2024-09-28.json
+BAJFINANCE,2024-06-21,36.0,OK,True,INE296A01016,Dividend - Rs 36 Per Share,data/raw/corporate_actions/nse_api/BAJFINANCE/2023-09-30_2024-09-28.json
+HDFCLIFE,2024-06-21,2.0,OK,True,INE795G01014,Dividend - Rs 2 Per Share,data/raw/corporate_actions/nse_api/HDFCLIFE/2023-09-30_2024-09-28.json
+TATASTEEL,2024-06-21,3.6,OK,True,INE081A01012,Dividend - Rs 3.60 Per Share,data/raw/corporate_actions/nse_api/TATASTEEL/2023-09-30_2024-09-28.json
+TITAN,2024-06-27,11.0,OK,True,INE280A01010,Annual General Meeting/Dividend - Rs 11 Per Share,data/raw/corporate_actions/nse_api/TITAN/2023-09-30_2024-09-28.json
+INDUSINDBK,2024-06-28,16.5,OK,True,INE095A01012,Dividend - Rs 16.50 Per Share,data/raw/corporate_actions/nse_api/INDUSINDBK/2023-09-30_2024-09-28.json
+M&M,2024-07-05,21.1,OK,True,INE101A01026,Annual General Meeting/Dividend - Rs 21.10 Per Share,data/raw/corporate_actions/nse_api/M&M/2023-09-30_2024-09-28.json
+JSWSTEEL,2024-07-09,7.3,OK,True,INE019A01020,Annual General Meeting/Dividend - Rs 7.30 Per Share,data/raw/corporate_actions/nse_api/JSWSTEEL/2023-09-30_2024-09-28.json
+AXISBANK,2024-07-12,1.0,OK,True,INE238A01026,Dividend - Re 1 Per Share,data/raw/corporate_actions/nse_api/AXISBANK/2023-09-30_2024-09-28.json
+IOC,2024-07-12,7.0,OK,True,INE242A01010,Dividend - Rs 7 Per Share,data/raw/corporate_actions/nse_api/IOC/2023-09-30_2024-09-28.json
+SUNPHARMA,2024-07-12,5.0,OK,True,INE044A01028,Dividend - Rs 5 Per Share,data/raw/corporate_actions/nse_api/SUNPHARMA/2023-09-30_2024-09-28.json
+DRREDDY,2024-07-16,40.0,OK,True,INE089A01023,Annual General Meeting/Dividend - Rs 40 Per Share,data/raw/corporate_actions/nse_api/DRREDDY/2023-09-30_2024-09-28.json
+NESTLEIND,2024-07-16,11.25,OK,True,INE239A01016,Dividend - Rs 8.50 Per Share || Interim Dividend - Rs 2.75 Per Share,data/raw/corporate_actions/nse_api/NESTLEIND/2023-09-30_2024-09-28.json
+KOTAKBANK,2024-07-19,2.0,OK,True,INE237A01010,Dividend - Rs 2 Per Share,data/raw/corporate_actions/nse_api/KOTAKBANK/2023-09-30_2024-09-28.json
+TCS,2024-07-19,10.0,OK,True,INE467B01029,Interim Dividend - Rs 10 Per Share,data/raw/corporate_actions/nse_api/TCS/2023-09-30_2024-09-28.json
+TECHM,2024-07-19,28.0,OK,True,INE669C01028,Annual General Meeting/Dividend - Rs 28 Per Share,data/raw/corporate_actions/nse_api/TECHM/2023-09-30_2024-09-28.json
+HCLTECH,2024-07-23,12.0,OK,True,INE860A01027,Interim Dividend - Rs 12 Per Share,data/raw/corporate_actions/nse_api/HCLTECH/2023-09-30_2024-09-28.json
+SHREECEM,2024-07-23,55.0,OK,True,INE070A01015,Dividend - Rs 55 Per Share,data/raw/corporate_actions/nse_api/SHREECEM/2023-09-30_2024-09-28.json
+SHRIRAMFIN,2024-07-23,15.0,OK,True,INE721A01013,Annual General Meeting/Dividend - Rs 15 Per Share,data/raw/corporate_actions/nse_api/SHRIRAMFIN/2023-09-30_2024-09-28.json
+ULTRACEMCO,2024-07-30,70.0,OK,True,INE481G01011,Annual General Meeting/Dividend - Rs 70 Per Share,data/raw/corporate_actions/nse_api/ULTRACEMCO/2023-09-30_2024-09-28.json
+HEROMOTOCO,2024-08-01,40.0,OK,True,INE158A01026,Annual General Meeting/Dividend - Rs 40 Per Share,data/raw/corporate_actions/nse_api/HEROMOTOCO/2023-09-30_2024-09-28.json
+CIPLA,2024-08-02,13.0,OK,True,INE059A01026,Dividend - Rs 13 Per Share,data/raw/corporate_actions/nse_api/CIPLA/2023-09-30_2024-09-28.json
+DIVISLAB,2024-08-02,30.0,OK,True,INE361B01024,Dividend - Rs 30 Per Share,data/raw/corporate_actions/nse_api/DIVISLAB/2023-09-30_2024-09-28.json
+MARUTI,2024-08-02,125.0,OK,True,INE585B01010,Dividend - Rs 125 Per Share,data/raw/corporate_actions/nse_api/MARUTI/2023-09-30_2024-09-28.json
+VEDL,2024-08-02,4.0,OK,True,INE205A01025,Interim Dividend - Rs 4 Per Share,data/raw/corporate_actions/nse_api/VEDL/2023-09-30_2024-09-28.json
+BRITANNIA,2024-08-05,73.5,OK,True,INE216A01014,Annual General Meeting/ Dividend - Rs 73.5 Per Share,data/raw/corporate_actions/nse_api/BRITANNIA/2023-09-30_2024-09-28.json
+GRASIM,2024-08-06,10.0,OK,True,INE047A01013,Annual General Meeting/Dividend - Rs 10 Per Share,data/raw/corporate_actions/nse_api/GRASIM/2023-09-30_2024-09-28.json
+BHARTIARTL,2024-08-07,8.0,OK,True,INE397D01024,Dividend - Rs 8 Per Share,data/raw/corporate_actions/nse_api/BHARTIARTL/2023-09-30_2024-09-28.json
+EICHERMOT,2024-08-07,51.0,OK,True,INE066A01013,Dividend - Rs 51 Per Share,data/raw/corporate_actions/nse_api/EICHERMOT/2023-09-30_2024-09-28.json
+NTPC,2024-08-07,3.25,OK,True,INE733E01010,Dividend - Rs 3.25 Per Share,data/raw/corporate_actions/nse_api/NTPC/2023-09-30_2024-09-28.json
+BPCL,2024-08-09,10.5,OK,True,INE029A01011,Dividend - Rs 10.5 Per Share,data/raw/corporate_actions/nse_api/BPCL/2023-09-30_2024-09-28.json
+HINDALCO,2024-08-09,3.5,OK,True,INE038A01020,Annual General Meeting/Dividend - Rs 3.5 Per Share,data/raw/corporate_actions/nse_api/HINDALCO/2023-09-30_2024-09-28.json
+ICICIBANK,2024-08-12,10.0,OK,True,INE090A01013,Dividend - Rs 10 Per Share,data/raw/corporate_actions/nse_api/ICICIBANK/2023-09-30_2024-09-28.json
+UPL,2024-08-12,1.0,OK,True,INE628A01036,Dividend - Re 1 Per Share,data/raw/corporate_actions/nse_api/UPL/2023-09-30_2024-09-28.json
+BEL,2024-08-14,0.8,OK,True,INE263A01016,Annual General Meeting/Dividend - Re 0.80 Per Share,data/raw/corporate_actions/nse_api/BEL/2023-09-30_2024-09-28.json
+APOLLOHOSP,2024-08-16,10.0,OK,True,INE437A01016,Annual General Meeting/Dividend - Rs 10 Per Share,data/raw/corporate_actions/nse_api/APOLLOHOSP/2023-09-30_2024-09-28.json
+COALINDIA,2024-08-16,5.0,OK,True,INE522F01014,Dividend - Rs 5 Per Share,data/raw/corporate_actions/nse_api/COALINDIA/2023-09-30_2024-09-28.json
+POWERGRID,2024-08-16,2.75,OK,True,INE752E01010,Annual General Meeting/Dividend - Rs 2.75 Per Share,data/raw/corporate_actions/nse_api/POWERGRID/2023-09-30_2024-09-28.json
+RELIANCE,2024-08-19,10.0,OK,True,INE002A01018,Dividend - Rs 10 Per Share,data/raw/corporate_actions/nse_api/RELIANCE/2023-09-30_2024-09-28.json
+MAXHEALTH,2024-08-23,1.5,OK,True,INE027H01010,Dividend - Rs 1.5 Per Share,data/raw/corporate_actions/nse_api/MAXHEALTH/2023-09-30_2024-09-28.json
+ONGC,2024-08-23,2.5,OK,True,INE213A01011,Dividend - Rs 2.50 Per Share,data/raw/corporate_actions/nse_api/ONGC/2023-09-30_2024-09-28.json
+VEDL,2024-09-10,20.0,OK,True,INE205A01025,Interim Dividend - Rs 20 Per Share,data/raw/corporate_actions/nse_api/VEDL/2023-09-30_2024-09-28.json
+SAMMAANCAP,2024-09-20,2.0,OK,True,INE148I01020,Dividend - Rs 2 Per Share,data/raw/corporate_actions/nse_api/SAMMAANCAP/2023-09-30_2024-09-28.json
+TCS,2024-10-18,10.0,OK,True,INE467B01029,Interim Dividend - Rs 10 Per Share,data/raw/corporate_actions/nse_api/TCS/2024-09-29_2025-09-28.json
+HCLTECH,2024-10-22,12.0,OK,True,INE860A01027,Interim Dividend - Rs 12 Per Share,data/raw/corporate_actions/nse_api/HCLTECH/2024-09-29_2025-09-28.json
+LTIM,2024-10-25,20.0,OK,False,INE214T01019,Interim Dividend - Rs 20 Per Share,data/raw/corporate_actions/nse_api/LTM/2024-09-29_2025-09-28.json
+INFY,2024-10-29,21.0,OK,True,INE009A01021,Interim Dividend - Rs 21 Per Share,data/raw/corporate_actions/nse_api/INFY/2024-09-29_2025-09-28.json
+NTPC,2024-10-31,2.5,OK,True,INE733E01010,Interim Dividend - Rs 2.50 Per Share,data/raw/corporate_actions/nse_api/NTPC/2024-09-29_2025-09-28.json
+TECHM,2024-10-31,15.0,OK,True,INE669C01028,Interim Dividend - Rs 15 Per Share,data/raw/corporate_actions/nse_api/TECHM/2024-09-29_2025-09-28.json
+COALINDIA,2024-11-05,15.75,OK,True,INE522F01014,Interim Dividend - Rs 15.75 Per Share,data/raw/corporate_actions/nse_api/COALINDIA/2024-09-29_2025-09-28.json
+HINDUNILVR,2024-11-06,29.0,OK,True,INE030A01027,Interim Dividend - Rs 19 Per Share/Special Dividend - Rs 10 Per Share,data/raw/corporate_actions/nse_api/HINDUNILVR/2024-09-29_2025-09-28.json
+SHRIRAMFIN,2024-11-07,22.0,OK,True,INE721A01013,Interim Dividend - Rs 22 Per Share,data/raw/corporate_actions/nse_api/SHRIRAMFIN/2024-09-29_2025-09-28.json
+ZEEL,2024-11-08,1.0,OK,True,INE256A01028,Dividend - Re 1 Per Share,data/raw/corporate_actions/nse_api/ZEEL/2024-09-29_2025-09-28.json
+POWERGRID,2024-11-14,4.5,OK,True,INE752E01010,Interim Dividend - Rs 4.50 Per Share,data/raw/corporate_actions/nse_api/POWERGRID/2024-09-29_2025-09-28.json
+ASIANPAINT,2024-11-19,4.25,OK,True,INE021A01018,Interim Dividend - Rs 4.25 Per Share,data/raw/corporate_actions/nse_api/ASIANPAINT/2024-09-29_2025-09-28.json
+ONGC,2024-11-19,6.0,OK,True,INE213A01011,Interim Dividend - Rs 6 Per Share,data/raw/corporate_actions/nse_api/ONGC/2024-09-29_2025-09-28.json
+VEDL,2024-12-24,8.5,OK,True,INE205A01025,Interim Dividend - Rs 8.50 Per Share,data/raw/corporate_actions/nse_api/VEDL/2024-09-29_2025-09-28.json
+HCLTECH,2025-01-17,18.0,OK,True,INE860A01027,Interim Dividend - Rs 12 Per Share Special Dividend - Rs 6 Per Share,data/raw/corporate_actions/nse_api/HCLTECH/2024-09-29_2025-09-28.json
+TCS,2025-01-17,76.0,OK,True,INE467B01029,Interim Dividend - Rs 10 Per Share Special Dividend - Rs 66 Per Share,data/raw/corporate_actions/nse_api/TCS/2024-09-29_2025-09-28.json
+WIPRO,2025-01-28,6.0,OK,True,INE075A01022,Interim Dividend - Rs 6 Per Share,data/raw/corporate_actions/nse_api/WIPRO/2024-09-29_2025-09-28.json
+BPCL,2025-01-29,5.0,OK,True,INE029A01011,Interim Dividend - Rs 5 Per Share,data/raw/corporate_actions/nse_api/BPCL/2024-09-29_2025-09-28.json
+COALINDIA,2025-01-31,5.6,OK,True,INE522F01014,Interim Dividend - Rs 5.60 Per Share,data/raw/corporate_actions/nse_api/COALINDIA/2024-09-29_2025-09-28.json
+NTPC,2025-01-31,2.5,OK,True,INE733E01010,Interim Dividend - Rs 2.50 Per Share,data/raw/corporate_actions/nse_api/NTPC/2024-09-29_2025-09-28.json
+SHRIRAMFIN,2025-01-31,2.5,OK,True,INE721A01013,Interim Dividend - Rs 2.50 Per Share,data/raw/corporate_actions/nse_api/SHRIRAMFIN/2024-09-29_2025-09-28.json
+SHREECEM,2025-02-05,50.0,OK,True,INE070A01015,Interim Dividend - Rs 50 Per Share,data/raw/corporate_actions/nse_api/SHREECEM/2024-09-29_2025-09-28.json
+SUNPHARMA,2025-02-06,10.5,OK,True,INE044A01028,Interim Dividend - Rs 10.50 Per Share,data/raw/corporate_actions/nse_api/SUNPHARMA/2024-09-29_2025-09-28.json
+GAIL,2025-02-07,6.5,OK,True,INE129A01019,Interim Dividend - Rs 6.50 Per Share,data/raw/corporate_actions/nse_api/GAIL/2024-09-29_2025-09-28.json
+NESTLEIND,2025-02-07,14.25,OK,True,INE239A01016,Interim Dividend - Rs 14.25 Per Share,data/raw/corporate_actions/nse_api/NESTLEIND/2024-09-29_2025-09-28.json
+ONGC,2025-02-07,5.0,OK,True,INE213A01011,Interim Dividend - Rs 5 Per Share,data/raw/corporate_actions/nse_api/ONGC/2024-09-29_2025-09-28.json
+POWERGRID,2025-02-07,3.25,OK,True,INE752E01010,Interim Dividend - Rs 3.25 Per Share,data/raw/corporate_actions/nse_api/POWERGRID/2024-09-29_2025-09-28.json
+HEROMOTOCO,2025-02-12,100.0,OK,True,INE158A01026,Interim Dividend - Rs 100 Per Share,data/raw/corporate_actions/nse_api/HEROMOTOCO/2024-09-29_2025-09-28.json
+ITC,2025-02-12,6.5,OK,True,INE154A01025,Interim Dividend - Rs 6.50 Per Share,data/raw/corporate_actions/nse_api/ITC/2024-09-29_2025-09-28.json
+APOLLOHOSP,2025-02-14,9.0,OK,True,INE437A01016,Interim Dividend - Rs 9 Per Share,data/raw/corporate_actions/nse_api/APOLLOHOSP/2024-09-29_2025-09-28.json
+SBILIFE,2025-03-07,2.7,OK,True,INE123W01016,Interim Dividend - Rs 2.70 Per Share,data/raw/corporate_actions/nse_api/SBILIFE/2024-09-29_2025-09-28.json
+BEL,2025-03-11,1.5,OK,True,INE263A01016,Interim Dividend - Rs 1.5 Per Share,data/raw/corporate_actions/nse_api/BEL/2024-09-29_2025-09-28.json
+HCLTECH,2025-04-28,18.0,OK,True,INE860A01027,Interim Dividend - Rs 18 Per Share,data/raw/corporate_actions/nse_api/HCLTECH/2024-09-29_2025-09-28.json
+BAJFINANCE,2025-05-09,12.0,OK,True,INE296A01016,Special Dividend - Rs 12 Per Share,data/raw/corporate_actions/nse_api/BAJFINANCE/2024-09-29_2025-09-28.json
+SBIN,2025-05-16,15.9,OK,True,INE062A01012,Dividend - Rs 15.90 Per Share,data/raw/corporate_actions/nse_api/SBIN/2024-09-29_2025-09-28.json
+LTIM,2025-05-23,45.0,OK,False,INE214T01019,Dividend - Rs 45 Per Share,data/raw/corporate_actions/nse_api/LTM/2024-09-29_2025-09-28.json
+ITC,2025-05-28,7.85,OK,True,INE154A01025,Dividend - Rs 7.85 Per Share,data/raw/corporate_actions/nse_api/ITC/2024-09-29_2025-09-28.json
+TATACONSUM,2025-05-29,8.25,OK,True,INE192A01025,Dividend - Rs 8.25 Per Share,data/raw/corporate_actions/nse_api/TATACONSUM/2024-09-29_2025-09-28.json
+BAJFINANCE,2025-05-30,44.0,OK,True,INE296A01016,Dividend - Rs 44 Per Share,data/raw/corporate_actions/nse_api/BAJFINANCE/2024-09-29_2025-09-28.json
+INFY,2025-05-30,22.0,OK,True,INE009A01021,Dividend - Rs 22 Per Share,data/raw/corporate_actions/nse_api/INFY/2024-09-29_2025-09-28.json
+LT,2025-06-03,34.0,OK,True,INE018A01030,Dividend - Rs 34 Per Share,data/raw/corporate_actions/nse_api/LT/2024-09-29_2025-09-28.json
+TATAMOTORS,2025-06-04,6.0,OK,True,INE155A01022,Dividend - Rs 6 Per Share,data/raw/corporate_actions/nse_api/TMPV/2024-09-29_2025-09-28.json
+TCS,2025-06-04,30.0,OK,True,INE467B01029,Dividend - Rs 30 Per Share,data/raw/corporate_actions/nse_api/TCS/2024-09-29_2025-09-28.json
+TATASTEEL,2025-06-06,3.6,OK,True,INE081A01012,Dividend - Rs 3.60 Per Share,data/raw/corporate_actions/nse_api/TATASTEEL/2024-09-29_2025-09-28.json
+ASIANPAINT,2025-06-10,20.55,OK,True,INE021A01018,Dividend - Rs 20.55 Per Share,data/raw/corporate_actions/nse_api/ASIANPAINT/2024-09-29_2025-09-28.json
+TRENT,2025-06-12,5.0,OK,True,INE849A01012,Dividend - Rs 5 Per Share,data/raw/corporate_actions/nse_api/TRENT/2024-09-29_2025-09-28.json
+ADANIENT,2025-06-13,1.3,OK,True,INE423A01024,Dividend - Rs 1.30 Per Share,data/raw/corporate_actions/nse_api/ADANIENT/2024-09-29_2025-09-28.json
+ADANIPORTS,2025-06-13,7.0,OK,True,INE742F01042,Dividend - Rs 7 Per Share,data/raw/corporate_actions/nse_api/ADANIPORTS/2024-09-29_2025-09-28.json
+BAJAJ-AUTO,2025-06-20,210.0,OK,True,INE917I01010,Dividend - Rs 210 Per Share,data/raw/corporate_actions/nse_api/BAJAJ-AUTO/2024-09-29_2025-09-28.json
+HDFCLIFE,2025-06-20,2.1,OK,True,INE795G01014,Dividend - Rs 2.10 Per Share,data/raw/corporate_actions/nse_api/HDFCLIFE/2024-09-29_2025-09-28.json
+HINDUNILVR,2025-06-23,24.0,OK,True,INE030A01027,Dividend - Rs 24 Per Share,data/raw/corporate_actions/nse_api/HINDUNILVR/2024-09-29_2025-09-28.json
+VEDL,2025-06-24,7.0,OK,True,INE205A01025,Interim Dividend - Rs 7 Per Share,data/raw/corporate_actions/nse_api/VEDL/2024-09-29_2025-09-28.json
+BAJAJFINSV,2025-06-27,1.0,OK,True,INE918I01018,Dividend - Re 1 Per Share,data/raw/corporate_actions/nse_api/BAJAJFINSV/2024-09-29_2025-09-28.json
+CIPLA,2025-06-27,16.0,OK,True,INE059A01026,Dividend - Rs 13 Per Share/Special Dividend - Rs 3 Per Share,data/raw/corporate_actions/nse_api/CIPLA/2024-09-29_2025-09-28.json
+HDFCBANK,2025-06-27,22.0,OK,True,INE040A01018,Dividend - Rs 22 Per Share,data/raw/corporate_actions/nse_api/HDFCBANK/2024-09-29_2025-09-28.json
+AXISBANK,2025-07-04,1.0,OK,True,INE238A01026,Dividend - Re 1 Per Sh,data/raw/corporate_actions/nse_api/AXISBANK/2024-09-29_2025-09-28.json
+M&M,2025-07-04,25.3,OK,True,INE101A01026,Dividend - Rs 25.30 Per Share,data/raw/corporate_actions/nse_api/M&M/2024-09-29_2025-09-28.json
+MAXHEALTH,2025-07-04,1.5,OK,True,INE027H01010,Dividend - Rs 1.50 Per Share,data/raw/corporate_actions/nse_api/MAXHEALTH/2024-09-29_2025-09-28.json
+NESTLEIND,2025-07-04,10.0,OK,True,INE239A01016,Dividend - Rs 10 Per Share,data/raw/corporate_actions/nse_api/NESTLEIND/2024-09-29_2025-09-28.json
+TECHM,2025-07-04,30.0,OK,True,INE669C01028,Dividend - Rs 30 Per Share,data/raw/corporate_actions/nse_api/TECHM/2024-09-29_2025-09-28.json
+SUNPHARMA,2025-07-07,5.5,OK,True,INE044A01028,Dividend - Rs 5.50 Per Share,data/raw/corporate_actions/nse_api/SUNPHARMA/2024-09-29_2025-09-28.json
+JSWSTEEL,2025-07-08,2.8,OK,True,INE019A01020,Dividend - Rs 2.80 Per Share,data/raw/corporate_actions/nse_api/JSWSTEEL/2024-09-29_2025-09-28.json
+TITAN,2025-07-08,11.0,OK,True,INE280A01010,Dividend - Rs 11 Per Share,data/raw/corporate_actions/nse_api/TITAN/2024-09-29_2025-09-28.json
+DRREDDY,2025-07-10,8.0,OK,True,INE089A01023,Dividend - Rs 8 Per Share,data/raw/corporate_actions/nse_api/DRREDDY/2024-09-29_2025-09-28.json
+SHRIRAMFIN,2025-07-11,3.0,OK,True,INE721A01013,Dividend - Rs 3 Per Share,data/raw/corporate_actions/nse_api/SHRIRAMFIN/2024-09-29_2025-09-28.json
+UPL,2025-07-11,6.0,OK,True,INE628A01036,Dividend - Rs 6 Per Share,data/raw/corporate_actions/nse_api/UPL/2024-09-29_2025-09-28.json
+TCS,2025-07-16,11.0,OK,True,INE467B01029,Interim Dividend - Rs 11 Per Share,data/raw/corporate_actions/nse_api/TCS/2024-09-29_2025-09-28.json
+BHARTIARTL,2025-07-18,16.0,OK,True,INE397D01024,Dividend - Rs 16 Per Share,data/raw/corporate_actions/nse_api/BHARTIARTL/2024-09-29_2025-09-28.json
+HCLTECH,2025-07-18,12.0,OK,True,INE860A01027,Interim Dividend - Rs 12 Per Share,data/raw/corporate_actions/nse_api/HCLTECH/2024-09-29_2025-09-28.json
+KOTAKBANK,2025-07-18,2.5,OK,True,INE237A01010,Dividend - Rs 2.50 Per Share,data/raw/corporate_actions/nse_api/KOTAKBANK/2024-09-29_2025-09-28.json
+SHREECEM,2025-07-21,60.0,OK,True,INE070A01015,Dividend - Rs 60 Per Share,data/raw/corporate_actions/nse_api/SHREECEM/2024-09-29_2025-09-28.json
+HEROMOTOCO,2025-07-24,65.0,OK,True,INE158A01026,Dividend - Rs 65 Per Share,data/raw/corporate_actions/nse_api/HEROMOTOCO/2024-09-29_2025-09-28.json
+DIVISLAB,2025-07-25,30.0,OK,True,INE361B01024,Dividend - Rs 30 Per Share,data/raw/corporate_actions/nse_api/DIVISLAB/2024-09-29_2025-09-28.json
+HDFCBANK,2025-07-25,5.0,OK,True,INE040A01018,Special Dividend - Rs 5 Per Share,data/raw/corporate_actions/nse_api/HDFCBANK/2024-09-29_2025-09-28.json
+ULTRACEMCO,2025-07-25,77.5,OK,True,INE481G01011,Dividend - Rs 77.50 Per Sh,data/raw/corporate_actions/nse_api/ULTRACEMCO/2024-09-29_2025-09-28.json
+WIPRO,2025-07-28,5.0,OK,True,INE075A01022,Interim Dividend - Rs 5 Per Share,data/raw/corporate_actions/nse_api/WIPRO/2024-09-29_2025-09-28.json
+BPCL,2025-07-31,5.0,OK,True,INE029A01011,Dividend - Rs 5 Per Share,data/raw/corporate_actions/nse_api/BPCL/2024-09-29_2025-09-28.json
+EICHERMOT,2025-08-01,70.0,OK,True,INE066A01013,Dividend - Rs 70 Per Share,data/raw/corporate_actions/nse_api/EICHERMOT/2024-09-29_2025-09-28.json
+MARUTI,2025-08-01,135.0,OK,True,INE585B01010,Dividend - Rs 135 Per Share,data/raw/corporate_actions/nse_api/MARUTI/2024-09-29_2025-09-28.json
+BRITANNIA,2025-08-04,75.0,OK,True,INE216A01014,Dividend - Rs 75 Per Share,data/raw/corporate_actions/nse_api/BRITANNIA/2024-09-29_2025-09-28.json
+GAIL,2025-08-04,1.0,OK,True,INE129A01019,Dividend - Re 1 Per Share,data/raw/corporate_actions/nse_api/GAIL/2024-09-29_2025-09-28.json
+COALINDIA,2025-08-06,5.5,OK,True,INE522F01014,Interim Dividend - Rs 5.50 Per Share,data/raw/corporate_actions/nse_api/COALINDIA/2024-09-29_2025-09-28.json
+HINDALCO,2025-08-08,5.0,OK,True,INE038A01020,Dividend - Rs 5 Per Share,data/raw/corporate_actions/nse_api/HINDALCO/2024-09-29_2025-09-28.json
+IOC,2025-08-08,3.0,OK,True,INE242A01010,Dividend - Rs 3 Per Share,data/raw/corporate_actions/nse_api/IOC/2024-09-29_2025-09-28.json
+JIOFIN,2025-08-11,0.5,OK,True,INE758E01017,Dividend - Re 0.50 Per Share,data/raw/corporate_actions/nse_api/JIOFIN/2024-09-29_2025-09-28.json
+GRASIM,2025-08-12,10.0,OK,True,INE047A01013,Dividend - Rs 10 Per Share,data/raw/corporate_actions/nse_api/GRASIM/2024-09-29_2025-09-28.json
+ICICIBANK,2025-08-12,11.0,OK,True,INE090A01013,Dividend - Rs 11 Per Share,data/raw/corporate_actions/nse_api/ICICIBANK/2024-09-29_2025-09-28.json
+INDIGO,2025-08-13,10.0,OK,True,INE646L01027,Dividend - Rs 10 Per Share,data/raw/corporate_actions/nse_api/INDIGO/2024-09-29_2025-09-28.json
+BEL,2025-08-14,0.9,OK,True,INE263A01016,Dividend - Rs 0.90 Per Share,data/raw/corporate_actions/nse_api/BEL/2024-09-29_2025-09-28.json
+RELIANCE,2025-08-14,5.5,OK,True,INE002A01018,Dividend - Rs 5.5 Per Share,data/raw/corporate_actions/nse_api/RELIANCE/2024-09-29_2025-09-28.json
+APOLLOHOSP,2025-08-19,10.0,OK,True,INE437A01016,Dividend - Rs 10 Per Share,data/raw/corporate_actions/nse_api/APOLLOHOSP/2024-09-29_2025-09-28.json
+POWERGRID,2025-08-19,1.25,OK,True,INE752E01010,Dividend - Rs 1.25 Per Share,data/raw/corporate_actions/nse_api/POWERGRID/2024-09-29_2025-09-28.json
+COALINDIA,2025-08-21,5.15,OK,True,INE522F01014,Dividend - Rs 5.15 Per Share,data/raw/corporate_actions/nse_api/COALINDIA/2024-09-29_2025-09-28.json
+VEDL,2025-08-26,16.0,OK,True,INE205A01025,Interim Dividend - Rs 16 Per Share,data/raw/corporate_actions/nse_api/VEDL/2024-09-29_2025-09-28.json
+ZEEL,2025-08-29,2.43,OK,True,INE256A01028,Dividend - Rs 2.43 Per Share,data/raw/corporate_actions/nse_api/ZEEL/2024-09-29_2025-09-28.json
+NTPC,2025-09-04,3.35,OK,True,INE733E01010,Dividend - Rs 3.35 Per Share,data/raw/corporate_actions/nse_api/NTPC/2024-09-29_2025-09-28.json
+ONGC,2025-09-04,1.25,OK,True,INE213A01011,Dividend - Rs 1.25 Per Share,data/raw/corporate_actions/nse_api/ONGC/2024-09-29_2025-09-28.json
+TCS,2025-10-15,11.0,OK,True,INE467B01029,Interim Dividend - Rs 11 Per Share,data/raw/corporate_actions/nse_api/TCS/2025-09-29_2026-09-16.json
+HCLTECH,2025-10-17,12.0,OK,True,INE860A01027,Interim Dividend - Rs 12 Per Share,data/raw/corporate_actions/nse_api/HCLTECH/2025-09-29_2026-09-16.json
+TECHM,2025-10-20,15.0,OK,True,INE669C01028,Interim Dividend - Rs 15 Per Share,data/raw/corporate_actions/nse_api/TECHM/2025-09-29_2026-09-16.json
+LTIM,2025-10-24,22.0,OK,False,INE214T01019,Interim Dividend - Rs 22 Per Share,data/raw/corporate_actions/nse_api/LTM/2025-09-29_2026-09-16.json
+INFY,2025-10-27,23.0,OK,True,INE009A01021,Interim Dividend - Rs 23 Per Share,data/raw/corporate_actions/nse_api/INFY/2025-09-29_2026-09-16.json
+SHREECEM,2025-11-03,80.0,OK,True,INE070A01015,Interim Dividend - Rs 80 Per Share,data/raw/corporate_actions/nse_api/SHREECEM/2025-09-29_2026-09-16.json
+COALINDIA,2025-11-04,10.25,OK,True,INE522F01014,Interim Dividend - Rs 10.25 Per Share,data/raw/corporate_actions/nse_api/COALINDIA/2025-09-29_2026-09-16.json
+BPCL,2025-11-07,7.5,OK,True,INE029A01011,Interim Dividend - Rs 7.50 Per Share,data/raw/corporate_actions/nse_api/BPCL/2025-09-29_2026-09-16.json
+HINDUNILVR,2025-11-07,19.0,OK,True,INE030A01027,Interim Dividend - Rs 19 Per Share,data/raw/corporate_actions/nse_api/HINDUNILVR/2025-09-29_2026-09-16.json
+NTPC,2025-11-07,2.75,OK,True,INE733E01010,Interim Dividend - Rs 2.75 Per Share,data/raw/corporate_actions/nse_api/NTPC/2025-09-29_2026-09-16.json
+SHRIRAMFIN,2025-11-07,4.8,OK,True,INE721A01013,Interim Dividend - Rs 4.80 Per Share,data/raw/corporate_actions/nse_api/SHRIRAMFIN/2025-09-29_2026-09-16.json
+POWERGRID,2025-11-10,4.5,OK,True,INE752E01010,Interim Dividend - Rs 4.50 Per Share,data/raw/corporate_actions/nse_api/POWERGRID/2025-09-29_2026-09-16.json
+ONGC,2025-11-14,6.0,OK,True,INE213A01011,Interim Dividend - Rs 6 Per Share,data/raw/corporate_actions/nse_api/ONGC/2025-09-29_2026-09-16.json
+ASIANPAINT,2025-11-18,4.5,OK,True,INE021A01018,Interim Dividend - Rs 4.50 Per Share,data/raw/corporate_actions/nse_api/ASIANPAINT/2025-09-29_2026-09-16.json
+IOC,2025-12-18,5.0,OK,True,INE242A01010,Interim Dividend - Rs 5 Per Share,data/raw/corporate_actions/nse_api/IOC/2025-09-29_2026-09-16.json
+HCLTECH,2026-01-16,12.0,OK,True,INE860A01027,Interim Dividend - Rs 12 Per Share,data/raw/corporate_actions/nse_api/HCLTECH/2025-09-29_2026-09-16.json
+TCS,2026-01-16,57.0,OK,True,INE467B01029,Interim Dividend Rs 11 Per Share/ Special Dividend Rs 46 Per Share,data/raw/corporate_actions/nse_api/TCS/2025-09-29_2026-09-16.json
+WIPRO,2026-01-27,6.0,OK,True,INE075A01022,Interim Dividend - Rs 6 Per Share,data/raw/corporate_actions/nse_api/WIPRO/2025-09-29_2026-09-16.json
+BPCL,2026-02-02,10.0,OK,True,INE029A01011,Interim Dividend - Rs 10 Per Share,data/raw/corporate_actions/nse_api/BPCL/2025-09-29_2026-09-16.json
+ITC,2026-02-04,6.5,OK,True,INE154A01025,Interim Dividend - Rs 6.50 Per Share,data/raw/corporate_actions/nse_api/ITC/2025-09-29_2026-09-16.json
+GAIL,2026-02-05,5.0,OK,True,INE129A01019,Interim Dividend - Rs 5 Per Share,data/raw/corporate_actions/nse_api/GAIL/2025-09-29_2026-09-16.json
+SUNPHARMA,2026-02-05,11.0,OK,True,INE044A01028,Interim Dividend - Rs 11 Per Share,data/raw/corporate_actions/nse_api/SUNPHARMA/2025-09-29_2026-09-16.json
+NESTLEIND,2026-02-06,7.0,OK,True,INE239A01016,Interim Dividend - Rs 7 Per Share,data/raw/corporate_actions/nse_api/NESTLEIND/2025-09-29_2026-09-16.json
+NTPC,2026-02-06,2.75,OK,True,INE733E01010,Interim Dividend - Rs 2.75 Per Share,data/raw/corporate_actions/nse_api/NTPC/2025-09-29_2026-09-16.json
+POWERGRID,2026-02-09,3.25,OK,True,INE752E01010,Interim Dividend - Rs 3.25 Per Share,data/raw/corporate_actions/nse_api/POWERGRID/2025-09-29_2026-09-16.json
+HEROMOTOCO,2026-02-11,110.0,OK,True,INE158A01026,Interim Dividend - Rs 110 Per Share,data/raw/corporate_actions/nse_api/HEROMOTOCO/2025-09-29_2026-09-16.json
+APOLLOHOSP,2026-02-16,10.0,OK,True,INE437A01016,Interim Dividend - Rs 10 Per Sh,data/raw/corporate_actions/nse_api/APOLLOHOSP/2025-09-29_2026-09-16.json
+COALINDIA,2026-02-18,5.5,OK,True,INE522F01014,Interim Dividend - Rs 5.50 Per Share,data/raw/corporate_actions/nse_api/COALINDIA/2025-09-29_2026-09-16.json
+ONGC,2026-02-18,6.25,OK,True,INE213A01011,Interim Dividend - Rs 6.25 Per Share,data/raw/corporate_actions/nse_api/ONGC/2025-09-29_2026-09-16.json
+BEL,2026-03-06,1.95,OK,True,INE263A01016,Interim Dividend - Rs 1.95 Per Share,data/raw/corporate_actions/nse_api/BEL/2025-09-29_2026-09-16.json
+SBILIFE,2026-03-06,2.7,OK,True,INE123W01016,Interim Dividend - Rs 2.70 Per Share,data/raw/corporate_actions/nse_api/SBILIFE/2025-09-29_2026-09-16.json
+IOC,2026-03-12,2.0,OK,True,INE242A01010,Interim Dividend - Rs 2 Per Share,data/raw/corporate_actions/nse_api/IOC/2025-09-29_2026-09-16.json
+VEDL,2026-03-27,11.0,OK,True,INE205A01025,Interim Dividend - Rs 11 Per Share,data/raw/corporate_actions/nse_api/VEDL/2025-09-29_2026-09-16.json
+HCLTECH,2026-04-24,24.0,OK,True,INE860A01027,Interim Dividend - Rs 24 Per Share,data/raw/corporate_actions/nse_api/HCLTECH/2025-09-29_2026-09-16.json
+SBIN,2026-05-15,17.35,OK,True,INE062A01012,Dividend - Rs 17.35 Per Share,data/raw/corporate_actions/nse_api/SBIN/2025-09-29_2026-09-16.json
+LT,2026-05-22,38.0,OK,True,INE018A01030,Dividend - Rs 38 Per Share,data/raw/corporate_actions/nse_api/LT/2025-09-29_2026-09-16.json
+LTIM,2026-05-25,53.0,OK,False,INE214T01019,Dividend - Rs 53 Per Share,data/raw/corporate_actions/nse_api/LTM/2025-09-29_2026-09-16.json
+TATACONSUM,2026-05-25,10.0,OK,True,INE192A01025,Dividend - Rs 10 Per Share,data/raw/corporate_actions/nse_api/TATACONSUM/2025-09-29_2026-09-16.json
+TCS,2026-05-25,31.0,OK,True,INE467B01029,Dividend - Rs 31 Per Share,data/raw/corporate_actions/nse_api/TCS/2025-09-29_2026-09-16.json
+ITC,2026-05-27,8.0,OK,True,INE154A01025,Dividend - Rs 8 Per Share,data/raw/corporate_actions/nse_api/ITC/2025-09-29_2026-09-16.json
+BAJAJ-AUTO,2026-05-29,150.0,OK,True,INE917I01010,Dividend - Rs 150 Per Share,data/raw/corporate_actions/nse_api/BAJAJ-AUTO/2025-09-29_2026-09-16.json
+CIPLA,2026-06-05,13.0,OK,True,INE059A01026,Dividend - Rs 13 Per Share,data/raw/corporate_actions/nse_api/CIPLA/2025-09-29_2026-09-16.json
+RELIANCE,2026-06-05,6.0,OK,True,INE002A01018,Dividend - Rs 6 Per Share,data/raw/corporate_actions/nse_api/RELIANCE/2025-09-29_2026-09-16.json
+INFY,2026-06-10,25.0,OK,True,INE009A01021,Dividend - Rs 25 Per Share,data/raw/corporate_actions/nse_api/INFY/2025-09-29_2026-09-16.json
+ADANIENT,2026-06-12,1.3,OK,True,INE423A01024,Dividend - Rs 1.30 Per Share,data/raw/corporate_actions/nse_api/ADANIENT/2025-09-29_2026-09-16.json
+ADANIPORTS,2026-06-12,7.5,OK,True,INE742F01042,Dividend - Rs 7.50 Per Share,data/raw/corporate_actions/nse_api/ADANIPORTS/2025-09-29_2026-09-16.json
+TATASTEEL,2026-06-12,4.0,OK,True,INE081A01012,Dividend - Rs 4 Per Share,data/raw/corporate_actions/nse_api/TATASTEEL/2025-09-29_2026-09-16.json
+TRENT,2026-06-12,4.0,OK,True,INE849A01012,Dividend - Rs 4 Per Share,data/raw/corporate_actions/nse_api/TRENT/2025-09-29_2026-09-16.json
+HDFCBANK,2026-06-19,13.0,OK,True,INE040A01018,Dividend - Rs 13 Per Share,data/raw/corporate_actions/nse_api/HDFCBANK/2025-09-29_2026-09-16.json
+HDFCLIFE,2026-06-19,2.1,OK,True,INE795G01014,Dividend - Rs 2.10 Per Share,data/raw/corporate_actions/nse_api/HDFCLIFE/2025-09-29_2026-09-16.json
+TMPV,2026-06-19,3.0,OK,True,INE155A01022,Dividend - Rs 3 Per Share,data/raw/corporate_actions/nse_api/TMPV/2025-09-29_2026-09-16.json
+ASIANPAINT,2026-06-23,23.0,OK,True,INE021A01018,Dividend - Rs 23 Per Share,data/raw/corporate_actions/nse_api/ASIANPAINT/2025-09-29_2026-09-16.json
+HINDUNILVR,2026-06-23,22.0,OK,True,INE030A01027,Dividend - Rs 22 Per Share,data/raw/corporate_actions/nse_api/HINDUNILVR/2025-09-29_2026-09-16.json
+INDUSINDBK,2026-06-25,1.5,OK,True,INE095A01012,Dividend - Rs 1.50 Per Share,data/raw/corporate_actions/nse_api/INDUSINDBK/2025-09-29_2026-09-16.json
+BAJAJFINSV,2026-06-30,1.5,OK,True,INE918I01018,Dividend - Rs 1.50 Per Share,data/raw/corporate_actions/nse_api/BAJAJFINSV/2025-09-29_2026-09-16.json
+BAJFINANCE,2026-06-30,6.0,OK,True,INE296A01016,Dividend - Rs 6 Per Share,data/raw/corporate_actions/nse_api/BAJFINANCE/2025-09-29_2026-09-16.json
+M&M,2026-07-03,33.0,OK,True,INE101A01026,Dividend - Rs 33 Per Share,data/raw/corporate_actions/nse_api/M&M/2025-09-29_2026-09-16.json
+MAXHEALTH,2026-07-03,2.0,OK,True,INE027H01010,Dividend - Rs 2 Per Share,data/raw/corporate_actions/nse_api/MAXHEALTH/2025-09-29_2026-09-16.json
+SHRIRAMFIN,2026-07-03,6.0,OK,True,INE721A01013,Dividend - Rs 6 Per Share,data/raw/corporate_actions/nse_api/SHRIRAMFIN/2025-09-29_2026-09-16.json
+TECHM,2026-07-03,36.0,OK,True,INE669C01028,Dividend - Rs 36 Per Share,data/raw/corporate_actions/nse_api/TECHM/2025-09-29_2026-09-16.json
+JSWSTEEL,2026-07-07,7.1,OK,True,INE019A01020,Dividend - Rs 7.10 Per Share,data/raw/corporate_actions/nse_api/JSWSTEEL/2025-09-29_2026-09-16.json
+SUNPHARMA,2026-07-07,5.0,OK,True,INE044A01028,Dividend - Rs 5 Per Share,data/raw/corporate_actions/nse_api/SUNPHARMA/2025-09-29_2026-09-16.json
+TITAN,2026-07-09,15.0,OK,True,INE280A01010,Dividend - Rs 15 Per Share,data/raw/corporate_actions/nse_api/TITAN/2025-09-29_2026-09-16.json
+AXISBANK,2026-07-10,1.0,OK,True,INE238A01026,Dividend - Re 1 Per Share,data/raw/corporate_actions/nse_api/AXISBANK/2025-09-29_2026-09-16.json
+DRREDDY,2026-07-10,8.0,OK,True,INE089A01023,Dividend - Rs 8 Per Share,data/raw/corporate_actions/nse_api/DRREDDY/2025-09-29_2026-09-16.json
+HINDALCO,2026-07-10,5.0,OK,True,INE038A01020,Dividend - Rs 5 Per Share,data/raw/corporate_actions/nse_api/HINDALCO/2025-09-29_2026-09-16.json
+NESTLEIND,2026-07-10,7.0,OK,True,INE239A01016,Dividend - Rs 5 Per Share || Special Dividend - Rs 2 Per Share,data/raw/corporate_actions/nse_api/NESTLEIND/2025-09-29_2026-09-16.json
+TCS,2026-07-15,12.0,OK,True,INE467B01029,Interim Dividend - Rs 12 Per Share,data/raw/corporate_actions/nse_api/TCS/2025-09-29_2026-09-16.json
+HCLTECH,2026-07-17,12.0,OK,True,INE860A01027,Interim Dividend - Rs 12 Per Share,data/raw/corporate_actions/nse_api/HCLTECH/2025-09-29_2026-09-16.json
+KOTAKBANK,2026-07-17,0.65,OK,True,INE237A01010,Dividend - Rs 0.65 Per Share,data/raw/corporate_actions/nse_api/KOTAKBANK/2025-09-29_2026-09-16.json
+SHREECEM,2026-07-17,70.0,OK,True,INE070A01015,Dividend - Rs 70 Per Share,data/raw/corporate_actions/nse_api/SHREECEM/2025-09-29_2026-09-16.json
+UPL,2026-07-17,6.0,OK,True,INE628A01036,Dividend - Rs 6 Per Share,data/raw/corporate_actions/nse_api/UPL/2025-09-29_2026-09-16.json
+BHARTIARTL,2026-07-24,24.0,OK,True,INE397D01024,Dividend - Rs 24 Per Share,data/raw/corporate_actions/nse_api/BHARTIARTL/2025-09-29_2026-09-16.json
+DIVISLAB,2026-07-24,30.0,OK,True,INE361B01024,Dividend - Rs 30 Per Share,data/raw/corporate_actions/nse_api/DIVISLAB/2025-09-29_2026-09-16.json
+HEROMOTOCO,2026-07-24,75.0,OK,True,INE158A01026,Dividend - Rs 75 Per Share,data/raw/corporate_actions/nse_api/HEROMOTOCO/2025-09-29_2026-09-16.json
+WIPRO,2026-07-27,2.0,OK,True,INE075A01022,Interim Dividend - Rs 2 Per Share,data/raw/corporate_actions/nse_api/WIPRO/2025-09-29_2026-09-16.json
+ULTRACEMCO,2026-07-30,240.0,OK,True,INE481G01011,Dividend - Rs 240 Per Share,data/raw/corporate_actions/nse_api/ULTRACEMCO/2025-09-29_2026-09-16.json
+BRITANNIA,2026-07-31,90.5,OK,True,INE216A01014,Dividend - Rs 90.50 Per Share,data/raw/corporate_actions/nse_api/BRITANNIA/2025-09-29_2026-09-16.json
+COALINDIA,2026-07-31,5.5,OK,True,INE522F01014,Interim Dividend - Rs 5.50 Per Share,data/raw/corporate_actions/nse_api/COALINDIA/2025-09-29_2026-09-16.json
+EICHERMOT,2026-07-31,82.0,OK,True,INE066A01013,Dividend - Rs 82 Per Share,data/raw/corporate_actions/nse_api/EICHERMOT/2025-09-29_2026-09-16.json
+ICICIBANK,2026-08-03,12.0,OK,False,INE090A01013,Dividend - Rs 12 Per Share,data/raw/corporate_actions/nse_api/ICICIBANK/2025-09-29_2026-09-16.json
+GRASIM,2026-08-07,10.0,OK,False,INE047A01013,Dividend - Rs 10 Per Share,data/raw/corporate_actions/nse_api/GRASIM/2025-09-29_2026-09-16.json
+MARUTI,2026-08-07,140.0,OK,False,INE585B01010,Dividend - Rs 140 Per Share,data/raw/corporate_actions/nse_api/MARUTI/2025-09-29_2026-09-16.json
+INDUSTOWER,2026-08-10,14.0,OK,False,INE121J01017,Dividend - Rs 14 Per Share,data/raw/corporate_actions/nse_api/INDUSTOWER/2025-09-29_2026-09-16.json
+JIOFIN,2026-08-10,0.6,OK,False,INE758E01017,Dividend - Rs 0.60 Per Share,data/raw/corporate_actions/nse_api/JIOFIN/2025-09-29_2026-09-16.json
+BEL,2026-08-13,0.55,OK,False,INE263A01016,Dividend - Re 0.55 Per Share,data/raw/corporate_actions/nse_api/BEL/2025-09-29_2026-09-16.json
+POWERGRID,2026-08-13,1.25,OK,False,INE752E01010,Dividend - Rs 1.25 Per Share,data/raw/corporate_actions/nse_api/POWERGRID/2025-09-29_2026-09-16.json
+APOLLOHOSP,2026-08-14,10.0,OK,False,INE437A01016,Dividend - Rs 10 Per Sh,data/raw/corporate_actions/nse_api/APOLLOHOSP/2025-09-29_2026-09-16.json
+IOC,2026-08-14,1.25,OK,False,INE242A01010,Dividend - Rs 1.25 Per Share,data/raw/corporate_actions/nse_api/IOC/2025-09-29_2026-09-16.json
+GAIL,2026-09-02,0.5,OK,False,INE129A01019,Dividend - Re 0.50 Per Share,data/raw/corporate_actions/nse_api/GAIL/2025-09-29_2026-09-16.json
+NTPC,2026-09-02,3.5,OK,False,INE733E01010,Dividend - Rs 3.50 Per Share,data/raw/corporate_actions/nse_api/NTPC/2025-09-29_2026-09-16.json
+COALINDIA,2026-09-04,5.25,OK,False,INE522F01014,Dividend - Rs 5.25 Per Share,data/raw/corporate_actions/nse_api/COALINDIA/2025-09-29_2026-09-16.json
+ONGC,2026-09-04,1.0,OK,False,INE213A01011,Dividend - Re 1 Per Share,data/raw/corporate_actions/nse_api/ONGC/2025-09-29_2026-09-16.json
+ZEEL,2026-09-10,2.0,OK,False,INE256A01028,Dividend - Rs 2 Per Share,data/raw/corporate_actions/nse_api/ZEEL/2025-09-29_2026-09-16.json

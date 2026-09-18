@@ -1,0 +1,72 @@
+,ranked_L1,ranked_L2,ranked_L3,ranked_L4,ranked_L5
+total_pnl,₹165.00 L,₹311.83 L,₹387.74 L,₹373.54 L,₹320.43 L
+final_nav,₹365.00 L,₹511.83 L,₹587.74 L,₹573.54 L,₹520.43 L
+total_return,82.50%,155.92%,193.87%,186.77%,160.21%
+cagr,9.70%,15.56%,18.05%,17.60%,15.86%
+annualized_return,9.57%,15.34%,17.90%,17.90%,16.90%
+annualized_vol,4.89%,10.67%,13.82%,16.35%,19.29%
+sharpe,0.88,0.94,0.91,0.77,0.60
+sortino,1.22,1.31,1.26,1.05,0.82
+max_drawdown,-6.54%,-15.67%,-22.25%,-29.99%,-35.50%
+max_dd_peak,2024-09-27,2024-09-27,2024-09-27,2024-09-27,2024-09-27
+max_dd_trough,2025-02-28,2025-04-07,2025-02-28,2025-03-03,2025-03-03
+max_dd_recovered,2025-05-12,2025-09-19,n/a,n/a,n/a
+calmar,1.48,0.99,0.81,0.59,0.45
+option_trade_win_rate,79.67%,80.40%,78.85%,80.43%,81.03%
+cycle_win_rate,95.50%,95.04%,93.16%,90.11%,88.69%
+avg_trade_pnl,₹0.08 L,₹0.25 L,₹0.38 L,₹0.43 L,₹0.43 L
+avg_option_trade_pnl,₹-0.01 L,₹-0.02 L,₹-0.08 L,₹-0.08 L,₹-0.06 L
+avg_monthly_return,0.77%,1.25%,1.47%,1.48%,1.43%
+best_month,5.13%,9.99%,13.86%,13.74%,16.35%
+best_month_date,2025-03,2022-07,2022-07,2022-07,2022-07
+worst_month,-4.00%,-10.23%,-13.85%,-17.57%,-21.61%
+worst_month_date,2024-10,2024-10,2024-10,2024-10,2020-03
+pct_positive_months,72.15%,68.35%,67.09%,69.62%,64.56%
+profit_factor,1.80,1.81,1.69,1.57,1.44
+premium_collected,₹148.41 L,₹403.92 L,₹577.84 L,₹694.24 L,₹785.39 L
+option_pnl,₹4.27 L,₹10.00 L,₹-32.22 L,₹-24.04 L,₹-6.69 L
+stock_pnl,₹97.10 L,₹268.99 L,₹404.77 L,₹383.19 L,₹312.89 L
+transaction_costs,₹10.81 L,₹27.97 L,₹38.27 L,₹38.40 L,₹35.48 L
+financing_cost,₹-0.00 L,₹-0.00 L,₹-0.00 L,₹-0.00 L,₹-0.00 L
+cash_interest_income,₹74.45 L,₹60.80 L,₹53.46 L,₹52.79 L,₹49.72 L
+n_puts_sold,610,574,505,480,455
+n_calls_sold,472,431,346,261,204
+n_assignments,128,112,95,68,51
+assignment_rate,20.98%,19.51%,18.81%,14.17%,11.21%
+n_calls_exercised,109,97,83,58,43
+n_completed_wheel_cycles,106,92,79,55,40
+n_cycles_closed,600,565,497,475,451
+avg_completed_cycle_days,130,135,135,146,135
+avg_closed_cycle_days,48,48,46,43,40
+avg_capital_utilization,50.41%,54.60%,45.87%,40.53%,36.32%
+avg_margin_utilization,48.73%,51.85%,44.23%,39.13%,35.18%
+max_margin_utilization,76.00%,89.74%,89.87%,89.36%,89.40%
+max_margin_utilization_date,2024-07-05,2024-10-07,2024-01-03,2023-12-04,2023-12-01
+n_margin_call_liquidations,0,0,0,0,0
+margin_breach_days,0,0,0,0,0
+avg_leveraged_requirement,₹142.06 L,₹197.68 L,₹187.97 L,₹170.12 L,₹148.05 L
+avg_unleveraged_requirement,₹142.06 L,₹395.37 L,₹563.91 L,₹680.47 L,₹740.26 L
+avg_notional_exposure,₹143.77 L,₹400.06 L,₹570.72 L,₹688.49 L,₹749.15 L
+avg_gross_exposure_x_nav,0.49×,1.05×,1.34×,1.59×,1.78×
+max_gross_exposure_x_nav,0.77×,1.84×,2.74×,3.60×,4.51×
+max_borrowed,₹0.00 L,₹0.00 L,₹0.00 L,₹0.00 L,₹0.00 L
+days_borrowing,0,0,0,0,0
+n_itm_puts_physically_assigned,128,112,95,68,51
+n_itm_puts_not_delivered_insufficient_cash,0,4,17,32,36
+n_forced_realisations,0,4,17,32,36
+forced_realisation_loss,₹0.00 L,₹9.50 L,₹41.85 L,₹124.37 L,₹173.63 L
+assignment_costs,₹5.55 L,₹14.55 L,₹19.88 L,₹19.97 L,₹18.45 L
+cash_rejected_delivery_prevented,₹0.00 L,₹197.27 L,"₹1,038.45 L","₹2,750.01 L","₹3,578.49 L"
+n_cash_settlement_forced_stock_sales,0,0,0,1,0
+forced_stock_sale_value,₹0.00 L,₹0.00 L,₹0.00 L,₹40.81 L,₹0.00 L
+n_cash_settlement_forced_call_buybacks,0,0,0,0,0
+min_free_cash,₹135.04 L,₹6.00 L,₹4.27 L,₹2.09 L,₹2.41 L
+min_free_cash_date,2025-02-27,2022-02-24,2021-03-25,2021-03-25,2026-03-30
+max_cash_utilization,59.64%,97.95%,98.36%,99.29%,99.52%
+return_on_deployed_capital,17.88%,24.28%,31.75%,33.80%,33.31%
+return_on_leveraged_capital,17.88%,12.14%,10.58%,8.45%,6.66%
+return_on_avg_nav,9.01%,13.26%,14.56%,13.70%,12.10%
+annual_premium_turnover_x_nav,8.11%,17.17%,21.71%,25.46%,29.66%
+annual_notional_sold_x_nav,6.38×,13.97×,17.52×,20.63×,23.04×
+liquidation_cost_estimate_at_end,₹0.20 L,₹0.59 L,₹0.86 L,₹0.82 L,₹0.79 L
+n_open_positions_at_end,10,9,8,5,4

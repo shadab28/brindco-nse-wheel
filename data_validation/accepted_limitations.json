@@ -1,0 +1,10 @@
+{
+ "U-11": {
+  "phase": 1,
+  "accepted_by": "project owner",
+  "accepted_on": "2026-09-17",
+  "status": "CONDITIONAL PASS / PROCEED WITH KNOWN LIMITATION",
+  "limitation": "Four historically valid NIFTY 50/F&O names — HDFC, LTIM, INFRATEL/INDUSTOWER, and ZEEL — are missing from the vendor 15-minute underlying database for certain historical periods. As a result, those member-expiries were unavailable to the ranking engine and may introduce survivorship bias into historical rankings. No data has been fabricated or repaired at this stage.",
+  "instruction": "Do not modify the ranking methodology to compensate for the missing data."
+ }
+}

@@ -1,0 +1,3 @@
+symbol,exit_reason,removal_date,decision_date,position_before_exit,cancelled_orders,fill_date,exit_action,exit_price,realized_pnl,transaction_cost,cash_before,cash_after,position_after_exit,nav_after,available_liquidity_after,margin_utilization_after,residual,data_unavailable
+VEDL,UNIVERSE_REMOVAL,2020-07-31,2020-07-31,24500 shares,,2020-08-03,sell shares,115.2424,-534287.4249999996,2948.7222341705005,13566634.701046726,16387123.553812556,flat,21374888.553812556,9754523.553812556,0.36863543078424876,False,
+IOC,UNIVERSE_REMOVAL,2022-03-31,2022-03-31,45500 shares,,2022-04-01,sell shares,122.0389,547772.225,5800.71785350525,24702369.909543477,30249341.416689973,flat,36668516.41668998,30249341.416689973,0.04376489443324096,False,

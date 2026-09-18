@@ -1,0 +1,71 @@
+effective,symbol,action,kind,release_date,release,evidence
+2016-04-01,AUROPHARMA,add,review,2016-02-22,ind_prs22022016_2.pdf,1 Aurobindo Pharma Ltd. AUROPHARMA
+2016-04-01,EICHERMOT,add,review,2016-02-22,ind_prs22022016_2.pdf,3 Eicher Motors Ltd. EICHERMOT
+2016-04-01,INFRATEL,add,review,2016-02-22,ind_prs22022016_2.pdf,2 Bharti Infratel Ltd. INFRATEL
+2016-04-01,TATAMTRDVR,add,review,2016-02-22,ind_prs22022016_2.pdf,4 Tata Motors Ltd. (DVR) * TATAMTRDVR
+2016-04-01,CAIRN,remove,review,2016-02-22,ind_prs22022016_2.pdf,1 Cairn India Ltd. CAIRN
+2016-04-01,PNB,remove,review,2016-02-22,ind_prs22022016_2.pdf,2 Punjab National Bank PNB
+2016-04-01,VEDL,remove,review,2016-02-22,ind_prs22022016_2.pdf,3 Vedanta Ltd. VEDL
+2017-03-31,IBULHSGFIN,add,review,2017-02-16,ind_prs16022017.pdf,1 Indiabulls Housing Finance Ltd. IBULHSGFIN
+2017-03-31,IOC,add,review,2017-02-16,ind_prs16022017.pdf,2 Indian Oil Corporation Ltd. IOC
+2017-03-31,BHEL,remove,review,2017-02-16,ind_prs16022017.pdf,1 Bharat Heavy Electricals Ltd. BHEL
+2017-03-31,IDEA,remove,review,2017-02-16,ind_prs16022017.pdf,2 Idea Cellular Ltd. IDEA
+2017-05-26,VEDL,add,event,2017-04-27,ind_prs27042017.pdf,1 Vedanta Ltd. VEDL
+2017-05-26,GRASIM,remove,event,2017-04-27,ind_prs27042017.pdf,1 Grasim Industries Ltd. GRASIM
+2017-09-29,BAJFINANCE,add,review,2017-08-28,ind_prs28082017.pdf,1 Bajaj Finance Ltd. BAJFINANCE
+2017-09-29,HINDPETRO,add,review,2017-08-28,ind_prs28082017.pdf,2 Hindustan Petroleum Corporation Ltd. HINDPETRO
+2017-09-29,UPL,add,review,2017-08-28,ind_prs28082017.pdf,3 UPL Ltd. UPL
+2017-09-29,ACC,remove,review,2017-08-28,ind_prs28082017.pdf,1 ACC Ltd. ACC
+2017-09-29,BANKBARODA,remove,review,2017-08-28,ind_prs28082017.pdf,2 Bank of Baroda BANKBARODA
+2017-09-29,TATAMTRDVR,remove,review,2017-08-28,ind_prs28082017.pdf,4 Tata Motors Ltd DVR TATAMTRDVR
+2017-09-29,TATAPOWER,remove,review,2017-08-28,ind_prs28082017.pdf,3 Tata Power Co. Ltd. TATAPOWER
+2018-04-02,BAJAJFINSV,add,review,2018-02-21,ind_prs21022018.pdf,1 Bajaj Finserv Ltd. BAJAJFINSV
+2018-04-02,GRASIM,add,review,2018-02-21,ind_prs21022018.pdf,2 Grasim Industries Ltd. GRASIM
+2018-04-02,TITAN,add,review,2018-02-21,ind_prs21022018.pdf,3 Titan Company Ltd. TITAN
+2018-04-02,AMBUJACEM,remove,review,2018-02-21,ind_prs21022018.pdf,1 Ambuja Cements Ltd. AMBUJACEM
+2018-04-02,AUROPHARMA,remove,review,2018-02-21,ind_prs21022018.pdf,2 Aurobindo Pharma Ltd. AUROPHARMA
+2018-04-02,BOSCHLTD,remove,review,2018-02-21,ind_prs21022018.pdf,3 Bosch Ltd. BOSCHLTD
+2018-09-28,JSWSTEEL,add,review,2018-08-28,ind_prs28082018.pdf,1 JSW Steel Ltd. JSWSTEEL
+2018-09-28,LUPIN,remove,review,2018-08-28,ind_prs28082018.pdf,1 Lupin Ltd. LUPIN
+2019-03-29,BRITANNIA,add,review,2019-02-25,ind_prs25022019.pdf,1 Britannia Industries Ltd. BRITANNIA
+2019-03-29,HINDPETRO,remove,review,2019-02-25,ind_prs25022019.pdf,1 Hindustan Petroleum Corporation Ltd. HINDPETRO
+2019-09-27,NESTLEIND,add,review,2019-08-28,ind_prs28082019.pdf,1 Nestle India Ltd. NESTLEIND
+2019-09-27,IBULHSGFIN,remove,review,2019-08-28,ind_prs28082019.pdf,1 Indiabulls Housing Finance Ltd. IBULHSGFIN
+2020-03-19,SHREECEM,add,event,2020-03-16,ind_prs16032020.pdf,1 Shree Cement Ltd. SHREECEM
+2020-03-19,YESBANK,remove,event,2020-03-16,ind_prs16032020.pdf,1 Yes Bank Ltd. YESBANK
+2020-07-31,HDFCLIFE,add,event,2020-07-02,ind_prs02072020_1.pdf,1 HDFC Life Insurance Company Ltd. HDFCLIFE
+2020-07-31,VEDL,remove,event,2020-07-02,ind_prs02072020_1.pdf,1 Vedanta Ltd. VEDL
+2020-09-25,DIVISLAB,add,review,2020-08-20,ind_prs20082020.pdf,1 Divi's Laboratories Ltd. DIVISLAB
+2020-09-25,SBILIFE,add,review,2020-08-20,ind_prs20082020.pdf,2 SBI Life Insurance Company Ltd. SBILIFE
+2020-09-25,INFRATEL,remove,review,2020-08-20,ind_prs20082020.pdf,1 Bharti Infratel Ltd. INFRATEL
+2020-09-25,ZEEL,remove,review,2020-08-20,ind_prs20082020.pdf,2 Zee Entertainment Enterprises Ltd. ZEEL
+2021-03-31,TATACONSUM,add,review,2021-02-23,ind_prs23022021.pdf,1 Tata Consumer Products Ltd. TATACONSUM
+2021-03-31,GAIL,remove,review,2021-02-23,ind_prs23022021.pdf,1 GAIL (India) Ltd. GAIL
+2022-03-31,APOLLOHOSP,add,review,2022-02-24,ind_prs24022022_1.pdf,1 Apollo Hospitals Enterprise Ltd. APOLLOHOSP
+2022-03-31,IOC,remove,review,2022-02-24,ind_prs24022022_1.pdf,1 Indian Oil Corporation Ltd. IOC
+2022-09-30,ADANIENT,add,review,2022-09-01,ind_prs01092022.pdf,1 Adani Enterprises Ltd. ADANIENT
+2022-09-30,SHREECEM,remove,review,2022-09-01,ind_prs01092022.pdf,1 Shree Cement Ltd. SHREECEM
+2023-07-13,LTIM,add,event,2023-07-04,ind_prs04072023.pdf,1 LTIMindtree Ltd. LTIM
+2023-07-13,HDFC,remove,event,2023-07-04,ind_prs04072023.pdf,1 Housing Development Finance Corporation Ltd. HDFC
+2023-07-20,JIOFIN,add,spinoff_in,2023-07-17,ind_prs17072023.pdf,spun-off entity of RELIANCE included at zero price
+2023-09-07,JIOFIN,remove,spinoff_out,2023-09-05,ind_prs05092023.pdf,JIOFIN excluded after listing
+2024-03-28,SHRIRAMFIN,add,review,2024-02-28,ind_prs28022024.pdf,1 Shriram Finance Ltd. SHRIRAMFIN
+2024-03-28,UPL,remove,review,2024-02-28,ind_prs28022024.pdf,1 UPL Ltd. UPL
+2024-09-30,BEL,add,review,2024-08-23,ind_prs23082024.pdf,1 Bharat Electronics Ltd. BEL
+2024-09-30,TRENT,add,review,2024-08-23,ind_prs23082024.pdf,2 Trent Ltd. TRENT
+2024-09-30,DIVISLAB,remove,review,2024-08-23,ind_prs23082024.pdf,1 Divi's Laboratories Ltd. DIVISLAB
+2024-09-30,LTIM,remove,review,2024-08-23,ind_prs23082024.pdf,2 LTIMindtree Ltd. LTIM
+2025-01-06,ITCHOTELS,add,spinoff_in,2024-12-30,ind_prs30122024.pdf,spun-off entity of ITC included at zero price
+2025-02-10,ITCHOTELS,remove,spinoff_out,2025-02-06,ind_prs06022025_1.pdf,ITCHOTELS excluded after listing
+2025-03-28,ETERNAL,add,review,2025-02-21,ind_prs21022025.pdf,2 Zomato Ltd. ZOMATO
+2025-03-28,JIOFIN,add,review,2025-02-21,ind_prs21022025.pdf,1 Jio Financial Services Ltd. JIOFIN
+2025-03-28,BPCL,remove,review,2025-02-21,ind_prs21022025.pdf,1 Bharat Petroleum Corporation Ltd. BPCL
+2025-03-28,BRITANNIA,remove,review,2025-02-21,ind_prs21022025.pdf,2 Britannia Industries Ltd. BRITANNIA
+2025-09-30,INDIGO,add,review,2025-08-22,ind_prs22082025.pdf,1 InterGlobe Aviation Ltd. INDIGO
+2025-09-30,MAXHEALTH,add,review,2025-08-22,ind_prs22082025.pdf,2 Max Healthcare Institute Ltd. MAXHEALTH
+2025-09-30,HEROMOTOCO,remove,review,2025-08-22,ind_prs22082025.pdf,1 Hero MotoCorp Ltd. HEROMOTOCO
+2025-09-30,INDUSINDBK,remove,review,2025-08-22,ind_prs22082025.pdf,2 IndusInd Bank Ltd. INDUSINDBK
+2025-10-14,TMCV,add,spinoff_in,2025-10-07,ind_prs07102025.pdf,spun-off entity of TATAMOTORS included at zero price
+2025-11-17,TMCV,remove,spinoff_out,2025-11-13,ind_prs13112025.pdf,TMCV excluded after listing
+2025-12-05,KWIL,add,spinoff_in,2025-11-28,ind_prs28112025.pdf,spun-off entity of HINDUNILVR included at zero price
+2026-02-24,KWIL,remove,spinoff_out,2026-02-20,ind_prs20022026_1.pdf,KWIL excluded after listing

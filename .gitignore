@@ -1,0 +1,12 @@
+data/pgdata/
+data/raw/
+data/backtest/cache/
+data/backtest/sensitivity_u11/
+data/backtest/_archive_pre_step9a/
+data/market/*.db
+data/market/*.bak.db
+# regenerated from data/raw/fo by data_validation/raw_fo.py
+data_validation/output/raw_fo/
+__pycache__/
+*.pyc
+.env

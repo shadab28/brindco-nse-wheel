@@ -1,0 +1,5 @@
+nse_symbol,warehouse_symbol,valid_until,isin,reason
+TMPV,TATAMOTORS,2025-10-23,INE155A01022,"same ISIN; NSE files pre-demerger announcements under TMPV, warehouse ticker was TATAMOTORS until 2025-10-23"
+SAMMAANCAP,IBULHSGFIN,2024-07-25,INE148I01020,"same ISIN; renamed 2024-07-26, warehouse ticker was IBULHSGFIN until 2024-07-25"
+LTM,LTIM,2026-09-16,INE214T01019,"same ISIN; LTIMindtree trades as LTM in current NSE files, warehouse ticker LTIM (U-11 sensitivity only)"
+INDUSTOWER,INFRATEL,2020-12-17,INE121J01017,"same ISIN; Bharti Infratel renamed Indus Towers Dec 2020, warehouse ticker INFRATEL (U-11 sensitivity only)"

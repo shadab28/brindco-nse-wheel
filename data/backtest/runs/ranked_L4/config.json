@@ -1,0 +1,78 @@
+{
+  "start_date": "2020-01-01",
+  "end_date": "2026-06-30",
+  "initial_capital": 20000000,
+  "n_positions": 20,
+  "rank_threshold": 1.5,
+  "put_strike_filter_pct": 0.04,
+  "call_strike_filter_pct": 0.03,
+  "slippage_level": "base",
+  "rankings_file": "data/signals/expiry_rankings.csv",
+  "universe_membership_file": "data/universe/nifty50_membership_validated.csv",
+  "lot_size_file": "data/lots/lot_at_monthly_expiry.csv",
+  "slippage_file": "data/costs/slippage_schedule.csv",
+  "costs_file": "data/costs/wheel_charges_schedule.csv",
+  "first_signal_date": "2019-12-31",
+  "leverage": 4.0,
+  "leverage_grid": [
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0
+  ],
+  "max_margin_utilization": 1.0,
+  "margin_financing_rate": 0.1,
+  "risk_free_file": "data/market/india_rf_3m_tbill_monthly.csv",
+  "max_reserve_multiple": 1.5,
+  "min_contracts_t": 10,
+  "min_oi_contracts_t": 50,
+  "participation_cap": 0.1,
+  "max_retries": 3,
+  "max_distance_min_pct": 0.015,
+  "call_floor_economic_basis": true,
+  "call_fill_lag_days": 1,
+  "put_stop_loss_pct": 0.15,
+  "covered_call_first": true,
+  "assignment_concentration_warn_x_nav": 1.0,
+  "allocation_priority": "rank",
+  "base_dir": "data/backtest",
+  "nifty_index_file": "data/market/nifty50_tri_daily.csv",
+  "nifty_price_index_file": "data/market/nifty50_index_daily.csv",
+  "terminations_file": "data/calendar/contract_terminations.csv",
+  "ca_announcements_file": "data/reference/nse_corporate_announcements.csv",
+  "dividends_file": "data/reference/dividends.csv",
+  "sector_file": "data/universe/sector_map.csv",
+  "lot_daily_file": "data/lots/lot_daily.csv.gz",
+  "expiry_file": "data/calendar/nifty50_monthly_expiries.csv",
+  "frozen_baseline_names": [
+    "IBULHSGFIN",
+    "ICICIBANK",
+    "INFY",
+    "MARUTI",
+    "RELIANCE",
+    "SBIN",
+    "TATAMOTORS",
+    "TATASTEEL",
+    "YESBANK",
+    "ZEEL"
+  ],
+  "stress_windows": {
+    "covid_crash_2020": [
+      "2020-02-19",
+      "2020-03-23"
+    ],
+    "rate_hike_selloff_2022": [
+      "2022-01-17",
+      "2022-06-17"
+    ],
+    "fpi_outflow_correction_2024_25": [
+      "2024-09-26",
+      "2025-03-04"
+    ],
+    "tariff_shock_2025": [
+      "2025-04-01",
+      "2025-04-07"
+    ]
+  }
+}

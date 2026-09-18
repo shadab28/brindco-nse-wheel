@@ -1,0 +1,3 @@
+leverage,months,avg_members,avg_ranked,avg_above_threshold,avg_selected,avg_held_at_decision,avg_selected_already_held,avg_open_slots,avg_evaluated,avg_put_orders,avg_skipped_no_liquid_strike,avg_skipped_distance_cap,avg_skipped_lot_too_large,avg_skipped_margin_or_cash,avg_skipped_not_fo_listed,avg_skipped_lot_unresolved,avg_skipped_termination,avg_skipped_left_index,avg_skipped_other,avg_entry_deferred_days,avg_new_puts_filled,avg_names_held_before_next_expiry
+1.0,79,50.08,49.01,12.2,10.65,8.53,0.95,11.47,8.37,7.06,0.23,1.06,0.01,0.0,0.0,0.0,0.0,0.0,0.0,1.35,7.06,15.42
+5.0,79,50.08,49.01,12.2,10.65,5.11,0.63,14.89,6.44,3.62,0.2,0.9,0.0,1.72,0.0,0.0,0.0,0.0,0.0,1.35,3.62,8.62

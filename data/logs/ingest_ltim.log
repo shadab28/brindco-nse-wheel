@@ -1,0 +1,22 @@
+schema ready; universe 1 symbols (hash 5dc88f51fc68)
+394 candidate trading days 2023-05-01 .. 2024-10-31; 22 already ingested, 372 to process
+  20/372 days | cash 20 fut 60 opt 4,934
+  40/372 days | cash 40 fut 120 opt 9,812
+  60/372 days | cash 60 fut 180 opt 14,824
+  80/372 days | cash 80 fut 240 opt 19,494
+  100/372 days | cash 100 fut 300 opt 24,380
+  120/372 days | cash 120 fut 360 opt 29,350
+  140/372 days | cash 140 fut 420 opt 34,448
+  160/372 days | cash 160 fut 480 opt 40,088
+  180/372 days | cash 180 fut 540 opt 46,624
+  200/372 days | cash 200 fut 600 opt 52,078
+  220/372 days | cash 220 fut 660 opt 56,356
+  240/372 days | cash 240 fut 720 opt 59,718
+  260/372 days | cash 260 fut 780 opt 62,911
+  280/372 days | cash 280 fut 840 opt 66,279
+  300/372 days | cash 300 fut 900 opt 69,635
+  320/372 days | cash 320 fut 960 opt 73,102
+  340/372 days | cash 340 fut 1,020 opt 76,715
+  360/372 days | cash 360 fut 1,080 opt 80,506
+
+merged: 372 cash / 1,116 futures / 83,262 option rows

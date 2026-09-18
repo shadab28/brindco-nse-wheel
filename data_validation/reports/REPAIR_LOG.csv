@@ -1,0 +1,2 @@
+logged,phase,dataset,key,field,old,new,reason,source
+2026-09-17T15:56:21,2,data/raw/fo (warehouse nse.options_eod / futures_eod),2021-03-30,whole F&O bhavcopy,missing (no NSE bhavcopy on disk),data/raw/fo_mkt/2021-03-30_reconstructed_bhav.csv,"pre-existing manual recovery discovered in validation; rows are NSE market-activity report op/fut files: traded contracts only, SETTLE_PR empty",NSE F&O market activity report fo30032021.zip

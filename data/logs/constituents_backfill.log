@@ -1,0 +1,13 @@
+20 change rows -> /Users/shadab/Work and Codiing/Brindco/data/universe/nifty50_changes.csv
+  2017-01-05: 250 trading days
+  2018-01-08: 500 trading days
+  2019-01-14: 750 trading days
+  2020-01-22: 1000 trading days
+  2021-01-22: 1250 trading days
+  2022-01-27: 1500 trading days
+  2023-01-30: 1750 trading days
+  2024-02-06: 2000 trading days
+  2025-02-10: 2250 trading days
+  2026-02-16: 2500 trading days
+132,520 rows, 2643 trading days -> /Users/shadab/Work and Codiing/Brindco/data/universe/nifty50_constituents_daily.csv
+79 stocks ever in NIFTY 50 (50 current) -> /Users/shadab/Work and Codiing/Brindco/data/universe/nifty50_master_list.csv

@@ -1,0 +1,50 @@
+trade_type,charge,from,to,rate,rs_per_lakh,rate_fraction,fixed_inr,charged_on,paid_by,status,source_id,note
+Option sale,Brokerage,2019-10-01,current,₹20.00 per order,,,20.00,per executed order,client,ASSUMED,ZERODHA-CHARGES,"Zerodha schedule as published 2026-09-16 (zerodha.com/charges), applied back to 2019-10-01; historical broker rates not reconstructed"
+Option sale,Exchange txn charge,2019-10-01,2020-12-31,0.05%,₹50.00,0.0005,,premium × qty,both sides,VERIFIED,NSE-FA-46730,
+Option sale,Exchange txn charge,2021-01-01,2023-03-31,0.053%,₹53.00,0.00053,,premium × qty,both sides,VERIFIED,NSE-FA-46730,
+Option sale,Exchange txn charge,2023-04-01,2024-03-31,0.0505%,₹50.50,0.000505,,premium × qty,both sides,VERIFIED,NSE-FA-56129,
+Option sale,Exchange txn charge,2024-04-01,2024-09-30,0.05%,₹50.00,0.0005,,premium × qty,both sides,VERIFIED,NSE-FA-61137,
+Option sale,Exchange txn charge,2024-10-01,2026-02-28,0.03553%,₹35.53,0.0003553,,premium × qty,both sides,VERIFIED,NSE-FA-64232,
+Option sale,Exchange txn charge,2026-03-01,current,0.03553%,₹35.53,0.0003553,,premium × qty,both sides,VERIFIED,NSE-FA-73061,
+Option sale,GST,2019-10-01,current,18%,,0.18,,brokerage + exchange txn + SEBI fee,client,ASSUMED,ZERODHA-CHARGES,"Zerodha schedule as published 2026-09-16 (zerodha.com/charges), applied back to 2019-10-01; historical broker rates not reconstructed"
+Option sale,SEBI turnover fee,2019-10-01,2020-05-31,0.0001%,₹0.10,0.000001,,premium × qty,both sides,VERIFIED,SEBI-MEMO-2020,
+Option sale,SEBI turnover fee,2020-06-01,2021-03-31,0.00005%,₹0.05,0.0000005,,premium × qty,both sides,VERIFIED,SEBI-PR-2020-04-27,
+Option sale,SEBI turnover fee,2021-04-01,current,0.0001%,₹0.10,0.000001,,premium × qty,both sides,VERIFIED,SEBI-PR-2020-04-27; ZERODHA-CHARGES,
+Option sale,STT,2019-10-01,2023-03-31,0.05%,₹50.00,0.0005,,premium × qty,seller,VERIFIED,NSE-FATAX-56235,
+Option sale,STT,2023-04-01,2024-09-30,0.0625%,₹62.50,0.000625,,premium × qty,seller,VERIFIED,NSE-FATAX-56235,
+Option sale,STT,2024-10-01,2026-03-31,0.1%,₹100.00,0.001,,premium × qty,seller,VERIFIED,NSE-FATAX-63809,
+Option sale,STT,2026-04-01,current,0.15%,₹150.00,0.0015,,premium × qty,seller,VERIFIED,NSE-FATAX-73524,
+Put assignment,Brokerage (physical delivery),2019-10-01,current,0.25%,₹250.00,0.0025,,higher of strike or FSP × qty,client,ASSUMED,ZERODHA-CHARGES,"Zerodha schedule as published 2026-09-16 (zerodha.com/charges), applied back to 2019-10-01; historical broker rates not reconstructed"
+Put assignment,Exchange txn charge,2019-10-01,current,0%,₹0.00,0.0,,higher of strike or FSP × qty,both sides,ASSUMED,NSE-FA-64232; ZERODHA-CHARGES,"Not charged: exercise/assignment is settled by NSE Clearing, not executed as an exchange trade; NSE txn charges apply to traded value only (Zerodha physical-settlement charges list delivery STT + 0.25% brokerage only)"
+Put assignment,GST,2019-10-01,current,18%,,0.18,,brokerage + exchange txn + SEBI fee,client,ASSUMED,ZERODHA-CHARGES,"Zerodha schedule as published 2026-09-16 (zerodha.com/charges), applied back to 2019-10-01; historical broker rates not reconstructed"
+Put assignment,SEBI turnover fee,2019-10-01,2020-05-31,0.0001%,₹0.10,0.000001,,higher of strike or FSP × qty,both sides,VERIFIED,SEBI-MEMO-2020,
+Put assignment,SEBI turnover fee,2020-06-01,2021-03-31,0.00005%,₹0.05,0.0000005,,higher of strike or FSP × qty,both sides,VERIFIED,SEBI-PR-2020-04-27,
+Put assignment,SEBI turnover fee,2021-04-01,current,0.0001%,₹0.10,0.000001,,higher of strike or FSP × qty,both sides,VERIFIED,SEBI-PR-2020-04-27; ZERODHA-CHARGES,
+Put assignment,STT (delivery),2019-10-01,current,0.1%,₹100.00,0.001,,higher of strike or FSP × qty,receiver,VERIFIED,NSE-FATAX-38737; NSE-FATAX-56235,
+Put assignment,Stamp duty,2019-10-01,2020-06-30,0.015%,₹15.00,0.00015,,higher of strike or FSP × qty,buyer,ASSUMED,PIB-1635399,Before 2020-07-01 stamp duty was levied by each state at different rates; the post-reform uniform rate is used as a proxy
+Put assignment,Stamp duty,2020-07-01,current,0.015%,₹15.00,0.00015,,higher of strike or FSP × qty,buyer,VERIFIED,PIB-1635399,
+Call-away,Brokerage (physical delivery),2019-10-01,current,0.25%,₹250.00,0.0025,,higher of strike or FSP × qty,client,ASSUMED,ZERODHA-CHARGES,"Zerodha schedule as published 2026-09-16 (zerodha.com/charges), applied back to 2019-10-01; historical broker rates not reconstructed"
+Call-away,DP charge,2019-10-01,current,₹15.34 per scrip,,,15.34,per scrip sold,client,ASSUMED,ZERODHA-CHARGES,"Zerodha schedule as published 2026-09-16 (zerodha.com/charges), applied back to 2019-10-01; historical broker rates not reconstructed"
+Call-away,Exchange txn charge,2019-10-01,current,0%,₹0.00,0.0,,higher of strike or FSP × qty,both sides,ASSUMED,NSE-FA-64232; ZERODHA-CHARGES,"Not charged: exercise/assignment is settled by NSE Clearing, not executed as an exchange trade; NSE txn charges apply to traded value only (Zerodha physical-settlement charges list delivery STT + 0.25% brokerage only)"
+Call-away,GST,2019-10-01,current,18%,,0.18,,brokerage + exchange txn + SEBI fee,client,ASSUMED,ZERODHA-CHARGES,"Zerodha schedule as published 2026-09-16 (zerodha.com/charges), applied back to 2019-10-01; historical broker rates not reconstructed"
+Call-away,SEBI turnover fee,2019-10-01,2020-05-31,0.0001%,₹0.10,0.000001,,higher of strike or FSP × qty,both sides,VERIFIED,SEBI-MEMO-2020,
+Call-away,SEBI turnover fee,2020-06-01,2021-03-31,0.00005%,₹0.05,0.0000005,,higher of strike or FSP × qty,both sides,VERIFIED,SEBI-PR-2020-04-27,
+Call-away,SEBI turnover fee,2021-04-01,current,0.0001%,₹0.10,0.000001,,higher of strike or FSP × qty,both sides,VERIFIED,SEBI-PR-2020-04-27; ZERODHA-CHARGES,
+Call-away,STT (delivery),2019-10-01,current,0.1%,₹100.00,0.001,,higher of strike or FSP × qty,giver,VERIFIED,NSE-FATAX-38737; NSE-FATAX-56235,
+Equity sale,Brokerage,2019-10-01,current,0%,,0.0,,price × qty,client,ASSUMED,ZERODHA-CHARGES,"Zerodha schedule as published 2026-09-16 (zerodha.com/charges), applied back to 2019-10-01; historical broker rates not reconstructed"
+Equity sale,DP charge,2019-10-01,current,₹15.34 per scrip,,,15.34,per scrip sold,client,ASSUMED,ZERODHA-CHARGES,"Zerodha schedule as published 2026-09-16 (zerodha.com/charges), applied back to 2019-10-01; historical broker rates not reconstructed"
+Equity sale,Exchange txn charge,2019-10-01,2020-12-31,0.00325%,₹3.25,0.0000325,,price × qty,both sides,VERIFIED,NSE-FA-46730,
+Equity sale,Exchange txn charge,2021-01-01,2023-03-31,0.00345%,₹3.45,0.0000345,,price × qty,both sides,VERIFIED,NSE-FA-46730,
+Equity sale,Exchange txn charge,2023-04-01,2024-03-31,0.00335%,₹3.35,0.0000335,,price × qty,both sides,VERIFIED,NSE-FA-56129,
+Equity sale,Exchange txn charge,2024-04-01,2024-09-30,0.00332%,₹3.32,0.0000332,,price × qty,both sides,VERIFIED,NSE-FA-61137,
+Equity sale,Exchange txn charge,2024-10-01,2026-02-28,0.00307%,₹3.07,0.0000307,,price × qty,both sides,VERIFIED,NSE-FA-64232,
+Equity sale,Exchange txn charge,2026-03-01,current,0.00307%,₹3.07,0.0000307,,price × qty,both sides,VERIFIED,NSE-FA-73061,
+Equity sale,GST,2019-10-01,current,18%,,0.18,,brokerage + exchange txn + SEBI fee,client,ASSUMED,ZERODHA-CHARGES,"Zerodha schedule as published 2026-09-16 (zerodha.com/charges), applied back to 2019-10-01; historical broker rates not reconstructed"
+Equity sale,SEBI turnover fee,2019-10-01,2020-05-31,0.0001%,₹0.10,0.000001,,price × qty,both sides,VERIFIED,SEBI-MEMO-2020,
+Equity sale,SEBI turnover fee,2020-06-01,2021-03-31,0.00005%,₹0.05,0.0000005,,price × qty,both sides,VERIFIED,SEBI-PR-2020-04-27,
+Equity sale,SEBI turnover fee,2021-04-01,current,0.0001%,₹0.10,0.000001,,price × qty,both sides,VERIFIED,SEBI-PR-2020-04-27; ZERODHA-CHARGES,
+Equity sale,STT (delivery),2019-10-01,current,0.1%,₹100.00,0.001,,price × qty,seller,VERIFIED,NSE-FATAX-56235,
+Option buy (not used),Stamp duty,2019-10-01,2020-06-30,0.003%,₹3.00,0.00003,,premium × qty,buyer,ASSUMED,PIB-1635399,"Before 2020-07-01 stamp duty was levied by each state at different rates; the post-reform uniform rate is used as a proxy; Premium stamp duty is paid by the option buyer: not charged when the wheel sells, charged only on forced buy-backs (CostModel.option_buy)"
+Option buy (not used),Stamp duty,2020-07-01,current,0.003%,₹3.00,0.00003,,premium × qty,buyer,VERIFIED,PIB-1635399,"Premium stamp duty is paid by the option buyer: not charged when the wheel sells, charged only on forced buy-backs (CostModel.option_buy)"
+Not paid by wheel,STT on exercise,2019-10-01,2026-03-31,0.125%,₹125.00,0.00125,,intrinsic value,option buyer,VERIFIED,NSE-FATAX-41919,
+Not paid by wheel,STT on exercise,2026-04-01,current,0.15%,₹150.00,0.0015,,intrinsic value,option buyer,VERIFIED,UNION-BUDGET-2026,"Index (cash-settled) options only; physically settled stock options pay 0.1% delivery STT on both sides instead (NSE-FATAX-38737)"

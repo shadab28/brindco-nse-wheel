@@ -1,0 +1,21 @@
+# Snapshot of params.yaml on 2026-09-18 — the parameters behind every number in this folder.
+strategy:
+  n_positions: 20
+  rank_threshold: 1.5
+  put_strike_filter_pct: 0.04
+  call_strike_filter_pct: 0.03
+  slippage_level: base
+  initial_capital: 20000000
+backtest:
+  leverage: 3.0
+  put_stop_loss_pct: 0.15
+  first_signal_date: 2019-12-31
+  max_margin_utilization: 1.0
+  call_floor_economic_basis: true
+  covered_call_first: true
+  call_fill_lag_days: 1
+  min_contracts_t: 10
+  min_oi_contracts_t: 50
+  participation_cap: 0.1
+  max_distance_min_pct: 0.015
+  allocation_priority: rank

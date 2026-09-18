@@ -1,0 +1,20 @@
+scanning 2642 files
+
+1,463,142 daily series rows, 366 symbols, 2016-01-01 -> 2026-09-16
+lot_source
+futures_value+oi_gcd    977503
+NewBrdLotQty            334161
+backfilled               84178
+carried                  67093
+corrected                  182
+unresolved                  25
+validation on UDiFF days: legacy method == NewBrdLotQty on 99.85% of 328,330 rows
+  (naive round of the value estimate agrees on only 21.69%)
+24,674 contract series; 991 changed lot mid-life
+1,231 lot-change events:
+kind
+revision_new_series     765
+revision_live_series    332
+corporate_action        134
+
+wheel universe events -> /Users/shadab/Work and Codiing/Brindco/data/lots/wheel_lot_impact.csv

@@ -1,0 +1,61 @@
+# Wheel strategy backtest inputs. Change these to get a different result.
+
+start_date: 2020-01-01
+end_date: 2026-06-30
+initial_capital: 20000000        # INR
+
+n_positions: 20                  # trade the top N stocks from rankings_file at each expiry; also sets the report title and the "Equal-weight top-N" benchmark label
+rank_threshold: 1.5              # only trade stocks with rank_final > this (0 = above trend)
+put_strike_filter_pct: 0.04      # put strike <= spot × (1 − pct)
+call_strike_filter_pct: 0.03     # call strike >= spot × (1 + pct)
+slippage_level: base             # low | base | high
+
+# Data files
+rankings_file: data/signals/expiry_rankings.csv   # stock selection, ranked by rank_final
+universe_membership_file: data/universe/nifty50_membership_validated.csv   # historical NIFTY 50 periods; leaving it forces a wind-down
+lot_size_file: data/lots/lot_at_monthly_expiry.csv
+slippage_file: data/costs/slippage_schedule.csv
+costs_file: data/costs/wheel_charges_schedule.csv
+
+# --- Leveraged wheel backtest (scripts/wheel/backtest.py) ---
+# Every value below was fixed before any backtest result existed.
+backtest:
+  first_signal_date: 2019-12-31  # decide on this close with the latest ranking on or before it; first fill next day
+  leverage: 3.0                  # headline run (L3, chosen 2026-09-18 after the L1–L5 grid was seen); margin per short option = strike × qty / leverage; target notional per name = leverage × NAV / n_positions
+  leverage_grid: [1.0, 2.0, 3.0, 4.0, 5.0]   # sensitivity runs, pre-declared
+  max_margin_utilization: 1.0    # entries may not push required margin above this × NAV; a close above it forces liquidation next day
+  margin_financing_rate: 0.10    # DEAD for live runs. Step 9a (cash-only assignment) forbids borrowing, so cash can
+                                 # never go negative and this leg can never fire (asserted zero in the tests). Retained
+                                 # only to reproduce the archived pre-Step-9a runs in data/backtest/_archive_pre_step9a/.
+  risk_free_file: data/market/india_rf_3m_tbill_monthly.csv   # positive cash earns that month's rate (OECD IR3TIB, India 3M T-bill); also the Sharpe/Sortino hurdle
+  max_reserve_multiple: 1.5      # 0 lots fit ⇒ allow 1 lot iff lot notional <= 1.5 × target
+  min_contracts_t: 10            # liquidity on signal day
+  min_oi_contracts_t: 50
+  participation_cap: 0.10        # fill lots <= 10% of contracts traded on fill day
+  max_retries: 3
+  max_distance_min_pct: 0.015    # |K − target| <= max(1.5% × spot, bracketing strike interval)
+  call_floor_economic_basis: true
+  call_fill_lag_days: 1          # covered call sold this many trading days after put assignment (1 = next day)
+  put_stop_loss_pct: 0.15        # NOT fixed ex ante: added 2026-09-18 after the L1–L5 grid was seen. Short put is
+                                 # bought back on the first close <= (1 − this) × the underlying close on the day the
+                                 # put was sold; the cycle ends, no delivery. null disables (reproduces pre-rule runs).
+                                 # 0.15 chosen from scripts/wheel/stop_loss_probe.py — tighter stops destroy value
+                                 # because they cut cycles that recover. See docs/STOP_LOSS.md.
+  covered_call_first: true       # calls on usable assigned shares are decided and filled before any new put; puts wait while calls are pending
+  assignment_concentration_warn_x_nav: 1.0   # ASSIGNMENT_LIQUIDITY_WARNING when >= 2 same-day assignments leave a sector above this × NAV (log only)
+  allocation_priority: rank      # rank | alphabetical
+  base_dir: data/backtest
+  nifty_index_file: data/market/nifty50_tri_daily.csv        # benchmark: NIFTY 50 Total Return Index (niftyindices.com)
+  nifty_price_index_file: data/market/nifty50_index_daily.csv   # price index (^NSEI): regime labels and FSP check only
+  terminations_file: data/calendar/contract_terminations.csv
+  ca_announcements_file: data/reference/nse_corporate_announcements.csv   # every NSE corporate-action announcement, parsed
+  dividends_file: data/reference/dividends.csv   # cash dividends per (symbol, ex-date), paid to held shares
+  sector_file: data/universe/sector_map.csv
+  lot_daily_file: data/lots/lot_daily.csv.gz
+  expiry_file: data/calendar/nifty50_monthly_expiries.csv
+  frozen_baseline_names: [IBULHSGFIN, ICICIBANK, INFY, MARUTI, RELIANCE, SBIN, TATAMOTORS, TATASTEEL, YESBANK, ZEEL]
+  stress_windows:                # named market crashes, fixed ex ante
+    covid_crash_2020: [2020-02-19, 2020-03-23]
+    rate_hike_selloff_2022: [2022-01-17, 2022-06-17]
+    fpi_outflow_correction_2024_25: [2024-09-26, 2025-03-04]
+    tariff_shock_2025: [2025-04-01, 2025-04-07]

@@ -1,0 +1,16 @@
+source_id,issuer,reference,dated,what_it_sets,url
+NSE-FATAX-56235,NSE,NSE/FATAX/56235,2023-03-31,STT rates incl. 2023 option-sale rise; delivery 0.10%,https://archives.nseindia.com/content/circulars/FATAX56235.pdf
+NSE-FATAX-63809,NSE,NSE/FATAX/63809,2024-09-30,STT option sale 0.10% from 2024-10-01,https://nsearchives.nseindia.com/content/circulars/FATAX63809.pdf
+NSE-FATAX-73524,NSE,NSE/FATAX/73524,2026-03-31,STT option sale 0.15% from 2026-04-01,https://nsearchives.nseindia.com/content/circulars/FATAX73524.pdf
+NSE-FATAX-38737,NSE,NSE/FATAX/38737,2018-08-30,"Delivery STT on physically settled stock derivatives, both sides",https://archives.nseindia.com/content/circulars/FATAX38737.pdf
+NSE-FATAX-41919,NSE,NSE/FATAX/41919,2019-08-30,"STT on exercised options, payable by purchaser",https://archives.nseindia.com/content/circulars/FATAX41919.pdf
+NSE-FA-46730,NSE,NSE/FA/46730,2020-12-18,Exchange txn charges: existing rate and increase from 2021-01-01,https://archives.nseindia.com/content/circulars/FA46730.pdf
+NSE-FA-56129,NSE,NSE/FA/56129,2023-03-24,"Roll-back from 2023-04-01; IPFT Rs 50/crore options, Rs 10/crore cash",https://archives.nseindia.com/content/circulars/FA56129.pdf
+NSE-FA-61137,NSE,NSE/FA/61137,2024-03-14,Exchange txn charges cut from 2024-04-01,https://nsearchives.nseindia.com/content/circulars/FA61137.pdf
+NSE-FA-64232,NSE,NSE/FA/64232,2024-09-27,Flat true-to-label rates from 2024-10-01,https://nsearchives.nseindia.com/content/circulars/FA64232.pdf
+NSE-FA-73061,NSE,NSE/FA/73061,2026-02-27,"IPFT folded into txn charge from 2026-03-01, totals unchanged",https://nsearchives.nseindia.com/content/circulars/FA73061.pdf
+SEBI-MEMO-2020,SEBI,Board memo: Relaxation in Applicable Fees (COVID-19),2020-04,Turnover fee Rs 10/crore; 50% cut Jun 2020 - Mar 2021,https://www.sebi.gov.in/sebi_data/meetingfiles/jul-2020/1594293677017_1.pdf
+SEBI-PR-2020-04-27,SEBI,Press release: SEBI reduces broker turnover fees,2020-04-27,Confirms 50% turnover fee for Jun 2020 - Mar 2021,https://www.sebi.gov.in/media/press-releases/apr-2020/sebi-reduces-broker-turnover-fees-and-filing-fees-for-issuers_46571.html
+ZERODHA-CHARGES,Zerodha,Published charge schedule (current),2026-09-16,"Brokerage, physical delivery fee, stamp, DP, GST (applied to whole window)",https://zerodha.com/charges/
+PIB-1635399,Govt of India,PIB PRID=1635399,2020-07,"Uniform stamp duty from 2020-07-01, one side only",https://www.pib.gov.in/PressReleasePage.aspx?PRID=1635399
+UNION-BUDGET-2026,Government of India,Finance Bill 2026,2026-02-01,"STT: option premium 0.1%→0.15%, option exercise 0.125%→0.15%, from 2026-04-01",https://www.icicidirect.com/futures-and-options/articles/stt-changes-in-budget-2026-what-f-o-traders-need-to-know

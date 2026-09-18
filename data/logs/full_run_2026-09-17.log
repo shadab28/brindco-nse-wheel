@@ -1,0 +1,8 @@
+ranked_L1        final     35,356,053  CAGR   9.17%  MDD  -7.65%  Sharpe  0.70  margin calls   0  recon 0.0000
+ranked_L2        final     45,967,433  CAGR  13.67%  MDD -17.79%  Sharpe  0.71  margin calls   0  recon 0.0000
+ranked_L3        final     58,555,696  CAGR  17.98%  MDD -26.18%  Sharpe  0.76  margin calls   0  recon 0.0000
+ranked_L5        final     67,375,064  CAGR  20.56%  MDD -41.99%  Sharpe  0.65  margin calls   0  recon -0.0000
+ranked_L5_fin0   final     80,258,506  CAGR  23.85%  MDD -34.45%  Sharpe  0.77  margin calls   0  recon -0.0000
+frozen_L1        final     31,173,465  CAGR   7.07%  MDD -12.57%  Sharpe  0.38  margin calls   0  recon -0.0000
+frozen_L5        final     49,969,928  CAGR  15.14%  MDD -45.29%  Sharpe  0.52  margin calls   0  recon 0.0000
+report -> /Users/shadab/Work and Codiing/Brindco/data/backtest/report

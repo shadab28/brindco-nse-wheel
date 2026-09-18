@@ -1,0 +1,45 @@
+1. cache
+  cash: +641 rows for ['INFRATEL', 'LTIM']
+  futures: +1,923 rows for ['INFRATEL', 'LTIM']
+  options: +114,234 rows for ['INFRATEL', 'LTIM']
+  lots: +3,297 rows for ['INFRATEL', 'LTIM']
+2. ranks
+{
+ "beta": 0.5774,
+ "r2": 0.9482,
+ "resid_sd": 0.568,
+ "beta_by_year": {
+  "2019": 0.594,
+  "2020": 0.559,
+  "2021": 0.596,
+  "2022": 0.605,
+  "2023": 0.591,
+  "2024": 0.567,
+  "2025": 0.562,
+  "2026": 0.587
+ },
+ "fit_rows": 3852,
+ "threshold_agreement": 0.9447,
+ "proxy_rows": 84,
+ "proxy_rows_unscored": 0,
+ "proxy_rows_by_symbol": {
+  "HDFC": 45,
+  "INFRATEL": 12,
+  "LTIM": 15,
+  "ZEEL": 12
+ },
+ "proxy_rows_above_threshold": 21,
+ "proxy_rows_in_top_n": 17
+}
+3. dividends
+  INFRATEL: 3 payable dividends
+  LTIM: 4 payable dividends
+4. runs
+  main       L1  CAGR 9.17%  Sharpe 0.70  MDD -7.65%  trades in the 4 names 0
+  main       L2  CAGR 13.67%  Sharpe 0.71  MDD -17.79%  trades in the 4 names 0
+  main       L3  CAGR 17.98%  Sharpe 0.76  MDD -26.18%  trades in the 4 names 0
+  main       L5  CAGR 20.56%  Sharpe 0.65  MDD -41.99%  trades in the 4 names 0
+  u11_proxy  L1  CAGR 9.07%  Sharpe 0.66  MDD -7.70%  trades in the 4 names 12
+  u11_proxy  L2  CAGR 13.90%  Sharpe 0.71  MDD -18.12%  trades in the 4 names 12
+  u11_proxy  L3  CAGR 17.60%  Sharpe 0.72  MDD -26.11%  trades in the 4 names 12
+  u11_proxy  L5  CAGR 19.51%  Sharpe 0.60  MDD -42.43%  trades in the 4 names 11

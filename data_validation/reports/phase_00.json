@@ -1,0 +1,97 @@
+{
+ "phase": 0,
+ "title": "Inventory",
+ "category": "Inventory",
+ "generated": "2026-09-17T15:07:53",
+ "gate_passed": true,
+ "sources": "Static scan of the backtest code (nse/wheel/data.py, nse/wheel/runner.py, nse/wheel/engine.py, nse/wheel/selection.py, nse/wheel/costs.py, nse/wheel/corporate_actions.py, nse/wheel/benchmarks.py, nse/wheel/metrics.py, scripts/wheel/backtest.py), params.yaml, the files on disk and the Postgres warehouse `nse` (127.0.0.1:5440).",
+ "methodology": "Every params `*_file` key the code reads, every literal `data/...` path in the code and the parquet cache are collected and matched against the inventory. Date ranges and row counts are computed from the data itself. Provenance class is assigned from the producing script and its docstring.",
+ "tests_run": "INV-01..07 in this script (static scan + data queries).",
+ "notes": [
+  "Inventory written to data_validation/reports/DATA_INVENTORY.md"
+ ],
+ "checks": [
+  {
+   "id": "INV-01",
+   "name": "Every input read by the backtest is in the inventory",
+   "critical": true,
+   "passed": true,
+   "detail": "17 inputs referenced by the backtest code",
+   "n_checked": 17,
+   "n_failed": 0,
+   "failures": [],
+   "category": "Inventory"
+  },
+  {
+   "id": "INV-02",
+   "name": "Every referenced input exists",
+   "critical": true,
+   "passed": true,
+   "detail": "",
+   "n_checked": 17,
+   "n_failed": 0,
+   "failures": [],
+   "category": "Inventory"
+  },
+  {
+   "id": "INV-03",
+   "name": "Every input has a source, provenance class and date range",
+   "critical": true,
+   "passed": true,
+   "detail": "",
+   "n_checked": 27,
+   "n_failed": 0,
+   "failures": [],
+   "category": "Inventory"
+  },
+  {
+   "id": "INV-04",
+   "name": "Every requested data category is mapped to an input",
+   "critical": true,
+   "passed": true,
+   "detail": "",
+   "n_checked": 12,
+   "n_failed": 0,
+   "failures": [],
+   "category": "Inventory"
+  },
+  {
+   "id": "INV-05",
+   "name": "Cache cash rows equal warehouse rows (RELIANCE)",
+   "critical": false,
+   "passed": true,
+   "detail": "",
+   "n_checked": 1,
+   "n_failed": 0,
+   "failures": [],
+   "category": "Inventory"
+  },
+  {
+   "id": "INV-06",
+   "name": "Raw NSE zips cover every successfully ingested day",
+   "critical": false,
+   "passed": true,
+   "detail": "zips cm=1719, fo=1718 (to 2026-09-16); ingest_log ok cm=1687, fo=1686 (to 2026-07-31)",
+   "n_checked": 2,
+   "n_failed": 0,
+   "failures": [],
+   "category": "Inventory"
+  },
+  {
+   "id": "INV-07",
+   "name": "params *_file keys not read by the backtest (informational)",
+   "critical": false,
+   "passed": true,
+   "detail": "listed so a reader does not assume they affect results",
+   "n_checked": 1,
+   "n_failed": 0,
+   "failures": [
+    {
+     "key": "lot_size_file",
+     "path": "data/lots/lot_at_monthly_expiry.csv"
+    }
+   ],
+   "category": "Inventory"
+  }
+ ]
+}

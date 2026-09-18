@@ -1,0 +1,2 @@
+symbol,exit_reason,removal_date,decision_date,position_before_exit,cancelled_orders,fill_date,exit_action,exit_price,realized_pnl,transaction_cost,cash_before,cash_after,position_after_exit,nav_after,available_liquidity_after,margin_utilization_after,residual,data_unavailable
+GAIL,UNIVERSE_REMOVAL,2021-03-31,2021-03-31,67100 shares; short CE K=135 x67100 exp 2021-04-29,,2021-04-01,buy back CE + sell shares,8.4562|140.0799,540820.9675,10563.365349549977,-29639667.584245406,-20817920.229755126,flat,39061684.770244874,-20817920.229755126,0.3065899760965411,False,

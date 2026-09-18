@@ -1,0 +1,96 @@
+ 
+ 
+ 
+PRESS RELEASE 
+Mumbai, April 26, 2023 
+ 
+Revision in methodology of Nifty equity indices for handling corporate 
+actions involving demerger 
+ 
+NSE Indices had floated a market consultation paper on treatment of merger/demerger in Nifty equity 
+indices on October 18, 2022. Based on the feedback received from the market participants, the Index 
+Maintenance Sub-Committee (Equity) of NSE Indices Limited had on November 18, 2022 announced 
+revision in methodology of Nifty equity indices for treatment of mergers. 
+ 
+As the approach earlier proposed in the market consultation paper for treatment of demerger in Nifty 
+equity indices required further deliberations with market participants and stock exchanges, etc., 
+revision in the current treatment of demerger in Nifty equity indices was kept on hold. 
+ 
+Based on study of global practice s, feedback received from the market participants, the Index 
+Maintenance Sub -Committee (Equity) of NSE Indices Limited has decided to make revision in 
+methodology of Nifty equity indices for treatment of demergers as mentioned hereunder: 
+ 
+Existing methodology 
+Exclusion of demerged company: 
+• In case of scheme of arrangement for demerger of any of the index constituents or ‘Demerged 
+company’ - a company which is demerging its business division(s) into a separate new entity/ 
+company:  
+o Demerged company is excluded from the index and the same is replaced with anot her 
+eligible stock soon after the equity shareholders’ approval to a scheme of arrangement for 
+demerger of a company (in case of indices with fixed number of constituents) 
+o Demerged company is excluded from the index soon after the equity shareholders’ 
+approval to a scheme of arrangement for demerger of a company without making 
+replacement in the index (in case of indices with variable number of constituents) 
+ 
+• In case, a demerged company is a constituent of indices on which Futures and Opti ons are 
+traded at NSE, changes are announced to the market participants four weeks prior to the index 
+reconstitution date 
+ 
+ 
+ 
+ 
+ 
+Revised methodology 
+If Special Pre-Open session (SPOS)* is conducted by Exchange: 
+The Demerged company shall be retained in the index.   
+ 
+Additionally, the spun off business/ entity shall be included in the index at constant price (which is 
+difference between the demerged company’s closing price on T-1 day wherein T is Ex. Demerger 
+date and price derived during Special Pre-Open session (SPOS) on the Ex. Demerger date. 
+ 
+The spun off business/ entity which is the newly listed entity shall be removed from the index after 
+end of day (EOD) on third day of its listing. 
+ 
+In case, during the first 2 days of these 3 days, if the spun off business/ entity hits the price band 
+on both days, then the exclusion date shall be deferred by another 3 days.  After observing two 
+consecutive days of the spun off business/ entity not hitting the price band, such spun off 
+business/entity shall be removed after the third trading day of such observation.  
+ 
+If on such 3rd day spun off business/ entity again hits the price band, exclusion of such stock shall 
+not be deferred anymore. 
+*In accordance with the NSE’s Capital Market Consolidated Circular dated May 27, 2020, Exchange conducts special pre-open session 
+(SPOS) for the purpose of price discovery of all stocks in cases involving corporate restructuring. 
+  
+If Special Pre-Open session is not conducted by Exchange, the Demerged company shall be removed 
+from the index at the beginning of T -1 day (close of Ex. – 2) where T day would be the Ex. date for 
+demerger of stock by making a suitable replacement in case of indices with fixed number of 
+companies.  No replacement (inclusion)  will be made in case of indices with variable number of 
+companies. 
+ 
+The above change is expected to help in reducing churn in index constituents resulting from corporate 
+action involving demergers.  
+ 
+The change shall be applicable to scheme of arrangement of all companies involving demerger which 
+may be approved by equity shareholders of respective companies on or after April 30, 2023. 
+ 
+ 
+About NSE Indices Limited:  
+NSE Indices Limited (formerly known as India Index Services & Products Ltd. - IISL), a subsidiary 
+of NSE, provides a variety of indices and index related services for the capital markets. The company 
+focuses on the index as a core product. The company owns and manages a portfolio of indices under 
+the Nifty brand of NSE, including the flagship index, the Nifty 50. Nifty equity indices comprise of 
+broad-based benchmark indices, sectoral indices, strategy indices, thematic indices and customised 
+indices. NSE I ndices Limited also maintains fixed income indices based on Government of India 
+securities, corporate bonds, money market instruments and hybrid indices. Many investment products 
+ 
+ 
+ 
+based on Nifty indices have been developed within India and abroad. These inc lude index based 
+derivatives traded on NSE, NSE IFSC and Singapore Exchange Ltd. (SGX) and a number of index 
+funds and exchange traded funds. The flagship 'Nifty 50' index is widely tracked and traded as the 
+benchmark for Indian Capital Markets.  
+ 
+For more information, please visit: www.niftyindices.com 
+ 
+Press contact: 
+Email ID: cc@nse.co.in 

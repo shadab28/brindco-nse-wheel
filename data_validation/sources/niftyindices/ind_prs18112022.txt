@@ -1,0 +1,147 @@
+ 
+ 
+ 
+PRESS RELEASE 
+Mumbai, November 18, 2022 
+ 
+Revision in methodology of Nifty equity indices for handling corporate 
+actions involving mergers 
+ 
+NSE Indices had floated a market consultation paper on treatment of merger/demerger in Nifty equity 
+indices on October 18, 2022. Based on the feedback received from the market participants, the Index 
+Maintenance Sub -Committee (Equity) of NSE Indices Limited has decided to make  revision in 
+methodology of Nifty equity indices for treatment of mergers as mentioned hereunder.   
+ 
+Existing Proposed 
+Exclusion of transferor company: 
+• In case of scheme of arrangement for merger 
+of any of the index constituents  (Transferor 
+company, a company which is being merged 
+into another company ) with another 
+company:  
+o Transferor company is excluded from 
+the index and the same is replaced with 
+another eligible stock  soon after the 
+equity shareholders’ approval to a 
+scheme of arrangement for merger of a 
+company (in case of indices with fixed 
+number of constituents) 
+o Transferor company is excluded from 
+the index soon after the equity 
+shareholders’ approval to a scheme o f 
+arrangement for merger of a company 
+without making replacement in the 
+index (in case of indices with variable 
+number of constituents) 
+ 
+• In case, a transferor company is a constituent 
+of indices on which Futures and Options are 
+traded at NSE, changes are announced to the 
+market participants four weeks prior to the 
+index reconstitution date 
+Exclusion of transferor company 
+• Transferor company shall be excluded from 
+index on the ex -date (T Day) of merger i.e. 
+closing of T-1 day 
+o Indices with fixed number of 
+constituents: On ex-date, a replacement 
+of company will be made based on the 
+eligibility criteria of respective indices 
+in place of transferor company which is 
+being excluded  
+o Indices with variable number of 
+constituents: On ex -date, no 
+replacement will be made in place of the 
+transferor company which is being 
+excluded 
+ 
+• Announcement of the changes shall be made 
+providing notice of minimum three working 
+days including the indices on which Futures 
+and Options are traded at NSE 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Existing Proposed 
+ 
+Merged Entity 
+• If the equity shares of merged entity which 
+are allotted to the shareholders of transferor 
+company (post -merger) account for more 
+than or equal to 5% of the current equity of 
+the merged entity, these shares are updated 
+for calculation of market capitalization with 
+effect from the last trading day (T Day) of 
+the calendar month of listing of these shares 
+• In case, equity shares of merged entity 
+which are allotted to the shareholders of 
+transferor company (post -merger) account 
+for less than 5% of the current equity of the 
+merged entity, these shares are updated for 
+calculation of market capitalization with 
+effect from the last trading day of 
+corresponding calendar quarter (March, 
+June, September and December) 
+ 
+ 
+Merged Entity 
+• Equity shares, investible weight factor of 
+merged entity shall be updated based on the 
+terms of merger on the ex-date of merger i.e. 
+closing of T-1 day 
+ 
+The above will move the implementation of  index changes closer to the ex -date and thus help in 
+reducing churn in index constituents resulting from corporate action involving mergers.  
+ 
+These changes shall be applicable for all corporate actions involving mergers with an immediate effect. 
+ 
+As responses on market consultation related to treatment of demerger in Nifty equity indices require 
+further deliberations with various stakeholder s, changes related to treatment of demerger shall be 
+announced in due course.  
+ 
+ 
+About National Stock Exchange of India Limited (NSE): 
+ 
+National Stock Exchange of India (NSE) is the world’s largest derivatives exchange by trading 
+volume (contracts) as per the statistics maintained by Futures Industry Association (FIA) for calendar 
+year 2021. NSE is ranked 4th in the world in the cash equities by number of trades as per the statistics 
+maintained by the World Federation of Exchanges (WFE) for calendar year 2021. NSE was the first 
+exchange in India to implement electronic or screen-based trading. It began operations in 1994 and is 
+ranked as the largest stock exchange in India in terms of total and average daily turnover for equity 
+shares every year since 1995, based on SEBI data. NSE has a fully integrated business model 
+comprising exchange listings, trading services, clearing and settlement services, indices, market data 
+feeds, technology solutions and financial education offerings. NSE also oversees compliance by 
+ 
+ 
+ 
+trading, clearing members and listed companies with the rules and regulations of SEBI and the 
+exchange. NSE is a pioneer in technology and ensures the reliability and performance of its systems 
+through a culture of innovation and investment in technology.   
+For more information, please visit: www.nseindia.com 
+ 
+ 
+About NSE Indices Limited:  
+NSE Indices Limited (formerly known as India Index Services & Products Ltd. - IISL), a subsidiary 
+of NSE, provides a variety of indices and index related services for the capital markets. The company 
+focuses on the index as a core product. The company owns and manages a portfolio of indices under 
+the Nifty brand of NSE, including the flagship index, the Nifty 50. Nifty equity indices comprise of 
+broad-based benchmark indices, sectoral indices, strategy indices, thematic indices and customised 
+indices. NSE I ndices Limited also maintains fixed income indices based on Government of India 
+securities, corporate bonds, money market instruments and hybrid indices. Many investment products 
+based on Nifty indices have been developed within India and abroad. These inc lude index based 
+derivatives traded on NSE, NSE IFSC and Singapore Exchange Ltd. (SGX) and a number of index 
+funds and exchange traded funds. The flagship ' Nifty 50' index is widely tracked and traded as the 
+benchmark for Indian Capital Markets. 
+For more information, please visit: www.niftyindices.com 
+ 
+    
+Press contact: 
+Kumar Kartikey - Associate Vice President, Corporate Communications 
+Priyanka Roy - Manager, Corporate Communications 
+Email ID: cc@nse.co.in 

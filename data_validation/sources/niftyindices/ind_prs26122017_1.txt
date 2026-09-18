@@ -1,0 +1,432 @@
+                                                  
+  
+1 
+ 
+ 
+ 
+Date: 26 December 2017 
+ 
+PRESS RELEASE 
+ 
+IISL, a NSE group company, as part of its quarterly review, announces the following 
+replacements in the below mentioned indices . The changes shall become effective from 
+January 01, 2018. 
+ 
+1- NIFTY AAA Corporate Bond Index 
+ 
+Following securities are being excluded: 
+ 
+Sr. No. ISIN Bond Name Maturity 
+Bucket 
+1 INE134E08IC5 PFC 7.85% 15-Apr-19 
+Ultra-Short 
+Term 
+(0.5 to 2 
+years) 
+2 INE001A07PI8 HDFC 8.15% 27-Jul-18 
+3 INE053F07967 IRFC 7% 10-Sep-18 
+4 INE115A07FQ0 LICHF 0% 2-Sep-19 
+5 INE092T08121 IDFC Bank Ltd. 0% 8-Apr-19 
+6 INE916DA7OV1 KMPL 7.1911% 11-Sep-19 
+7 INE752E07LP2 PGC 9.3% 4-Sep-19 
+8 INE756I07621 HDB Financial Services 8.81% 28-Jul-18 
+9 INE020B07IV4 RECL 9.02% 18-Jun-19 
+10 INE148I07HS6 Indiabulls Housing Fin. Ltd. 7.4% 24-Aug-18 
+11 INE557F09310 NHB 0% 24-Dec-18 
+12 INE936D07083 RUPL 7.01% 28-Sep-18 
+13 INE020B08AJ4 RECL 6.87% 24-Sep-20 
+Short Term 
+(2 to 3 years) 
+14 INE134E08IW3 PFC 7.5% 17-Sep-20 
+15 INE001A07QR7 HDFC 1.5% 16-Sep-20 
+16 INE115A07LD6 LICHF 7.58% 28-Feb-20 
+17 INE752E07KR0 PGC 7.93% 20-May-20 
+18 INE936D07117 RUPL 7.4% 29-Jul-20 
+19 INE756I07BM2 HDB Financial Services 7.43% 28-Sep-20 
+20 INE053F09HI1 IRFC 8.5% 22-Jun-20 
+21 INE871D07QI6 IL&FS Ltd. 7.6% 18-Aug-20 
+22 INE018E08094 SBI Cards & Payment Service Pvt. Ltd. 7.55% 
+7-Aug-20 
+23 INE916DA7NK6 KMPL 7.7455% 16-Mar-20 
+24 INE477A07225 CANFIN Homes 7.57% 10-Apr-20 
+25 INE110L08052 Reliance Jio 8.9% 21-Jan-20 
+26 INE657I08017 Reliance Gas Transportation Infrastructure Ltd. 
+10.25% 22-Aug-21 Medium 
+Term 
+(3 to 5 years) 
+27 INE906B07FG1 NHAI 7.6% 18-Mar-22 
+28 INE020B08AF2 RECL 7.46% 28-Feb-22 
+29 INE477A07241 CANFIN Homes 7.89% 18-May-22 
+                                                  
+  
+2 
+ 
+30 INE115A07JB4 LICHF 8.75% 12-Feb-21 
+31 INE001A07OO9 HDFC 8.75% 4-Mar-21 
+32 INE537P07356 India Infradebt Ltd. 7.75% 22-Jul-22 
+33 INE053F07942 IRFC 6.7% 24-Nov-21 
+34 INE936D07133 RUPL 7.65% 29-Aug-22 
+35 INE246R07079 IDFC Infrastructure Fin Ltd. 8.75% 27-Jul-21 
+36 INE134E08GV9 PFC 8.65% 28-Dec-24 
+Long Term 
+(5 to 10 
+years) 
+37 INE115A07FP2 LICHF 9.39% 23-Aug-24 
+38 INE936D07067 RUPL 8.95% 26-Apr-23 
+39 INE017A08292 Great Eastern Shipping Company Ltd. 8.25% 
+25-May-27 
+40 INE053F07983 IRFC 7.83% 19-Mar-27 
+41 INE001A07OY8 HDFC 8.45% 18-May-26 
+42 INE848E07AC9 NHPC 7.52% 6-Jun-27 
+43 INE092T08BQ8 IDFC Bank Ltd. 9.17% 14-Oct-24 
+44 INE733E07KE8 NTPCL 7.58% 21-Aug-26 
+45 INE110L08037 Reliance Jio 9.25% 16-Jun-24 
+46 INE861G08027 FCI 8.8% 22-Mar-28 
+Ultra-Long 
+Term 
+(Above 10 
+years) 
+47 INE848E07914 NHPC 8.24% 27-Jun-31 
+48 INE206D08451 NPCIL 7.25% 15-Dec-31 
+49 INE053F09HQ4 IRFC 9.47% 10-May-31 
+50 INE261F08683 NABARD 7.38% 20-Oct-31 
+ 
+Following securities are being included: 
+ 
+Sr. No. ISIN Bond Name Maturity 
+Bucket 
+1 INE556F09601 SIDBI 8.04% 15-Mar-19 
+Ultra-Short 
+Term 
+(0.5 to 2 years) 
+2 INE001A07RA1 HDFC 7% 6-Sep-19 
+3 INE134E08IF8 PFC 7.95% 13-May-19 
+4 INE572E09528 PNB Housing Fin 7.28% 26-Sep-19 
+5 INE020B08856 RECL 9.04% 12-Oct-19 
+6 INE053F07918 IRFC 7.65% 30-Jul-19 
+7 INE115A07MM5 LICHF 6.92% 15-Nov-18 
+8 INE296A07NG3 Bajaj Fin 7.5% 2-Dec-19 
+9 INE756I07BS9 HDB Financial Services 7.42% 31-Oct-19 
+10 INE514E08DE5 EXIM 9.63% 29-Nov-18 
+11 INE148I07IB0 Indiabulls Housing Fin. Ltd. 7.48% 7-Dec-18 
+12 INE916DA7NZ4 KMPL 7.7605% 27-May-19 
+13 INE115A07LF1 LICHF 7.65% 17-Nov-20 
+Short Term 
+(2 to 3 years) 
+14 INE001A07QY3 HDFC 7.2% 1-Sep-20 
+15 INE053F07991 IRFC 7.2% 31-May-20 
+16 INE296A07QC5 Bajaj Fin 7.2525% 10-Nov-20 
+17 INE556F08IX2 SIDBI 7.08% 21-Dec-20 
+18 INE752E07NJ1 PGC 8.32% 23-Dec-20 
+                                                  
+  
+3 
+ 
+19 INE002A08526 RIL 7.07% 24-Dec-20 
+20 INE134E08IS1 PFC 7.05% 15-May-20 
+21 INE916DA7NV3 KMPL 7.7948% 16-Jul-20 
+22 INE020B08AN6 RECL 6.99% 31-Dec-20 
+23 INE572E09551 PNB Housing Fin 7.53% 31-Dec-20 
+24 INE756I07BP5 HDB Financial Services 7.3% 8-Sep-20 
+25 INE031A08541 HUDCO 7.14% 22-Dec-20 
+26 INE002A08476 RIL 7% 31-Aug-22 
+Medium Term 
+(3 to 5 years) 
+27 INE481G07182 Ultratech 7.57% 6-Aug-21 
+28 INE906B07FE6 NHAI 7.17% 23-Dec-21 
+29 INE861G08035 FCI 9.95% 7-Mar-22 
+30 INE296A07NE8 Bajaj Fin 7.6% 30-Nov-21 
+31 INE053F07934 IRFC 7.24% 8-Nov-21 
+32 INE020B08AP1 RECL 7.45% 30-Nov-22 
+33 INE572E09361 PNB Housing Fin 8.47% 1-Jul-21 
+34 INE514E08FM3 EXIM 7.35% 18-May-22 
+35 INE115A07MG7 LICHF 7.42% 15-Jul-22 
+36 INE115A07ML7 LICHF 7.4% 6-Sep-24 
+Long Term 
+(5 to 10 years) 
+37 INE296A08805 Bajaj Fin 8.45% 29-Sep-26 
+38 INE053F07AA7 IRFC 7.49% 28-May-27 
+39 INE153A08071 MTNL 8.29% 28-Nov-24 
+40 INE134E08IR3 PFC 7.18% 20-Jan-27 
+41 INE514E08FP6 EXIM 7.22% 3-Aug-27 
+42 INE871D07QS5 IL&FS Ltd. 7.88% 30-Oct-24 
+43 INE848E07658 NHPC 8.49% 26-Nov-23 
+44 INE001A07NP8 HDFC 8.43% 4-Mar-25 
+45 INE774D08MK5 M&M Fin Serv Ltd. 8% 3-Aug-27 
+46 INE134E08FQ1 PFC 8.94% 25-Mar-28 
+Ultra-Long 
+Term 
+(Above 10 
+years) 
+47 INE206D08394 NPCIL 8.13% 28-Mar-30 
+48 INE261F08931 NABARD 7.6% 23-Nov-32 
+49 INE923L07308 SP Jammu Udhampur Highway 9.15% 30-Jun-
+30 
+50 INE053F09HD2 IRFC 8.83% 14-May-31 
+51 INE514E08FO9 EXIM 7.74% 26-May-37 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                                  
+  
+4 
+ 
+2- NIFTY AAA Ultra Short-Term Corporate Bond Index:  
+ 
+Following securities are being excluded: 
+ 
+Sr. No. ISIN Bond Name 
+1 INE134E08IC5 PFC 7.85% 15-Apr-19 
+2 INE001A07PI8 HDFC 8.15% 27-Jul-18 
+3 INE053F07967 IRFC 7% 10-Sep-18 
+4 INE115A07FQ0 LICHF 0% 2-Sep-19 
+5 INE092T08121 IDFC Bank Ltd. 0% 8-Apr-19 
+6 INE916DA7OV1 KMPL 7.1911% 11-Sep-19 
+7 INE752E07LP2 PGC 9.3% 4-Sep-19 
+8 INE756I07621 HDB Financial Services 8.81% 28-Jul-18 
+9 INE020B07IV4 RECL 9.02% 18-Jun-19 
+10 INE148I07HS6 Indiabulls Housing Fin. Ltd. 7.4% 24-Aug-18 
+11 INE557F09310 NHB 0% 24-Dec-18 
+12 INE936D07083 RUPL 7.01% 28-Sep-18 
+ 
+Following securities are being included: 
+ 
+Sr. No. ISIN Bond Name 
+1 INE556F09601 SIDBI 8.04% 15-Mar-19 
+2 INE001A07RA1 HDFC 7% 6-Sep-19 
+3 INE134E08IF8 PFC 7.95% 13-May-19 
+4 INE572E09528 PNB Housing Fin 7.28% 26-Sep-19 
+5 INE020B08856 RECL 9.04% 12-Oct-19 
+6 INE053F07918 IRFC 7.65% 30-Jul-19 
+7 INE115A07MM5 LICHF 6.92% 15-Nov-18 
+8 INE296A07NG3 Bajaj Fin 7.5% 2-Dec-19 
+9 INE756I07BS9 HDB Financial Services 7.42% 31-Oct-19 
+10 INE514E08DE5 EXIM 9.63% 29-Nov-18 
+11 INE148I07IB0 Indiabulls Housing Fin. Ltd. 7.48% 7-Dec-18 
+12 INE916DA7NZ4 KMPL 7.7605% 27-May-19 
+ 
+ 
+3- NIFTY AAA Short-Term Corporate Bond Index:  
+ 
+Following securities are being excluded: 
+ 
+Sr. No. ISIN Bond Name 
+1 INE020B08AJ4 RECL 6.87% 24-Sep-20 
+2 INE134E08IW3 PFC 7.5% 17-Sep-20 
+3 INE001A07QR7 HDFC 1.5% 16-Sep-20 
+4 INE115A07LD6 LICHF 7.58% 28-Feb-20 
+5 INE752E07KR0 PGC 7.93% 20-May-20 
+6 INE936D07117 RUPL 7.4% 29-Jul-20 
+                                                  
+  
+5 
+ 
+7 INE756I07BM2 HDB Financial Services 7.43% 28-Sep-20 
+8 INE053F09HI1 IRFC 8.5% 22-Jun-20 
+9 INE871D07QI6 IL&FS Ltd. 7.6% 18-Aug-20 
+10 INE018E08094 SBI Cards & Payment Service Pvt. Ltd. 7.55% 7-Aug-20 
+11 INE916DA7NK6 KMPL 7.7455% 16-Mar-20 
+12 INE477A07225 CANFIN Homes 7.57% 10-Apr-20 
+13 INE110L08052 Reliance Jio 8.9% 21-Jan-20 
+ 
+Following securities are being included: 
+ 
+Sr. No. ISIN Bond Name 
+1 INE115A07LF1 LICHF 7.65% 17-Nov-20 
+2 INE001A07QY3 HDFC 7.2% 1-Sep-20 
+3 INE053F07991 IRFC 7.2% 31-May-20 
+4 INE296A07QC5 Bajaj Fin 7.2525% 10-Nov-20 
+5 INE556F08IX2 SIDBI 7.08% 21-Dec-20 
+6 INE752E07NJ1 PGC 8.32% 23-Dec-20 
+7 INE002A08526 RIL 7.07% 24-Dec-20 
+8 INE134E08IS1 PFC 7.05% 15-May-20 
+9 INE916DA7NV3 KMPL 7.7948% 16-Jul-20 
+10 INE020B08AN6 RECL 6.99% 31-Dec-20 
+11 INE572E09551 PNB Housing Fin 7.53% 31-Dec-20 
+12 INE756I07BP5 HDB Financial Services 7.3% 8-Sep-20 
+13 INE031A08541 HUDCO 7.14% 22-Dec-20 
+ 
+ 
+4- NIFTY AAA Medium-Term Corporate Bond Index 
+ 
+Following securities are being excluded: 
+ 
+Sr. No. ISIN Bond Name 
+1 INE657I08017 Reliance Gas Transportation Infrastructure Ltd. 10.25% 
+22-Aug-21 
+2 INE906B07FG1 NHAI 7.6% 18-Mar-22 
+3 INE020B08AF2 RECL 7.46% 28-Feb-22 
+4 INE477A07241 CANFIN Homes 7.89% 18-May-22 
+5 INE115A07JB4 LICHF 8.75% 12-Feb-21 
+6 INE001A07OO9 HDFC 8.75% 4-Mar-21 
+7 INE537P07356 India Infradebt Ltd. 7.75% 22-Jul-22 
+8 INE053F07942 IRFC 6.7% 24-Nov-21 
+9 INE936D07133 RUPL 7.65% 29-Aug-22 
+10 INE246R07079 IDFC Infrastructure Fin Ltd. 8.75% 27-Jul-21 
+ 
+ 
+ 
+ 
+                                                  
+  
+6 
+ 
+Following securities are being included: 
+ 
+Sr. No. ISIN Bond Name 
+1 INE002A08476 RIL 7% 31-Aug-22 
+2 INE481G07182 Ultratech 7.57% 6-Aug-21 
+3 INE906B07FE6 NHAI 7.17% 23-Dec-21 
+4 INE861G08035 FCI 9.95% 7-Mar-22 
+5 INE296A07NE8 Bajaj Fin 7.6% 30-Nov-21 
+6 INE053F07934 IRFC 7.24% 8-Nov-21 
+7 INE020B08AP1 RECL 7.45% 30-Nov-22 
+8 INE572E09361 PNB Housing Fin 8.47% 1-Jul-21 
+9 INE514E08FM3 EXIM 7.35% 18-May-22 
+10 INE115A07MG7 LICHF 7.42% 15-Jul-22 
+ 
+ 
+5- NIFTY AAA Long-Term Corporate Bond Index 
+ 
+Following securities are being excluded: 
+ 
+Sr. No. ISIN Bond Name 
+1 INE134E08GV9 PFC 8.65% 28-Dec-24 
+2 INE115A07FP2 LICHF 9.39% 23-Aug-24 
+3 INE936D07067 RUPL 8.95% 26-Apr-23 
+4 INE017A08292 Great Eastern Shipping Company Ltd. 8.25% 25-May-27 
+5 INE053F07983 IRFC 7.83% 19-Mar-27 
+6 INE001A07OY8 HDFC 8.45% 18-May-26 
+7 INE848E07AC9 NHPC 7.52% 6-Jun-27 
+8 INE092T08BQ8 IDFC Bank Ltd. 9.17% 14-Oct-24 
+9 INE733E07KE8 NTPCL 7.58% 21-Aug-26 
+10 INE110L08037 Reliance Jio 9.25% 16-Jun-24 
+ 
+Following securities are being included: 
+ 
+Sr. No. ISIN Bond Name 
+1 INE115A07ML7 LICHF 7.4% 6-Sep-24 
+2 INE296A08805 Bajaj Fin 8.45% 29-Sep-26 
+3 INE053F07AA7 IRFC 7.49% 28-May-27 
+4 INE153A08071 MTNL 8.29% 28-Nov-24 
+5 INE134E08IR3 PFC 7.18% 20-Jan-27 
+6 INE514E08FP6 EXIM 7.22% 3-Aug-27 
+7 INE871D07QS5 IL&FS Ltd. 7.88% 30-Oct-24 
+8 INE848E07658 NHPC 8.49% 26-Nov-23 
+9 INE001A07NP8 HDFC 8.43% 4-Mar-25 
+10 INE774D08MK5 M&M Fin Serv Ltd. 8% 3-Aug-27 
+ 
+ 
+                                                  
+  
+7 
+ 
+ 
+6- NIFTY AAA Ultra Long-Term Corporate Bond Index 
+ 
+Following securities are being excluded: 
+ 
+Sr. No. ISIN Bond Name 
+1 INE861G08027 FCI 8.8% 22-Mar-28 
+2 INE848E07914 NHPC 8.24% 27-Jun-31 
+3 INE206D08451 NPCIL 7.25% 15-Dec-31 
+4 INE053F09HQ4 IRFC 9.47% 10-May-31 
+5 INE261F08683 NABARD 7.38% 20-Oct-31 
+ 
+ 
+Following securities are being included: 
+ 
+Sr. No. ISIN Bond Name 
+1 INE134E08FQ1 PFC 8.94% 25-Mar-28 
+2 INE206D08394 NPCIL 8.13% 28-Mar-30 
+3 INE261F08931 NABARD 7.6% 23-Nov-32 
+4 INE923L07308 SP Jammu Udhampur Highway 9.15% 30-Jun-30 
+5 INE053F09HD2 IRFC 8.83% 14-May-31 
+6 INE514E08FO9 EXIM 7.74% 26-May-37 
+ 
+ 
+About National Stock Exchange of India Limited (NSE):  
+The National Stock Exchange (NSE) is the leading stock exchange in India and the 
+fifth largest in the world by equity trading vo lume Year to Date (YTD), according to 
+World Federation of Exchanges (WFE) data as on August 2017. NSE was the first 
+exchange in India to implement electronic or screen -based trading. It began operations 
+in 1994 and is ranked as the largest stock exchange i n India in terms of total and 
+average daily turnover for equity shares every year since 1995, based on SEBI data.  
+ 
+NSE has a fully -integrated business model comprising our exchange listings, trading 
+services, clearing and settlement services, indices, mar ket data feeds, technology 
+solutions and financial education offerings. NSE also oversees compliance by trading 
+and clearing members with the rules and regulations of the exchange. 
+ 
+NSE is a pioneer in technology and ensures the reliability and performance  of its 
+systems through a culture of innovation and investment in technology. NSE believes 
+that the scale and breadth of its products and services, sustained leadership positions 
+across multiple asset classes in India and globally enable it to be highly re active to 
+market demands and changes and deliver innovation in both trading and non -trading 
+businesses to provide high-quality data and services to market participants and clients. 
+ 
+About India Index Services & Products Ltd. (IISL):  
+India Index Services & Products Ltd. (IISL), a subsidiary of NSE, provides a variety of 
+indices and index related services for the capital markets. IISL focuses on the index as 
+a core product. IISL owns and manages a portfolio of indices under the NIFTY brand 
+                                                  
+  
+8 
+ 
+of NSE, including the flagship index, the NIFTY 50. IISL equity Indices comprises 
+broad-based benchmark indices, sectoral indices, strategy indices, thematic indices and 
+customised indices. IISL also maintains fixed income indices based on Government of 
+India securities, co rporate bonds and money market instruments. Many investment 
+products based on IISL indices have been developed within India and abroad. These 
+include index based derivatives traded on NSE, Singapore Exchange Ltd. (SGX), 
+Chicago Mercantile Exchange Inc. (CM E), Osaka Exchange Inc. (OSE), Taiwan 
+Futures Exchange (TAIFEX) and a number of index funds and exchange traded funds. 
+The flagship 'NIFTY 50' index is widely tracked and traded as the benchmark for 
+Indian Capital Markets. 
+ 
+For more information, please visit: www.niftyindices.com 
+ 
+Disclaimer: National Stock Exchange of India Limited is proposing, subject to receipt 
+of requisite approvals, market conditions and other considerations, an initial public 
+offer of its e quity shares and has filed a draft red herring prospectus dated December 
+28, 2016 (“DRHP”) with Securities and Exchange Board of India (“SEBI”). The 
+DRHP is available on the website of SEBI as well as on website of the Managers, 
+Citigroup Global Markets In dia Private Limited at 
+http://www.online.citibank.co.in/rhtm/citigroupglobalscreen1.htm, JM Financial 
+Institutional Securities Limited at www.jmfl.com, Kotak Mahindra Capital Company 
+Limited at http://www.investmentbank.kotak.com, Morgan Stanley India Comp any 
+Private Limited at http://www.morganstanley.com/about -us/global-offices/india/, 
+HDFC Bank Limited at www.hdfcbank.com, ICICI Securities Limited at 
+www.icicisecurities.com, IDFC Bank Limited at www.idfcbank.com and IIFL 
+Holdings Limited at www.iiflcap.c om. Potential investors should note that investment 
+in equity shares involves a high degree of risk and for details relating to such risk, see 
+“Risk Factors” beginning on page 19 of the DRHP. Potential investors should not rely 
+on the DRHP filed with SEBI for making any investment decision.  
+ 
+Any securities referred to herein have not been and will not be registered under the 
+U.S. Securities Act of 1933, as amended (the “Securities Act”), and may not be offered 
+or sold in the United States absent registrati on or an exemption from registration under 
+the Securities Act. There is no intention to register any securities referred to herein in 
+the United States or to make a public offering of the securities in the United States. 
+ 
+For any clarifications please contact: 
+ 
+Debojyoti Chatterjee  
+Head, Corporate Communication & Media Relations 
+Mobile: 9833368337 
+Email id: dchatterjee@nse.co.in / cc@nse.co.in 
+ 
+Kumar Kartikey 
+Manager, Corporate Communication 
+Mobile: 9819549984 
+Email id: kumark@nse.co.in 
+ 
+ 

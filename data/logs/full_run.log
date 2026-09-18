@@ -1,0 +1,22 @@
+RELIANCE: 1784 candidate trading days, 2019-10-01 .. 2026-07-31
+  100/1784 days processed
+  200/1784 days processed
+  300/1784 days processed
+  400/1784 days processed
+  500/1784 days processed
+  600/1784 days processed
+  700/1784 days processed
+  800/1784 days processed
+  900/1784 days processed
+  1000/1784 days processed
+  1100/1784 days processed
+  1200/1784 days processed
+  1300/1784 days processed
+  1400/1784 days processed
+  1500/1784 days processed
+  1600/1784 days processed
+  1700/1784 days processed
+  1784/1784 days processed
+cash:      1,687 rows -> data/RELIANCE_cash_eod.csv (2019-10-01 .. 2026-07-31)
+options: 506,014 rows -> data/RELIANCE_options_eod.csv
+futures:   5,058 rows -> data/RELIANCE_futures_eod.csv

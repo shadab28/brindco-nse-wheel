@@ -1,0 +1,13 @@
+scanning 1686 cached files for lot sizes
+  250/1686
+  500/1686
+  750/1686
+  1000/1686
+  1250/1686
+  1500/1686
+/Users/shadab/Work and Codiing/Brindco/nse/contracts.py:105: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["lot_size"] = out["declared_lot"].fillna(out["lot_from_oi"])
+
+15,818 contract series; 5,824 carry an exchange-declared lot (UDiFF era)
+OI-GCD matches the declared lot on 97.3% of those -- this is the validation for the pre-2024 derived values
+267 symbols show at least one lot-size revision

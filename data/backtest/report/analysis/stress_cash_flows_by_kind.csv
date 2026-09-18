@@ -1,0 +1,13 @@
+kind,amount
+put_assignment_pay_strike,-49965250.0
+option_buyback,-3327518.965
+put_cash_settled_intrinsic,-2124630.000000001
+assignment_costs,-204916.48399500002
+call_away_costs,-35138.786627875
+option_sale_costs,-5829.31801679126
+option_buyback_costs,-1569.62767748081
+put_cash_settled_costs,-1098.6055894200003
+dividend,250800.0
+cash_interest,329715.9462165061
+premium,3385362.475
+call_away_receive_strike,8325000.0
