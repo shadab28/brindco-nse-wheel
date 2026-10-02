@@ -1,4 +1,4 @@
-# Snapshot of params.yaml on 2026-09-18 — the parameters behind every number in this folder.
+# Snapshot of params.yaml on 2026-10-02 — the parameters behind every number in this folder.
 strategy:
   n_positions: 20
   rank_threshold: 1.5

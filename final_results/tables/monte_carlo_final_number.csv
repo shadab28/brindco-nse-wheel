@@ -1,0 +1,2 @@
+backtest_cagr,selection_optimism_cagr,adjusted_cagr,mc_p05_cagr,mc_p95_cagr,backtest_sharpe,selection_optimism_sharpe,adjusted_sharpe,haircut_range_cagr_low,haircut_range_cagr_high,backtest_max_drawdown,mc_p05_max_drawdown,p_cagr_below_nifty,reality_check_p
+0.18047936249370133,0.0401212205054715,0.14035814198822982,0.02318135886360105,0.2658017892138777,0.9145900107588749,0.19280302403394933,0.7217869867249256,0.12268066215918769,0.17885371193303737,-0.22252368838177627,-0.3565543889656112,0.1973,0.0763

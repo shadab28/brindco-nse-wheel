@@ -28,6 +28,9 @@ from nse.wheel.runner import Context, load_params, run  # noqa: E402
 
 LEVELS = [0.05, 0.08, 0.10, 0.12, 0.15, 0.20, 0.25]
 RERUN_LEVELS = [None, 0.10, 0.12, 0.15, 0.20]
+# The sweep that decided the 15% stop ran at 5% / 5% strikes, before params.yaml moved to put 4% / call 3%.
+# Pinned so a rerun reproduces docs/STOP_LOSS.md and final_results/tables/stop_loss_sweep.csv.
+RERUN_STRIKES = {"put_strike_filter_pct": 0.05, "call_strike_filter_pct": 0.05}
 
 
 def counterfactual(ctx, run_id: str, pct: float) -> pd.DataFrame:
@@ -87,12 +90,14 @@ def cmd_counterfactual(ctx, run_id="ranked_L3"):
     return df
 
 
-def cmd_rerun(ctx, leverages=(1.0, 3.0, 5.0)):
+def cmd_rerun(ctx, leverages=(1.0, 3.0, 5.0), navs: dict | None = None):
     rows = []
     for L in leverages:
         for sl in RERUN_LEVELS:
-            r = run(ctx, run_id=None, write=False, leverage=L, put_stop_loss_pct=sl)
+            r = run(ctx, run_id=None, write=False, leverage=L, put_stop_loss_pct=sl, **RERUN_STRIKES)
             nav = r["daily"].set_index("date").nav
+            if navs is not None:
+                navs[f"L{L:g}_stop_{'off' if sl is None else f'{sl:g}'}"] = nav
             st, m = nav_stats(nav, ctx.risk_free), r["metrics"]
             rows.append({"leverage": L, "stop": "off" if sl is None else f"-{sl:.0%}",
                          "total_pnl": nav.iloc[-1] - nav.iloc[0], "cagr": st["cagr"],
@@ -118,7 +123,9 @@ def main():
     if cmd == "counterfactual":
         cmd_counterfactual(ctx).to_csv(out / "counterfactual.csv", index=False)
     elif cmd == "rerun":
-        cmd_rerun(ctx).to_csv(out / "rerun.csv", index=False)
+        navs = {}
+        cmd_rerun(ctx, navs=navs).to_csv(out / "rerun.csv", index=False)
+        pd.DataFrame(navs).to_csv(out / "rerun_navs.csv", index_label="date")   # daily NAVs for monte_carlo.py
     else:
         raise SystemExit(__doc__)
     print(f"\n-> {out}")

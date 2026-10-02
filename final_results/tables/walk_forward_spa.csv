@@ -1,0 +1,5 @@
+benchmark,pool,models,best_model,rc_p,spa_c_p,spa_u_p,models_clearly_worse
+T-bill,58 variants seen before the choice,58,L5 rank>2,0.05075,0.00975,0.00975,0
+T-bill,900-config walk-forward grid,900,L5_p0.02_c0.02_soff,0.128,0.00775,0.00775,0
+NIFTY 50 TRI,58 variants seen before the choice,58,L5 rank>2,0.1865,0.31625,0.31625,0
+NIFTY 50 TRI,900-config walk-forward grid,900,L5_p0.02_c0.02_soff,0.4015,0.3305,0.3305,0

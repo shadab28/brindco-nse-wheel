@@ -7,7 +7,8 @@ Every combination of put offset p and call offset c in OFFSETS is one full backt
     put strike  = highest liquid listed strike <= spot × (1 − p)   (params `put_strike_filter_pct`)
     call strike = lowest liquid listed strike >= spot × (1 + c)    (params `call_strike_filter_pct`)
 Everything else is the headline configuration (ranking, threshold, N, costs, base slippage, cash-only assignment).
-Outputs: data/backtest/report/strike_grid_L<L>/ (grid.csv plus one pivot per metric, heatmaps.png).
+Outputs: data/backtest/report/strike_grid_L<L>/ (grid.csv plus one pivot per metric, heatmaps.png, navs.csv with one
+daily NAV column per cell for scripts/wheel/monte_carlo.py).
 """
 from __future__ import annotations
 
@@ -34,11 +35,12 @@ def main():
     ctx = Context(p)
     out = ROOT / p["base_dir"] / "report" / f"strike_grid_L{L:g}"
     out.mkdir(parents=True, exist_ok=True)
-    rows = []
+    rows, navs = [], {}
     for pp in OFFSETS:
         for cc in OFFSETS:
             r = run(ctx, run_id=None, write=False, leverage=L, put_strike_filter_pct=pp, call_strike_filter_pct=cc)
             nav = r["daily"].set_index("date").nav
+            navs[f"put{pp:g}_call{cc:g}"] = nav
             st = nav_stats(nav, ctx.risk_free)
             tr = pd.concat([r["trades"], r["open"]], ignore_index=True)
             dec = decomposition(tr, r["ledger"]).iloc[0]
@@ -61,6 +63,7 @@ def main():
                   f"Sharpe {st['sharpe']:.2f}  Calmar {st['calmar']:.2f}  P&L {nav.iloc[-1] - nav.iloc[0]:>13,.0f}", flush=True)
     g = pd.DataFrame(rows)
     g.to_csv(out / "grid.csv", index=False)
+    pd.DataFrame(navs).to_csv(out / "navs.csv", index_label="date")
     for col in ["cagr", "max_drawdown", "sharpe", "calmar", "total_pnl"]:
         g.pivot(index="put_otm", columns="call_otm", values=col).to_csv(out / f"pivot_{col}.csv")
 

@@ -1,6 +1,6 @@
 # Brindco NIFTY 50 wheel — final results
 
-Built 2026-09-18 by `scripts/final_results.py` from the current run outputs. Window 2019-12-31 → 2026-06-30, ₹20,000,000 start, identical for every series.
+Built 2026-10-02 by `scripts/final_results.py` from the current run outputs. Window 2019-12-31 → 2026-06-30, ₹20,000,000 start, identical for every series.
 
 ## 1. Chosen parameters and the best alternative found
 
@@ -21,7 +21,8 @@ Built 2026-09-18 by `scripts/final_results.py` from the current run outputs. Win
 - **Chosen** is what `params.yaml` runs and what every other table here reports.
 - **Best alternative** is the highest-Calmar cell of the 36-run put × call grid at 3×. The put 7% row is also the most stable row (highest average Calmar). Across its six call offsets it has CAGR 16.27%–17.08%, max drawdown -17.22% to -12.29%, and Calmar 0.94–1.37.
 - **The trade-off:** the chosen setting earns 1.22 more CAGR points for 9.96 more points of drawdown. The chosen strikes were picked from the grid *before* the stop-loss existed, when they were the best cell. With the stop on, the put 7% row dominates on risk.
-- **The case against switching:** the stop-loss (15%) and this grid were both fitted on the same window. Re-optimising again compounds the in-sample selection. Walk-forward testing (fit 2019–2023, test 2024–2026) should decide between them, not this table.
+- **The case against switching:** the stop-loss (15%) and this grid were both fitted on the same window, so re-optimising again compounds the in-sample selection.
+- **What the out-of-sample test says (section 8):** fitted on 2020–2023 and run from flat on 2024-01 → 2026-06, the chosen setting made 4.83% CAGR (Sharpe -0.01, max DD -25.32%); the put 7% / call 2% alternative made 9.83% (Sharpe 0.41, max DD -14.60%).
 
 ## 2. Headline performance vs benchmarks
 
@@ -140,9 +141,79 @@ Sharpe and Sortino are in excess of the India 3-month T-bill. All series use the
 - **Premium capture:** 77.0% of premium sold was kept (wheel convention). Counting the intrinsic value paid on ITM options against the premium, the strict figure is -5.6%.
 - **Reconciliation:** the parts add up to the NAV change to within ₹1. Per-stock detail, the worst-drawdown walk-through and the full bias discussion are in `ANALYSIS.md`.
 
-## 7. Verdict and what it rests on
+## 7. Monte Carlo: the number after the selection haircut
 
-- **Deployability:** fit as a research allocation at 1–2×. At 3× the numbers are strong but every parameter that matters was fitted on this one window. Treat the CAGR as an upper bound until walk-forward tests confirm it.
+10,000 stationary block-bootstrap histories (mean block 21 trading days) of the chosen run, and the same histories for all 58 distinct variants seen before it was chosen (leverage, strike grid, stop sweep, threshold). Full method and checks: `MONTE_CARLO.md`.
+
+| | Backtest | **Monte Carlo, after selection haircut** |
+|---|---|---|
+| CAGR | 18.05% | **14.04%** (90% range 2.32% to 26.58%) |
+| Sharpe | 0.91 | **0.72** |
+| Max drawdown | -22.25% | **-35.66%** on a 1-in-20 path |
+| P(CAGR below NIFTY 50 TRI) | | 20% |
+| Reality Check p-value | | 0.076 |
+
+- **Match:** the simulation's scorer reproduces `metrics.json` exactly, and its median CAGR / Sharpe sit on the backtest, which itself lands near the 50th percentile on every metric. The backtest was a typical path, not a lucky one.
+- **Haircut:** put 4% / call 3% was the best-CAGR cell of the strike grid. On each simulated history the best-CAGR cell of that grid beats its own average by 4.01% CAGR, so that is taken off. Other pools and criteria give 12.27%–17.89%.
+- **For the strategy:** with every variant's edge set to zero, the best of all 58 reaches a Sharpe of 0.33 on average (1.01 at the 95th percentile), far below the variants' own. They trade the same names on the same days, so they behave like only 2.7 independent bets. Before the haircut the chosen run beats the NIFTY 50 TRI in 80% of histories.
+- **Against:** at p = 0.076 the chosen run does not clear the 5% bar once the search is counted. The best observed variant (L3 put0.07_call0.02, Sharpe 1.13) does (p = 0.029). The bootstrap cannot produce a crash worse than March 2020, so the drawdown tail is a floor, not a ceiling.
+
+## 8. Out of sample: walk-forward, overfitting probability, Reality Check re-checked
+
+Every parameter that was tuned on the full window (leverage 1–5 × put 2–7% × call 2–7% × stop off/10/12/15/20% = 900 configs) re-run end to end, then tested on years it was not fitted on. Full method and checks: `WALK_FORWARD.md`.
+
+| Fit 2020–2023, test 2024-01 → 2026-06 (from flat) | In sample | **Out of sample** |
+|---|---|---|
+| Chosen params CAGR | 25.37% | **4.83%** (rank 681 of 900) |
+| Chosen params Sharpe | 1.42 | **-0.01** |
+| Chosen params max drawdown | -20.45% | -25.32% |
+| NIFTY 50 TRI CAGR | 16.96% | 5.08% |
+| Average 3M T-bill | | 6.08% |
+
+**If the pick had been made on 2020–2023 only**
+
+| pool | picked by | winner | in-sample CAGR | OOS CAGR | OOS Sharpe | OOS max DD |
+|---|---|---|---|---|---|---|
+| all 900 | cagr | `L4_p0.02_c0.05_s0.15` | 33.96% | 3.67% | -0.04 | -34.93% |
+| all 900 | sharpe | `L2_p0.07_c0.03_s0.1` | 13.53% | 8.28% | 0.55 | -3.60% |
+| all 900 | calmar | `L1_p0.07_c0.03_s0.1` | 8.31% | 6.92% | 0.44 | -1.79% |
+| L3 only (180) | cagr | `L3_p0.02_c0.03_s0.12` | 29.94% | 2.90% | -0.14 | -27.64% |
+| L3 only (180) | sharpe | `L3_p0.07_c0.03_s0.1` | 18.98% | 9.11% | 0.49 | -7.88% |
+| L3 only (180) | calmar | `L3_p0.07_c0.03_s0.1` | 18.98% | 9.11% | 0.49 | -7.88% |
+
+**Anchored walk-forward, re-fit every January, test years 2022 → 2026 H1 stitched**
+
+| stream                          | CAGR   |   Sharpe | max DD   |   Calmar |
+|:--------------------------------|:-------|---------:|:---------|---------:|
+| shipped params (fixed)          | 10.21% |     0.39 | -28.69%  |     0.36 |
+| NIFTY 50 TRI                    | 8.64%  |     0.25 | -15.84%  |     0.55 |
+| walk-forward, pick by cagr      | 2.21%  |    -0.1  | -35.62%  |     0.06 |
+| walk-forward, pick by sharpe    | 8.41%  |     0.59 | -5.63%   |     1.49 |
+| walk-forward, pick by calmar    | 7.19%  |     0.62 | -2.21%   |     3.25 |
+| L3 walk-forward, pick by cagr   | 3.18%  |    -0.12 | -31.60%  |     0.1  |
+| L3 walk-forward, pick by sharpe | 9.82%  |     0.61 | -9.17%   |     1.07 |
+| L3 walk-forward, pick by calmar | 9.82%  |     0.61 | -9.17%   |     1.07 |
+
+| Overfitting and data-snooping tests | value |
+|---|---|
+| Rank correlation, in-sample vs OOS CAGR (all 900 / L3 only) | -0.26 / -0.15 |
+| Rank correlation, in-sample vs OOS Sharpe (all 900 / L3 only) | 0.50 / 0.30 |
+| Probability of backtest overfitting, CSCV (all 900 / L3 only) | 0.42 / 0.41 |
+| Reality Check p, chosen run (published → reproduced) | 0.076 → 0.076 |
+| … over 5 seeds × block lengths 5–63 days | 0.053 – 0.083 |
+| Hansen SPA p, best of 58 variants vs T-bill | 0.010 |
+| Hansen SPA p, best of 58 variants vs NIFTY 50 TRI | 0.316 |
+| Chosen params alone, OOS: p(Sharpe ≤ 0) / p(no edge over NIFTY) | 0.52 / 0.52 |
+
+- **The Reality Check figure stands.** p = 0.076 reproduces exactly from the same seed and stays between 0.053 and 0.083 across seeds and block lengths, never below 0.05. Its null is *no variant beats the T-bill*. Against that bar the best of the search does clear it under Hansen's SPA (p = 0.010). Against the NIFTY 50 TRI nothing does: SPA p = 0.32.
+- **The chosen params did not validate.** On 2020–2023 they ranked 189 of 900 by CAGR; from 2024 they made 4.83%, below the T-bill, and rank 681 of 900.
+- **Selecting by CAGR is the failure.** CAGR ranks reverse out of sample. The CAGR-picked walk-forward made 2.21% a year with a -35.62% drawdown. Picking by Sharpe at 3× made 9.82%, Sharpe 0.61, max DD -9.17%: the far-OTM put row the strike grid already flagged as the risk-efficient alternative.
+- **For the chosen params:** run fixed through the same test years they made 10.21% a year vs NIFTY 8.64%. PBO is 0.42, below the 0.5 coin-flip line, so the search is not pure noise. And a bull-then-sell-off sequence reverses CAGR ranks on its own: leverage and tight puts pay in rallies and lose in sell-offs.
+- **Against:** that fixed stream used hindsight on those very years, and still has the worse Sharpe (0.39 vs 0.61) and drawdown (-28.69% vs -9.17%). The test window holds one sell-off, so it is short evidence either way. Only data after 2026-06-30 is truly unseen.
+
+## 9. Verdict and what it rests on
+
+- **Deployability:** the 3× / put 4% / call 3% setting is not validated out of sample. Plan on the Monte Carlo figure (14.04% CAGR, Sharpe 0.72) only as an upper bound; the one clean out-of-sample stretch earned 4.83%. The out-of-sample evidence favours the far-OTM put row (put 7%): in the full-window grid it gave up 1.2 CAGR points for a drawdown 10.0 points smaller, and out of sample it made 9.83% vs 4.83%. That alternative was also found on this data. It should run on paper or at small size before any capital is committed.
 - **Pre-tax.** Almost all of the return is short-term premium income, which is the most heavily taxed kind.
 - **Unfunded ITM puts are closed at intrinsic value on expiry day.** A broker would square them off earlier, at worse prices, so this flatters the result, and more so at higher leverage.
 - **Cash interest** assumes idle cash earns the T-bill rate. A broker pays nothing on margin cash.
@@ -156,7 +227,9 @@ python scripts/wheel/backtest.py run
 python scripts/wheel/slippage_sensitivity.py
 python scripts/wheel/required_analysis.py
 python scripts/wheel/strike_grid.py
-python scripts/wheel/stop_loss_probe.py rerun     # optional: the stop sweep (run at 5% / 5% strikes)
+python scripts/wheel/stop_loss_probe.py rerun     # the stop sweep (pinned to 5% / 5% strikes)
+python scripts/wheel/monte_carlo.py               # bootstrap of the chosen run and every variant
+python scripts/wheel/walk_forward.py              # 900-config out-of-sample test, PBO, Reality Check re-check
 python scripts/final_results.py
 ```
 
@@ -165,6 +238,8 @@ python scripts/final_results.py
 - `chosen_params.yaml`: the parameters in force for every number here.
 - `ANALYSIS.md`: brief section 7 in full (per-stock results, worst-drawdown walk-through, biases).
 - `STOP_LOSS.md`: the put stop-loss rule and why it is set at 15%.
-- `tables/`: `portfolio_metrics.csv`, `pnl_decomposition_by_leverage.csv`, `wheel_diagnostics_by_leverage.csv`, `per_underlying_L3.csv`, `strike_grid_L3.csv`, `slippage_sensitivity.csv`, `stop_loss_sweep.csv`, `stress_pnl_by_symbol_L3.csv`, `stress_deliveries_L3.csv`, `monthly_returns.csv`, `stress_windows.csv`, `regime_performance.csv`
-- `charts/`: `equity_curve.png`, `drawdown_curve.png`, `margin_utilization.png`, `strike_grid_heatmaps_L3.png`, `cagr_vs_slippage.png`
+- `MONTE_CARLO.md`: bootstrap of the chosen run and every variant, Reality Check, selection haircut.
+- `WALK_FORWARD.md`: 900-config out-of-sample split, anchored walk-forward, PBO, Reality Check / SPA re-check.
+- `tables/`: `portfolio_metrics.csv`, `pnl_decomposition_by_leverage.csv`, `wheel_diagnostics_by_leverage.csv`, `per_underlying_L3.csv`, `strike_grid_L3.csv`, `slippage_sensitivity.csv`, `stop_loss_sweep.csv`, `stress_pnl_by_symbol_L3.csv`, `stress_deliveries_L3.csv`, `monthly_returns.csv`, `stress_windows.csv`, `regime_performance.csv`, `monte_carlo_final_number.csv`, `monte_carlo_summary.csv`, `monte_carlo_variants.csv`, `monte_carlo_selection.csv`, `monte_carlo_reality_check.csv`, `monte_carlo_deflated_sharpe.csv`, `walk_forward_split_shipped.csv`, `walk_forward_split_winners.csv`, `walk_forward_split_rank_correlation.csv`, `walk_forward_split_by_config.csv`, `walk_forward_walk_forward_folds.csv`, `walk_forward_walk_forward_stitched.csv`, `walk_forward_pbo.csv`, `walk_forward_reality_check_recheck.csv`, `walk_forward_reality_check_sensitivity.csv`, `walk_forward_spa.csv`
+- `charts/`: `equity_curve.png`, `drawdown_curve.png`, `margin_utilization.png`, `strike_grid_heatmaps_L3.png`, `cagr_vs_slippage.png`, `monte_carlo_nav_fan.png`, `monte_carlo_distributions.png`, `monte_carlo_variants_cagr.png`, `monte_carlo_reality_check.png`, `walk_forward_is_vs_oos.png`, `walk_forward_walk_forward_equity.png`, `walk_forward_pbo.png`
 - `results_pack/`: the submission bundle — equity and drawdown charts, the per-name summary, and the cycle and fill trade logs for `ranked_L3`. See `results_pack/README.md`.

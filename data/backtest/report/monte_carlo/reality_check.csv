@@ -1,0 +1,2 @@
+n_variants,observed_chosen_sharpe,observed_best_sharpe,observed_best_variant,null_best_sharpe_mean,null_best_sharpe_p95,p_value_chosen,p_value_best,sharpe_se_annual,effective_independent_trials
+58,0.9145900107588749,1.1309798633232737,L3 put0.07_call0.02,0.3263062761639895,1.0110571996472348,0.0763,0.0295,0.420084291656894,2.7122007994846524

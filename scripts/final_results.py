@@ -6,7 +6,9 @@ headline number, copied or computed from the current run outputs. Nothing here i
     python scripts/wheel/slippage_sensitivity.py
     python scripts/wheel/required_analysis.py
     python scripts/wheel/strike_grid.py
-    python scripts/wheel/stop_loss_probe.py rerun     # optional: the stop sweep (run at 5% / 5% strikes)
+    python scripts/wheel/stop_loss_probe.py rerun     # the stop sweep (pinned to 5% / 5% strikes)
+    python scripts/wheel/monte_carlo.py               # bootstrap of the chosen run and every variant
+    python scripts/wheel/walk_forward.py              # 900-config out-of-sample test, PBO, Reality Check re-check
     python scripts/final_results.py
 
 Rerun this after any of the above; final_results/ is rebuilt from scratch.
@@ -44,12 +46,22 @@ TABLES = {"portfolio_metrics.csv": REP / "analysis/portfolio_metrics.csv",
           "stress_deliveries_L3.csv": REP / "analysis/stress_deliveries.csv",
           "monthly_returns.csv": REP / "monthly_returns.csv",
           "stress_windows.csv": REP / "stress_windows.csv",
-          "regime_performance.csv": REP / "regime_performance.csv"}
+          "regime_performance.csv": REP / "regime_performance.csv",
+          **{f"monte_carlo_{n}.csv": REP / f"monte_carlo/{n}.csv"
+             for n in ["final_number", "summary", "variants", "selection", "reality_check", "deflated_sharpe"]},
+          **{f"walk_forward_{n}.csv": REP / f"walk_forward/{n}.csv"
+             for n in ["split_shipped", "split_winners", "split_rank_correlation", "split_by_config",
+                       "walk_forward_folds", "walk_forward_stitched", "pbo", "reality_check_recheck",
+                       "reality_check_sensitivity", "spa"]}}
 CHARTS = {"equity_curve.png": REP / "equity_curve.png", "drawdown_curve.png": REP / "drawdown_curve.png",
           "margin_utilization.png": REP / "margin_utilization.png",
           "strike_grid_heatmaps_L3.png": REP / "strike_grid_L3/heatmaps.png",
-          "cagr_vs_slippage.png": REP / "slippage_sensitivity/cagr_vs_slippage.png"}
-DOCS = {"ANALYSIS.md": REP / "analysis/ANALYSIS.md", "STOP_LOSS.md": ROOT / "docs/STOP_LOSS.md"}
+          "cagr_vs_slippage.png": REP / "slippage_sensitivity/cagr_vs_slippage.png",
+          **{f"monte_carlo_{n}.png": REP / f"monte_carlo/{n}.png"
+             for n in ["nav_fan", "distributions", "variants_cagr", "reality_check"]},
+          **{f"walk_forward_{n}.png": REP / f"walk_forward/{n}.png" for n in ["is_vs_oos", "walk_forward_equity", "pbo"]}}
+DOCS = {"ANALYSIS.md": REP / "analysis/ANALYSIS.md", "STOP_LOSS.md": ROOT / "docs/STOP_LOSS.md",
+        "MONTE_CARLO.md": REP / "monte_carlo/MONTE_CARLO.md", "WALK_FORWARD.md": REP / "walk_forward/WALK_FORWARD.md"}
 
 # The submission's "results pack": the four items the brief names, in one folder, for the chosen run.
 # Sources are keyed by run directory (RUNS / primary) because the primary run follows params.yaml.
@@ -91,6 +103,13 @@ def main():
         shutil.copy2(src, OUT / "charts" / name)
     for name, src in DOCS.items():
         shutil.copy2(src, OUT / name)
+    for doc, prefix in [("MONTE_CARLO.md", "monte_carlo_"), ("WALK_FORWARD.md", "walk_forward_")]:
+        path = OUT / doc                   # its images sit next to it in the report folder; here they are in charts/
+        text = path.read_text()
+        for name in CHARTS:
+            if name.startswith(prefix):
+                text = text.replace(f"]({name.removeprefix(prefix)})", f"](charts/{name})")
+        path.write_text(text)
 
     # ------------------------------------------------------------ results pack
     (OUT / "results_pack").mkdir()
@@ -130,6 +149,22 @@ def main():
     slip = pd.read_csv(TABLES["slippage_sensitivity.csv"])
     stop = pd.read_csv(TABLES["stop_loss_sweep.csv"])
     m = json.load(open(ROOT / "data/backtest/runs" / primary / "metrics.json"))
+    mc = pd.read_csv(TABLES["monte_carlo_final_number.csv"]).iloc[0]
+    mrc = pd.read_csv(TABLES["monte_carlo_reality_check.csv"]).iloc[0]
+    msel = pd.read_csv(TABLES["monte_carlo_selection.csv"])
+    assert abs(mc.backtest_cagr - m["cagr"]) < 1e-9, "monte_carlo outputs are stale: rerun scripts/wheel/monte_carlo.py"
+    wfs = pd.read_csv(TABLES["walk_forward_split_shipped.csv"]).iloc[0]
+    wfw = pd.read_csv(TABLES["walk_forward_split_winners.csv"])
+    wfr = pd.read_csv(TABLES["walk_forward_split_rank_correlation.csv"]).set_index(["pool", "metric"]).spearman_is_vs_oos
+    wff = pd.read_csv(TABLES["walk_forward_walk_forward_folds.csv"])
+    wst = pd.read_csv(TABLES["walk_forward_walk_forward_stitched.csv"], index_col=0)
+    wpbo = pd.read_csv(TABLES["walk_forward_pbo.csv"]).set_index("pool")
+    wrc = pd.read_csv(TABLES["walk_forward_reality_check_recheck.csv"]).iloc[0]
+    wspa = pd.read_csv(TABLES["walk_forward_spa.csv"])
+    wbc = pd.read_csv(TABLES["walk_forward_split_by_config.csv"], index_col=0)
+    wf_ship_id = f"L{L:g}_p{p['put_strike_filter_pct']:g}_c{p['call_strike_filter_pct']:g}_s{p['put_stop_loss_pct']:g}"
+    assert abs(wbc.at[wf_ship_id, "is_cagr"] - wfs.is_cagr) < 1e-12, "walk_forward outputs are for other params: rerun it"
+    assert abs(wrc.reproduced_p_chosen - mrc.p_value_chosen) < 1e-12, "walk_forward Reality Check differs from monte_carlo"
     dec["nav_pnl"] = dec.total_pnl + dec.cash_interest
     for c in ["put_otm", "call_otm"]:
         grid[c] = grid[c].round(4)
@@ -173,9 +208,13 @@ def main():
       f"{(best.max_drawdown - ch.max_drawdown) * 100:.2f} more points of drawdown. "
       f"The chosen strikes were picked from the grid *before* the stop-loss existed, when they were the best cell. "
       f"With the stop on, the put {best_row:.0%} row dominates on risk.")
-    w(f"- **The case against switching:** the stop-loss (15%) and this grid were both fitted on the same window. "
-      "Re-optimising again compounds the in-sample selection. Walk-forward testing (fit 2019–2023, test 2024–2026) "
-      "should decide between them, not this table.\n")
+    alt = wbc.loc[f"L{L:g}_p{best.put_otm:g}_c{best.call_otm:g}_s{p['put_stop_loss_pct']:g}"]
+    w(f"- **The case against switching:** the stop-loss (15%) and this grid were both fitted on the same window, so "
+      "re-optimising again compounds the in-sample selection.")
+    w(f"- **What the out-of-sample test says (section 8):** fitted on 2020–2023 and run from flat on 2024-01 → "
+      f"2026-06, the chosen setting made {pct(wfs.oos_cagr)} CAGR (Sharpe {wfs.oos_sharpe:.2f}, max DD "
+      f"{pct(wfs.oos_max_drawdown)}); the put {best.put_otm:.0%} / call {best.call_otm:.0%} alternative made "
+      f"{pct(alt.oos_cagr)} (Sharpe {alt.oos_sharpe:.2f}, max DD {pct(alt.oos_max_drawdown)}).\n")
 
     w("## 2. Headline performance vs benchmarks\n")
     t = pm.loc[[f"ranked_L{x:g}" for x in p["leverage_grid"]] + bench,
@@ -259,10 +298,100 @@ def main():
     w(f"- **Reconciliation:** the parts add up to the NAV change to within ₹1. Per-stock detail, the worst-drawdown "
       "walk-through and the full bias discussion are in `ANALYSIS.md`.\n")
 
-    w("## 7. Verdict and what it rests on\n")
-    w("- **Deployability:** fit as a research allocation at 1–2×. At 3× the numbers are strong but every "
-      "parameter that matters was fitted on this one window. Treat the CAGR as an upper bound until walk-forward "
-      "tests confirm it.")
+    w("## 7. Monte Carlo: the number after the selection haircut\n")
+    w(f"10,000 stationary block-bootstrap histories (mean block 21 trading days) of the chosen run, and the same "
+      f"histories for all {int(mrc.n_variants)} distinct variants seen before it was chosen (leverage, strike grid, "
+      f"stop sweep, threshold). Full method and checks: `MONTE_CARLO.md`.\n")
+    w("| | Backtest | **Monte Carlo, after selection haircut** |\n|---|---|---|")
+    w(f"| CAGR | {pct(mc.backtest_cagr)} | **{pct(mc.adjusted_cagr)}** (90% range {pct(mc.mc_p05_cagr)} to "
+      f"{pct(mc.mc_p95_cagr)}) |")
+    w(f"| Sharpe | {mc.backtest_sharpe:.2f} | **{mc.adjusted_sharpe:.2f}** |")
+    w(f"| Max drawdown | {pct(mc.backtest_max_drawdown)} | **{pct(mc.mc_p05_max_drawdown)}** on a 1-in-20 path |")
+    w(f"| P(CAGR below NIFTY 50 TRI) | | {mc.p_cagr_below_nifty:.0%} |")
+    w(f"| Reality Check p-value | | {mc.reality_check_p:.3f} |\n")
+    w(f"- **Match:** the simulation's scorer reproduces `metrics.json` exactly, and its median CAGR / Sharpe sit on "
+      f"the backtest, which itself lands near the 50th percentile on every metric. The backtest was a typical path, "
+      f"not a lucky one.")
+    w(f"- **Haircut:** put {pp:.0%} / call {cc:.0%} was the best-CAGR cell of the strike grid. On each simulated "
+      f"history the best-CAGR cell of that grid beats its own average by {pct(mc.selection_optimism_cagr)} CAGR, "
+      f"so that is taken off. Other pools and criteria give {pct(mc.haircut_range_cagr_low)}–"
+      f"{pct(mc.haircut_range_cagr_high)}.")
+    w(f"- **For the strategy:** with every variant's edge set to zero, the best of all {int(mrc.n_variants)} reaches "
+      f"a Sharpe of {mrc.null_best_sharpe_mean:.2f} on average ({mrc.null_best_sharpe_p95:.2f} at the 95th "
+      f"percentile), far below the variants' own. They trade the same names on the same days, so they behave like "
+      f"only {mrc.effective_independent_trials:.1f} independent bets. Before the haircut the chosen run beats the "
+      f"NIFTY 50 TRI in {1 - mc.p_cagr_below_nifty:.0%} of histories.")
+    w(f"- **Against:** at p = {mc.reality_check_p:.3f} the chosen run does not clear the 5% bar once the search is "
+      f"counted. The best observed variant ({mrc.observed_best_variant}, Sharpe {mrc.observed_best_sharpe:.2f}) does "
+      f"(p = {mrc.p_value_best:.3f}). The bootstrap cannot produce a crash worse than March 2020, so the drawdown "
+      "tail is a floor, not a ceiling.\n")
+
+    w("## 8. Out of sample: walk-forward, overfitting probability, Reality Check re-checked\n")
+    w("Every parameter that was tuned on the full window (leverage 1–5 × put 2–7% × call 2–7% × stop off/10/12/15/20% "
+      "= 900 configs) re-run end to end, then tested on years it was not fitted on. Full method and checks: "
+      "`WALK_FORWARD.md`.\n")
+    w(f"| Fit 2020–2023, test 2024-01 → 2026-06 (from flat) | In sample | **Out of sample** |\n|---|---|---|")
+    w(f"| Chosen params CAGR | {pct(wfs.is_cagr)} | **{pct(wfs.oos_cagr)}** (rank {int(wfs.oos_cagr_rank_of_900)} of 900) |")
+    w(f"| Chosen params Sharpe | {wfs.is_sharpe:.2f} | **{wfs.oos_sharpe:.2f}** |")
+    w(f"| Chosen params max drawdown | {pct(wfs.is_max_drawdown)} | {pct(wfs.oos_max_drawdown)} |")
+    w(f"| NIFTY 50 TRI CAGR | {pct(wfs.nifty_is_cagr)} | {pct(wfs.nifty_oos_cagr)} |")
+    w(f"| Average 3M T-bill | | {pct(wfs.avg_tbill_oos)} |\n")
+    w("**If the pick had been made on 2020–2023 only**\n")
+    w("| pool | picked by | winner | in-sample CAGR | OOS CAGR | OOS Sharpe | OOS max DD |\n|---|---|---|---|---|---|---|")
+    for v in wfw.itertuples():
+        w(f"| {v.pool} | {v.picked_by} | `{v.winner}` | {pct(v.is_cagr)} | {pct(v.oos_cagr)} | {v.oos_sharpe:.2f} | "
+          f"{pct(v.oos_max_drawdown)} |")
+    w("")
+    w("**Anchored walk-forward, re-fit every January, test years 2022 → 2026 H1 stitched**\n")
+    ws_ = wst.copy()
+    w(pd.DataFrame({"CAGR": ws_.cagr.map(pct), "Sharpe": ws_.sharpe.map(lambda v: f"{v:.2f}"),
+                    "max DD": ws_.max_drawdown.map(pct), "Calmar": ws_.calmar.map(lambda v: f"{v:.2f}")}
+                   ).to_markdown() + "\n")
+    w("| Overfitting and data-snooping tests | value |\n|---|---|")
+    w(f"| Rank correlation, in-sample vs OOS CAGR (all 900 / L{L:g} only) | {wfr[('all 900', 'cagr')]:.2f} / "
+      f"{wfr[('L3 only (180)', 'cagr')]:.2f} |")
+    w(f"| Rank correlation, in-sample vs OOS Sharpe (all 900 / L{L:g} only) | {wfr[('all 900', 'sharpe')]:.2f} / "
+      f"{wfr[('L3 only (180)', 'sharpe')]:.2f} |")
+    w(f"| Probability of backtest overfitting, CSCV (all 900 / L{L:g} only) | {wpbo.at['all 900', 'pbo']:.2f} / "
+      f"{wpbo.at['L3 only (180)', 'pbo']:.2f} |")
+    w(f"| Reality Check p, chosen run (published → reproduced) | {mrc.p_value_chosen:.3f} → {wrc.reproduced_p_chosen:.3f} |")
+    w(f"| … over 5 seeds × block lengths 5–63 days | {wrc.sens_p_chosen_min:.3f} – {wrc.sens_p_chosen_max:.3f} |")
+    for v in wspa[wspa.pool.str.startswith("58")].itertuples():
+        w(f"| Hansen SPA p, best of 58 variants vs {v.benchmark} | {v.spa_c_p:.3f} |")
+    w(f"| Chosen params alone, OOS: p(Sharpe ≤ 0) / p(no edge over NIFTY) | {wrc.p_oos_sharpe_le_0_vs_tbill:.2f} / "
+      f"{wrc.p_oos_active_le_0_vs_nifty:.2f} |\n")
+    wcagr, wl3s = wst.loc["walk-forward, pick by cagr"], wst.loc["L3 walk-forward, pick by sharpe"]
+    wship, wnif = wst.loc["shipped params (fixed)"], wst.loc["NIFTY 50 TRI"]
+    spa_nifty = wspa[wspa.pool.str.startswith("58") & (wspa.benchmark == "NIFTY 50 TRI")].iloc[0]
+    spa_tb = wspa[wspa.pool.str.startswith("58") & (wspa.benchmark == "T-bill")].iloc[0]
+    w(f"- **The Reality Check figure stands.** p = {wrc.reproduced_p_chosen:.3f} reproduces exactly from the same "
+      f"seed and stays between {wrc.sens_p_chosen_min:.3f} and {wrc.sens_p_chosen_max:.3f} across seeds and block "
+      "lengths, never below 0.05. Its null is *no variant beats the T-bill*. Against that bar the best of the "
+      f"search does clear it under Hansen's SPA (p = {spa_tb.spa_c_p:.3f}). Against the NIFTY 50 TRI nothing "
+      f"does: SPA p = {spa_nifty.spa_c_p:.2f}.")
+    w(f"- **The chosen params did not validate.** On 2020–2023 they ranked {int(wfs.is_cagr_rank_of_900)} of 900 "
+      f"by CAGR; from 2024 they made {pct(wfs.oos_cagr)}, below the T-bill, and rank {int(wfs.oos_cagr_rank_of_900)} of 900.")
+    w(f"- **Selecting by CAGR is the failure.** CAGR ranks reverse out of sample. The CAGR-picked walk-forward made "
+      f"{pct(wcagr.cagr)} a year with a {pct(wcagr.max_drawdown)} drawdown. Picking by Sharpe at {L:g}× made "
+      f"{pct(wl3s.cagr)}, Sharpe {wl3s.sharpe:.2f}, max DD {pct(wl3s.max_drawdown)}: the far-OTM put row the "
+      "strike grid already flagged as the risk-efficient alternative.")
+    w(f"- **For the chosen params:** run fixed through the same test years they made {pct(wship.cagr)} a year vs "
+      f"NIFTY {pct(wnif.cagr)}. PBO is {wpbo.at['all 900', 'pbo']:.2f}, below the 0.5 coin-flip line, so the "
+      "search is not pure noise. And a bull-then-sell-off sequence reverses CAGR ranks on its own: leverage and "
+      "tight puts pay in rallies and lose in sell-offs.")
+    w(f"- **Against:** that fixed stream used hindsight on those very years, and still has the worse Sharpe "
+      f"({wship.sharpe:.2f} vs {wl3s.sharpe:.2f}) and drawdown ({pct(wship.max_drawdown)} vs "
+      f"{pct(wl3s.max_drawdown)}). The test window holds one sell-off, so it is short evidence either way. Only data "
+      "after 2026-06-30 is truly unseen.\n")
+
+    w("## 9. Verdict and what it rests on\n")
+    w(f"- **Deployability:** the {L:g}× / put {pp:.0%} / call {cc:.0%} setting is not validated out of sample. Plan "
+      f"on the Monte Carlo figure ({pct(mc.adjusted_cagr)} CAGR, Sharpe {mc.adjusted_sharpe:.2f}) only as an upper "
+      f"bound; the one clean out-of-sample stretch earned {pct(wfs.oos_cagr)}. The out-of-sample evidence favours "
+      f"the far-OTM put row (put {best.put_otm:.0%}): in the full-window grid it gave up "
+      f"{(ch.cagr - best.cagr) * 100:.1f} CAGR points for a drawdown {(best.max_drawdown - ch.max_drawdown) * 100:.1f} "
+      f"points smaller, and out of sample it made {pct(alt.oos_cagr)} vs {pct(wfs.oos_cagr)}. That alternative was also found on this data. It should run on paper or at "
+      "small size before any capital is committed.")
     w("- **Pre-tax.** Almost all of the return is short-term premium income, which is the most heavily taxed kind.")
     w("- **Unfunded ITM puts are closed at intrinsic value on expiry day.** A broker would square them off earlier, "
       "at worse prices, so this flatters the result, and more so at higher leverage.")
@@ -277,6 +406,8 @@ def main():
     w("- `chosen_params.yaml`: the parameters in force for every number here.")
     w("- `ANALYSIS.md`: brief section 7 in full (per-stock results, worst-drawdown walk-through, biases).")
     w("- `STOP_LOSS.md`: the put stop-loss rule and why it is set at 15%.")
+    w("- `MONTE_CARLO.md`: bootstrap of the chosen run and every variant, Reality Check, selection haircut.")
+    w("- `WALK_FORWARD.md`: 900-config out-of-sample split, anchored walk-forward, PBO, Reality Check / SPA re-check.")
     w("- `tables/`: " + ", ".join(f"`{k}`" for k in TABLES))
     w("- `charts/`: " + ", ".join(f"`{k}`" for k in CHARTS))
     w("- `results_pack/`: the submission bundle — equity and drawdown charts, the per-name summary, and the "

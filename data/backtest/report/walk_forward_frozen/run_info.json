@@ -1,0 +1,8 @@
+{
+  "frozen": "L2_p0.07_c0.02_s0.15",
+  "shipped": "L3_p0.04_c0.03_s0.15",
+  "split": "2023-12-29",
+  "paths": 10000,
+  "p_test_sharpe_le_0_vs_tbill": 0.1709,
+  "p_test_active_le_0_vs_nifty": 0.231
+}

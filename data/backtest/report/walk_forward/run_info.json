@@ -1,0 +1,14 @@
+{
+  "paths": 10000,
+  "split_fit_end": "2023-12-29",
+  "test_years": [
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "configs": 900,
+  "cscv_blocks": 16,
+  "shipped": "L3_p0.04_c0.03_s0.15"
+}
